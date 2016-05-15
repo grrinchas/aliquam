@@ -1,0 +1,3 @@
+@function increase-by-percentage($number, $percentage) {
+  @return $number + ($number * $percentage/100);
+}

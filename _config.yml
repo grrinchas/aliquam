@@ -1,0 +1,8 @@
+
+title:    "Dennis Grinch Blog"
+owner:    "Dennis Grinch"
+include:  ["_pages"]
+
+sass:
+  sass_dir: _sass
+

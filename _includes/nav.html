@@ -1,0 +1,11 @@
+<nav id="menu">
+    <ul>
+        <li><a href="/index.html"><img src="/resources/images/home.svg" alt="home"></a></li>
+        {% for nav_item in site.data.nav %}
+        <li><a href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+
+
+
