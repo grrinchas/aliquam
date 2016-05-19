@@ -1,9 +1,10 @@
-<nav id="menu">
+<nav>
+    <img id="menu" src="/resources/images/menu.svg" alt="menu">
+    <h2>MENU</h2>
     <ul>
-        <li><a href="/index.html"><img src="/resources/images/home.svg" alt="home"></a></li>
-        {% for nav_item in site.data.nav %}
-        <li><a href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
-        {% endfor %}
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/_pages/articles.html">Articles</a></li>
+        <li><a href="/_pages/about.html">About</a></li>
     </ul>
 </nav>
 

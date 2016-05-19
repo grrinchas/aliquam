@@ -1,9 +1,19 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include nav.html %}
+<main id="post_main">
     <article>
         <header>
-            <h2>{{ post.title }}</h2>
+            <time datetime="{{ page.date | date: '%d %m %Y' }}">
+                {{ page.date | date: "%d %B %Y" }}
+            </time>
+            <h1>{{ page.title }}</h1>
         </header>
         {{ content }}
     </article>
+</main>
+<!--{% include footer.html %}-->
+</body>
+</html>

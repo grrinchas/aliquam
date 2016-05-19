@@ -1,12 +1,16 @@
-<header class="main_header">
+<header>
     <div id="profile">
         <div>
-            <figure>
-                <img src="/resources/images/my_photo.png" alt="my photo" id="profile_picture">
-            </figure>
+            <img src="/resources/images/my_photo.png" alt="my photo" id="profile_picture">
             <h2>{{ site.owner }}</h2>
             <p>feci quod potui, faciant meliora potentes</p>
         </div>
     </div>
-    {% include social.html %}
+    <div id="social">
+        <ul>
+            <li><a href="#"><img src="/resources/images/github.svg" alt="github"></a></li>
+            <li><a href="#"><img src="/resources/images/stackoverflow.svg" alt="stalkoverflow"></a></li>
+            <li><a href="#"><img src="/resources/images/rss.svg" alt="rss"></a></li>
+        </ul>
+    </div>
 </header>

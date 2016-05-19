@@ -3,6 +3,8 @@ title:    "Dennis Grinch Blog"
 owner:    "Dennis Grinch"
 include:  ["_pages"]
 
+repository: grrinchas
+
 sass:
   sass_dir: _sass
 
