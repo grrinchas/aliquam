@@ -1,207 +1,83 @@
 
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 100%;
-}
-
-h1 {
-  font-size: $f-s-XXXL;
-}
-
-h2 {
-  font-size: $f-s-XL;
-}
-
-h3, p {
-}
-
-small {
-  font-size: $f-s-S;
-}
-
-body {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  min-width: $media-query-320px;
-  color: $color-black;
-  background-color: $color-grey;
-  font-family: $font-family-open-sans;
-  line-height: 150%;
-
-  nav {
-    padding: $m-p-M 0 0 $m-p-M;
-    background-color: $color-orange;
-    position: fixed;
-    width: $nav-width;
-    right: -$nav-width;
-    transition: $t-s-M;
-    height: 100%;
-
-    img {
-      position: relative;
-      @include box-size($icon-menu-size, $icon-menu-size);
-      left: -$icon-menu-size + -$m-p-XXL;
-      cursor: pointer;
-    }
-
-    h2 {
-      margin: $m-p-XL 0;
-      color: $color-white;
-    }
-
-    ul {
-      li {
-        padding: $m-p-XS 0;
-        a {
-          font-family: $font-family-open-sans-condensed;
-          text-transform: uppercase;
-          letter-spacing: $l-s-L;
-          text-decoration: none;
-          color: $color-white;
-          transition: $t-s-M;
-        }
-        a:hover {
-          color: $color-grey-grey;
-        }
-      }
-    }
+#profile {
+  text-align: center;
+  img {
+    @include box-size($profile-s);
   }
 
-  .active {
-    right: 0;
+  h2 {
+    margin: $m-p-XL 0 $m-p-XS;
+    letter-spacing: $l-s-S;
+    color: $color-white;
   }
+  p {
+    letter-spacing: $l-s-XS;
+    color: $color-orange;
+    text-transform: uppercase;
+  }
+}
 
+article {
+  background-color: $color-white;
+  margin: 0 0 $m-p-XXL 0;
+  padding: $m-p-XL $m-p-M;
+  border-bottom: 3px solid $color-orange;
   header {
-    background-color: $color-black;
-    padding: $m-p-XXXL 0 0 0;
-    #profile {
-      text-align: center;
-      margin: 0 0 $m-p-XXL 0;
-      img {
-        @include box-size($profile-picture-size, $profile-picture-size);
-      }
-      h2 {
-        margin: $m-p-XL 0 $m-p-S;
-        letter-spacing: $l-s-S;
-        color: $color-white;
-      }
-      p {
-        letter-spacing: $l-s-XS;
-        color: $color-orange;
-        text-transform: uppercase;
-      }
-    }
-    #social {
-      background-color: $color-grey;
-      ul {
-        @include center-horizontally();
-        text-align: center;
-        padding: $m-p-XXL 0;
-
-        li {
-          display: inline-block;
-          margin: 0 3%;
-          a {
-            @include flex-center();
-            @include box-size(increase-by-percentage($icon-size, 50),
-                    increase-by-percentage($icon-size, 50));
-            border: 5px solid $color-black;
-            border-radius: 50%;
-            transition: $t-s-L;
-            img {
-              @include box-size($icon-size, $icon-size);
-            }
-          }
-          a:hover {
-            background-color: $color-white;
-          }
-        }
-      }
+    margin-bottom: $f-s-XXXL;
+    time {
+      @include init-con-font($color-orange);
     }
 
-  }
-
-  main {
-    @include center-horizontally();
-    max-width: 60rem;
-
-    article {
-      background-color: $color-white;
-      margin: 0 0 $m-p-XXL 0;
-      padding: $m-p-XL $m-p-M;
-      border-bottom: 3px solid $color-orange;
-      header {
-        background-color: $color-white;
-        padding: 0;
-
-        time {
-          font-family: $font-family-open-sans-condensed;
-          text-transform: uppercase;
-          letter-spacing: $l-s-S;
-          color: $color-orange;
-        }
-        h2 {
-          margin: $m-p-XS 0 $m-p-XL 0;
-        }
-      }
-      pre {
-        background-color: #222222;
-      }
-      p {
-        font-family: $font-family-merriweather;
-      }
-      a:last-child {
-        margin-top: $m-p-XL;
-        padding: $m-p-XXS 0;
-        display: block;
-        text-decoration: none;
-        border: 1px solid $color-grey;
-        width: 7rem;
-        text-align: center;
-        color: $color-black;
-        transition: $t-s-L;
-      }
-      a:hover {
-
-        background-color: lighten($color-grey, 5);
-      }
-    }
-
-    @media only screen and (min-width: 480px) {
-      article {
-        padding: $m-p-XL;
-      }
-    }
-
-    @media only screen and (min-width: 667px) {
-      article {
-        padding: $m-p-XXXL;
-        padding-bottom: $m-p-XXL;
-      }
+    h1 {
+      margin: 0 0 $m-p-XS 0;
+      font-weight: normal;
+      clear: both;
     }
   }
-}
-@media only screen and (min-width: 1024px) {
-  body {
-    font-size: 120%;
+
+  blockquote {
+    margin-left: $m-p-XL;
+    border-left: 3px solid $color-orange;
+    background-color: lighten($color-grey, 7);
+    padding: $m-p-M;
+    margin-bottom: $m-p-M;
+    color: darken($color-grey-grey, 4);
+    p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .highlight {
+    line-height: 100%;
+    margin-bottom: $m-p-XL;
+    overflow-x: auto;
+    .lineno {
+      background-color: lighten($color-black, 15);
+      padding: $m-p-XS;
+      margin-right: $m-p-XS;
+      @include disable-selection();
+    }
+  }
+
+  .highlighter-rouge {
+    background-color: lighten($color-grey, 7);
+    color: darken($color-grey-grey, 4);
+    border: 1px solid darken($color-grey, 3);
+    padding: 0 $m-p-XXS;
+  }
+
+  p {
+    font-family: $font-family-merriweather;
+  }
+
+  > footer {
+    text-align: center;
+    padding: $m-p-L 0 0 0;
   }
 }
 
-#post_main {
-  margin-top: $m-p-XXXL;
-  article {
-    header {
-      h1 {
-        margin: $m-p-XS 0 $m-p-XXXL 0;
-      }
-    }
-  }
-}
+
+
+
+
 

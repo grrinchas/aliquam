@@ -1,21 +1,18 @@
 ---
 layout: post
-title: My First Blog Post
+title: My First Blog Post -2
 category: blog
-tag:
-- jekyll
-- code
-- java
-- another-category
 ---
 
 12345678911234567891234567891
 23456789369874123698741236987
 4123698741236987
-You'll find this post in your directory. Go ahead and edit it and re-build
+You'll find this post in your `_posts` directory. Go ahead and edit it and re-build
 the site to see your changes. You can rebuild the site in many different ways, but
-[another stupid ](#)
-the most common way is to run, which launches a web server and
+[another stupid link](#)
+[another stupid link](#)
+[another stupid ](#adf)
+the most common way is to run `jekyll serve`, which launches a web server and
 auto-regenerates your site when a file is updated.
 
 [another stupid link](#)

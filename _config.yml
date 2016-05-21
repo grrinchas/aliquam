@@ -5,6 +5,9 @@ include:  ["_pages"]
 
 repository: grrinchas
 
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "/_pages/page:num"
 sass:
   sass_dir: _sass
 

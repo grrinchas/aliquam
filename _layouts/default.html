@@ -2,11 +2,17 @@
 <html lang="en">
 {% include head.html %}
 <body>
-    {% include nav.html %}
-    {% include header.html %}
-<main>
-    {{ content }}
-</main>
-    <!--{% include footer.html %}-->
+<div id="wrapper">
+    <header>
+        {% include nav.html %}
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        {% include paginator.html %}
+        {% include footer.html %}
+    </footer>
+</div>
 </body>
 </html>

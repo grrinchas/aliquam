@@ -1,9 +1,7 @@
 ---
 layout: post
-title: First portfolio 1
-category: portfolio
-tags:
-    - java
+title: Another post - 2
+category: blog
 ---
 
 You'll a find this post in your `_posts` directory. Go ahead and edit it and re-build

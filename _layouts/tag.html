@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% for page in paginator.posts %}
+{% for page in site.tags[page.tag] %}
 {% include articles.html %}
 {% endfor %}
-

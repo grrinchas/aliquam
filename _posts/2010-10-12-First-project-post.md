@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First project post
-category: project
+title: First portfolio post
+category: portfolio
 ---
 
 You'll a find this post in your `_posts` directory. Go ahead and edit it and re-build

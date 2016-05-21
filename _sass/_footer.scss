@@ -1,0 +1,55 @@
+
+#footer_main {
+  @include center-horizontally();
+  max-width: $media-query-max;
+  padding: $m-p-XL 0;
+  font-size: 120%;
+  line-height: 150%;
+  text-align: center;
+  > section {
+    margin: 0;
+    color: $color-grey-grey;
+    padding: $m-p-M;
+    padding-top: 0;
+
+    h3 {
+      text-transform: lowercase;
+      font-variant: small-caps;
+      letter-spacing: $l-s-S;
+      margin-bottom: $m-p-XS;
+    }
+  }
+  form {
+
+    margin-bottom: $m-p-XL;
+    input {
+      padding: 0.5rem;
+      background-color: $color-grey;
+      outline: none;
+      border: none;
+    }
+
+
+    input[type="submit"] {
+      background-color: $color-orange;
+      color: $color-black;
+      cursor: pointer;
+      letter-spacing: $l-s-M;
+    }
+    input[type="submit"]:hover {
+      transform: scale(0.95);
+    }
+  }
+
+  .social_nav {
+    margin-bottom: $m-p-XL;
+  }
+
+  > small {
+    @include init-con-font($color-grey-grey);
+    text-align: center;
+    margin-top: auto;
+  }
+}
+
+

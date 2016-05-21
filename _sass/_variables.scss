@@ -1,27 +1,27 @@
-
 // colors
-$color-black: #222222;
+$color-black: #111111;
 $color-grey: #e0e0e0;
 $color-grey-grey: #6a6a6a;
 $color-white: #fbfbfb;
 $color-orange: #d16b19;
+$color-orange-dark: #945927;
+$color-blue: #056763;
 
 // sizes
 
-$profile-picture-size: 8rem;
-$icon-size: 3.5rem;
-$icon-menu-size: 2.5rem;
-$nav-width: 13rem;
+$profile-s: 8rem;
+$social-s: 1rem;
+$border-radius: 3px;
 
 // margin padding (m-p)
 $m-p-M: 1rem;
-$m-p-S: decrease-by-percentage($m-p-M, 25);
-$m-p-XS: decrease-by-percentage($m-p-M, 50);
-$m-p-XXS: decrease-by-percentage($m-p-M, 75);
+$m-p-S: decrease-by-percentage($m-p-M, 15);
+$m-p-XS: decrease-by-percentage($m-p-M, 25);
+$m-p-XXS: decrease-by-percentage($m-p-M, 50);
 $m-p-L: increase-by-percentage($m-p-M, 50);
 $m-p-XL: increase-by-percentage($m-p-M, 100);
-$m-p-XXL: increase-by-percentage($m-p-M, 250);
-$m-p-XXXL: increase-by-percentage($m-p-M, 400);
+$m-p-XXL: increase-by-percentage($m-p-M, 300);
+$m-p-XXXL: increase-by-percentage($m-p-M, 500);
 
 // font families
 $font-family-merriweather: 'Merriweather', serif;
@@ -34,8 +34,8 @@ $f-s-S: decrease-by-percentage($f-s-M, 15);
 $f-s-XS: decrease-by-percentage($f-s-M, 25);
 $f-s-L: increase-by-percentage($f-s-M, 25);
 $f-s-XL: increase-by-percentage($f-s-M, 50);
-$f-s-XXL: increase-by-percentage($f-s-M, 75);
-$f-s-XXXL: increase-by-percentage($f-s-M, 100);
+$f-s-XXL: increase-by-percentage($f-s-M, 100);
+$f-s-XXXL: increase-by-percentage($f-s-M, 150);
 
 // letter spacing (l-s)
 $l-s-M: 0.1rem;
@@ -52,5 +52,9 @@ $t-s-S: increase-by-percentage($t-s-M, 33);
 $t-s-L: decrease-by-percentage($t-s-M, 33);
 
 // media queries
-$media-query-320px: 320px;
+$media-query-min: 20rem;
+$media-query-med-1: 30rem;
+$media-query-med-2: 40rem;
+$media-query-med-3: 50rem;
+$media-query-max: 60rem;
 

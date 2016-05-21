@@ -1,11 +1,8 @@
----
-layout: default
----
 <article>
     {% include article_header.html %}
-    {{ page.content }}
+    {{ page.excerpt }}
     <footer>
-        {% include social.html %}
+        <a class="read_more" href="{{ page.url }}">read more</a>
         {% include tags.html %}
     </footer>
 </article>

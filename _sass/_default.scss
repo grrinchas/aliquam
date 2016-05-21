@@ -1,0 +1,55 @@
+/*************************************************************************
+                            SOME DEFAULTS
+/*************************************************************************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: $f-s-XXXL;
+  line-height: 100%;
+}
+
+h2 {
+  font-size: $f-s-XL;
+}
+
+small {
+  font-size: $f-s-S;
+}
+
+
+/*************************************************************************
+                                LAYOUT
+/*************************************************************************/
+
+body {
+  background-color: $color-grey;
+  color: $color-black;
+
+  #wrapper {
+    font-family: $font-family-open-sans;
+    line-height: 170%;
+    min-width: $media-query-min;
+
+    > header {
+      background-color: $color-black;
+    }
+
+    main {
+      max-width: $media-query-max;
+      @include center-horizontally();
+      margin-top: $m-p-XXXL;
+    }
+
+    > footer {
+      background-color: $color-black;
+      padding-bottom: $m-p-M;
+    }
+  }
+}

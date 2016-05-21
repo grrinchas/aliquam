@@ -1,0 +1,178 @@
+/*************************************************************************
+                            DEFAULT NAVIGATION
+/*************************************************************************/
+
+a {
+  color: $color-orange;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $color-orange-dark;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+/*************************************************************************
+                            MAIN NAVIGATION
+/*************************************************************************/
+
+#main_nav {
+  padding: $m-p-XL $m-p-XL $m-p-XL 0;
+  ul {
+    text-align: center;
+    li {
+      margin: 0 $m-p-M;
+    }
+  }
+}
+
+/*************************************************************************
+                            FANCY NAVIGATION
+/*************************************************************************/
+
+.fancy_nav {
+  @include init-con-font();
+  transition: $t-s-M;
+  position: relative;
+}
+
+.fancy_nav:visited {
+  color: $color-white;
+}
+
+.fancy_nav:before {
+  @include init-nav-hover(bottom);
+}
+
+.fancy_nav:hover {
+  text-decoration: none;
+}
+
+.fancy_nav:after {
+  @include init-nav-hover(top);
+}
+
+.fancy_nav:hover:before {
+  transform: scaleX(1);
+}
+
+.fancy_nav:hover:after {
+  transform: scaleX(1);
+}
+
+/*************************************************************************
+                        READ MORE BUTTON
+/*************************************************************************/
+
+.read_more {
+  background-color: $color-blue;
+  color: $color-white;
+  padding: $m-p-XXS $m-p-S;
+}
+
+.read_more:visited {
+  color: $color-white;
+}
+
+.read_more:hover {
+  text-decoration: none;
+  background-color: darken($color-blue, 5);
+}
+
+/*************************************************************************
+                        SOCIAL NAVIGATION
+/*************************************************************************/
+
+#social {
+  display: inline-block;
+  ul {
+    li {
+      margin-right: $m-p-XXS;
+      #facebook {
+        background-color: #3b5998;
+      }
+      #twitter {
+        background-color: #55ACEE;
+      }
+      #google_plus {
+        background-color: #C82328;
+      }
+      #rss {
+        background-color: #f26522;
+      }
+    }
+  }
+}
+
+.social_nav {
+  @include flex-center();
+  @include box-size(increase-by-percentage($social-s, 90));
+ // transition: $t-s-L;
+
+  img {
+    @include box-size($social-s);
+  }
+}
+
+.social_nav:hover {
+  transform: scale(0.95);
+}
+
+/*************************************************************************
+                          TAGS NAVIGATION
+/*************************************************************************/
+
+#tags {
+  margin: $m-p-L 0 0 0;
+  ul {
+    li {
+      img {
+        vertical-align: middle;
+        @include box-size($social-s * 1.2);
+      }
+      margin-left: $m-p-XXS;
+      display: inline-block;
+      a:after {
+        content: "\2C";
+      }
+    }
+    li:last-child {
+      a:after {
+        content: '';
+      }
+    }
+  }
+}
+
+/*************************************************************************
+                        PAGINATOR
+/*************************************************************************/
+
+#paginator {
+  padding: $m-p-L 0;
+  background-color: darken($color-grey, 7);
+
+  ul {
+    text-align: center;
+    li {
+      .fancy_nav {
+        color: $color-grey-grey;
+      }
+      .fancy_nav:before, .fancy_nav:after {
+        background-color: $color-grey-grey;
+      }
+    }
+    .sep {
+      border-left: 5px $color-grey-grey dotted;
+      margin: 0 $m-p-XL;
+    }
+  }
+}
+

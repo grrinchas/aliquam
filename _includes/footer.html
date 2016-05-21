@@ -1,5 +1,16 @@
-<footer>
-    <p id="copy">
-        &copy; 2016 DENNIS GRINCH. ALL RIGHTS RESERVED
-    </p>
-</footer>
+<div id="footer_main">
+    <section id="sign_up">
+        <h3>Sign up for newsletters</h3>
+        <form action="post">
+            <input type="text" placeholder="Enter email">
+            <input type="submit" value="Sign Up">
+        </form>
+    </section>
+    <section id="follow">
+        <h3>Follow me</h3>
+        {% include social.html %}
+    </section>
+    <small>
+        &copy; 2016 DENNIS GRINCH. ALL RIGHTS RESERVED.
+    </small>
+</div>
