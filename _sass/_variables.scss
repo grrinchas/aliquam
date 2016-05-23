@@ -1,17 +1,16 @@
 // colors
 $color-black: #111111;
-$color-grey: #e0e0e0;
-$color-grey-grey: #6a6a6a;
-$color-white: #fbfbfb;
+$color-white: #f6f6f6;
 $color-orange: #d16b19;
-$color-orange-dark: #945927;
-$color-blue: #056763;
+$color-grey-dark: #6a6a6a;
+$color-blue: #3f8a87;
+$color-grey: darken($color-white, 10);
+$color-grey-darker: darken($color-grey, 7);
+$color-orange-dark: darken($color-orange, 12);
 
 // sizes
-
-$profile-s: 8rem;
 $social-s: 1rem;
-$border-radius: 3px;
+$border-s: 4px;
 
 // margin padding (m-p)
 $m-p-M: 1rem;
@@ -52,7 +51,7 @@ $t-s-S: increase-by-percentage($t-s-M, 33);
 $t-s-L: decrease-by-percentage($t-s-M, 33);
 
 // media queries
-$media-query-min: 20rem;
+$media-query-min: 22rem;
 $media-query-med-1: 30rem;
 $media-query-med-2: 40rem;
 $media-query-med-3: 50rem;

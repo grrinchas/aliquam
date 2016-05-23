@@ -1,11 +1,10 @@
 <nav id="main_nav">
     <ul>
-        <li><a class="fancy_nav" href="/index.html">Home</a></li>
-        <li><a class="fancy_nav" href="/categories/portfolio.html">Portfolio</a></li>
-        <li><a class="fancy_nav" href="/categories/blog.html">Blog</a></li>
-        <li><a class="fancy_nav" href="/_pages/about.html">About</a></li>
+        <li><a class="logo" href="/index.html"><span class="name">{{ site.owner }}</span>blog</a></li>
+        {% for link in site.data.nav %}
+        <li><a class="fancy_nav" href="{{ link.link }}">{{ link.name }}</a></li>
+        {% endfor %}
     </ul>
 </nav>
-
 
 

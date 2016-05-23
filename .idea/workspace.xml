@@ -2,55 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb5f616-cdc6-498d-a874-55aacb526d17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/article_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/articles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/paginator.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/tags.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/1999-02-28-Second-project-post-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2005-10-12-Another-blog-post-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2010-10-12-First-project-post-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/portfolio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/facebook.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/google_plus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/tag.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/twitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/java.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_pages/articles.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/dg467.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/dg467.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/disqus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_pages/archive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/1999-02-28-css-tricks.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2002-10-15-how-to-compile-java.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2005-10-12-dummy-tutorial-part-1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2005-10-13-dummy-totorial-part-2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2009-10-02-java-game.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2009-10-12-jekyll-theme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-05-11-my-jekyll-theme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/cms.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/dummy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/game.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/jekyll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/something.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/theme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/web-development.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/1999-02-28-Second-project-post-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/1999-02-28-Second-project-post.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2005-10-12-Another-blog-post-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2005-10-12-Another-blog-post.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2010-10-12-First-project-post-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2010-10-12-First-project-post.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/menu.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/my_photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/js/menu.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_data/social.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/categories/blog.html" afterPath="$PROJECT_DIR$/categories/tutorial.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/nav.csv" afterPath="$PROJECT_DIR$/_data/nav.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/article_header.html" afterPath="$PROJECT_DIR$/_includes/article_header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/articles.html" afterPath="$PROJECT_DIR$/_includes/articles.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/paginator.html" afterPath="$PROJECT_DIR$/_includes/paginator.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/social.html" afterPath="$PROJECT_DIR$/_includes/social.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/tags.html" afterPath="$PROJECT_DIR$/_includes/tags.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/1999-02-28-Second-project-post.md" afterPath="$PROJECT_DIR$/_posts/1999-02-28-Second-project-post.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010-10-12-First-project-post.md" afterPath="$PROJECT_DIR$/_posts/2010-10-12-First-project-post.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post.md" afterPath="$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_darcula.scss" afterPath="$PROJECT_DIR$/_sass/_darcula.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_helpers.scss" afterPath="$PROJECT_DIR$/_sass/_helpers.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_footer.scss" afterPath="$PROJECT_DIR$/_sass/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_include.scss" afterPath="$PROJECT_DIR$/_sass/_include.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_monokai.scss" afterPath="$PROJECT_DIR$/_sass/_monokai.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_media.scss" afterPath="$PROJECT_DIR$/_sass/_media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_nav.scss" afterPath="$PROJECT_DIR$/_sass/_nav.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_variables.scss" afterPath="$PROJECT_DIR$/_sass/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/main.scss" afterPath="$PROJECT_DIR$/resources/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/github.svg" afterPath="$PROJECT_DIR$/resources/images/github.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/rss.svg" afterPath="$PROJECT_DIR$/resources/images/rss.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/menu.js" afterPath="$PROJECT_DIR$/resources/js/menu.js" />
     </list>
     <ignored path="jekyllBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,151 +71,130 @@
     <favorites_list name="jekyllBlog" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40690506">
+    <splitter split-orientation="horizontal" split-proportion="0.5505618">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.7300945">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="2016-05-11-My-First-blog-post.md" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post.md">
-                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                    <state split_layout="FIRST">
-                      <first_editor relative-caret-position="153">
-                        <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                        <folding />
-                      </first_editor>
-                      <second_editor />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/index.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="85">
-                      <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="170">
-                      <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="170">
-                      <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="102">
-                      <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/_layouts/category.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="102">
-                      <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="articles.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/_includes/articles.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="119">
-                      <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="tags.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/_includes/tags.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="102">
-                      <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="social.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/_includes/social.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="136">
-                      <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="article_header.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/_includes/article_header.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="68">
-                      <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/resources/js/menu.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="257">
-                      <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tag.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_layouts/tag.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tutorial.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/categories/tutorial.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="archive.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_pages/archive.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="586">
+                  <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/categories/portfolio.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_pages/about.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="social.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_includes/social.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tags.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_includes/tags.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.620438">
+        <splitter split-orientation="horizontal" split-proportion="0.5587229">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="_include.scss" pinned="false" current-in-tab="false">
+              <file leaf-file-name="_include.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/_sass/_include.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="427">
-                      <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+                    <state relative-caret-position="119">
+                      <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+              <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/_sass/_footer.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="359">
-                      <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+                    <state relative-caret-position="187">
+                      <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
                       <folding />
                     </state>
                   </provider>
@@ -224,8 +203,8 @@
               <file leaf-file-name="_default.scss" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/_sass/_default.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="376">
-                      <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+                    <state relative-caret-position="459">
+                      <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
                       <folding />
                     </state>
                   </provider>
@@ -234,8 +213,8 @@
               <file leaf-file-name="_media.scss" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/_sass/_media.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="427">
-                      <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                    <state relative-caret-position="136">
+                      <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -244,8 +223,8 @@
               <file leaf-file-name="_nav.scss" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/_sass/_nav.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="318">
-                      <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+                    <state relative-caret-position="3043">
+                      <caret line="179" column="28" selection-start-line="179" selection-start-column="28" selection-end-line="179" selection-end-column="28" />
                       <folding />
                     </state>
                   </provider>
@@ -254,8 +233,8 @@
               <file leaf-file-name="_helpers.scss" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/_sass/_helpers.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="325">
-                      <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+                    <state relative-caret-position="595">
+                      <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
                       <folding />
                     </state>
                   </provider>
@@ -265,21 +244,21 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+              <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="325">
-                      <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+                    <state relative-caret-position="187">
+                      <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+              <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/resources/css/main.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="255">
-                      <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+                    <state relative-caret-position="85">
+                      <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -306,57 +285,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_includes/article.html" />
-        <option value="$PROJECT_DIR$/_sass/_monokai.css" />
-        <option value="$PROJECT_DIR$/_sass/_darcula" />
-        <option value="$PROJECT_DIR$/.sass-cache/Gemfile" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/_sass/_monokai.scss" />
-        <option value="$PROJECT_DIR$/_sass/_darcula.scss" />
-        <option value="$PROJECT_DIR$/_site/index.html" />
-        <option value="$PROJECT_DIR$/_site/blog/2016/05/11/My-First-blog-post.html" />
-        <option value="$PROJECT_DIR$/resources/js/menu.js" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_layouts/tag.html" />
+        <option value="$PROJECT_DIR$/_sass/_helpers.scss" />
+        <option value="$PROJECT_DIR$/_includes/foooter.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_includes/article_header.html" />
         <option value="$PROJECT_DIR$/_includes/profile.html" />
-        <option value="$PROJECT_DIR$/_sass/1999-02-28-Second-project-post.md" />
-        <option value="$PROJECT_DIR$/_sass/2005-10-12-Another-blog-post-2.md" />
-        <option value="$PROJECT_DIR$/_sass/2010-10-12-First-project-post-2.md" />
-        <option value="$PROJECT_DIR$/_sass/2016-05-11-My-First-blog-post-2.md" />
-        <option value="$PROJECT_DIR$/_pages/articles.html" />
-        <option value="$PROJECT_DIR$/_includes/_paginator.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/tags/java/index.html" />
+        <option value="$PROJECT_DIR$/resources/css/main.scss" />
+        <option value="$PROJECT_DIR$/_sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/_sass/_default.scss" />
+        <option value="$PROJECT_DIR$/_includes/articles.html" />
+        <option value="$PROJECT_DIR$/_sass/_footer.scss" />
+        <option value="$PROJECT_DIR$/_sass/_include.scss" />
+        <option value="$PROJECT_DIR$/_includes/tags.html" />
+        <option value="$PROJECT_DIR$/_sass/_nav.scss" />
+        <option value="$PROJECT_DIR$/_includes/paginator.html" />
         <option value="$PROJECT_DIR$/_posts/1999-02-28-Second-project-post.md" />
         <option value="$PROJECT_DIR$/_posts/1999-02-28-Second-project-post-2.md" />
-        <option value="$PROJECT_DIR$/categories/portfolio/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2005-10-12-Another-blog-post.md" />
+        <option value="$PROJECT_DIR$/_posts/2005-10-12-Another-blog-post-2.md" />
         <option value="$PROJECT_DIR$/_posts/2010-10-12-First-project-post.md" />
         <option value="$PROJECT_DIR$/_posts/2010-10-12-First-project-post-2.md" />
-        <option value="$PROJECT_DIR$/categories/blog/index.html" />
-        <option value="$PROJECT_DIR$/_layouts/article.html" />
-        <option value="$PROJECT_DIR$/_includes/article_footer.html" />
+        <option value="$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post-2.md" />
         <option value="$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post.md" />
-        <option value="$PROJECT_DIR$/_layouts/articles.html" />
-        <option value="$PROJECT_DIR$/_layouts/category.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_layouts/tag.html" />
-        <option value="$PROJECT_DIR$/_includes/article_header.html" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_includes/nav.html" />
-        <option value="$PROJECT_DIR$/_includes/paginator.html" />
-        <option value="$PROJECT_DIR$/_sass/_helpers.scss" />
-        <option value="$PROJECT_DIR$/_includes/articles.html" />
-        <option value="$PROJECT_DIR$/_includes/social.html" />
-        <option value="$PROJECT_DIR$/_includes/tags.html" />
-        <option value="$PROJECT_DIR$/_sass/_variables.scss" />
-        <option value="$PROJECT_DIR$/resources/css/main.scss" />
-        <option value="$PROJECT_DIR$/_includes/foooter.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_sass/_default.scss" />
-        <option value="$PROJECT_DIR$/_sass/_include.scss" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_sass/_media.scss" />
-        <option value="$PROJECT_DIR$/_sass/_nav.scss" />
-        <option value="$PROJECT_DIR$/_sass/_footer.scss" />
+        <option value="$PROJECT_DIR$/tags/web_development.html" />
+        <option value="$PROJECT_DIR$/tags/game.html" />
+        <option value="$PROJECT_DIR$/_posts/1999-02-28-css-tricks.md" />
+        <option value="$PROJECT_DIR$/_posts/2002-10-15-how-to-compile-java.md" />
+        <option value="$PROJECT_DIR$/_posts/2009-10-02-java-game.md" />
+        <option value="$PROJECT_DIR$/_posts/2009-10-12-jekyll-theme.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-05-11-my-jekyll-theme.md" />
+        <option value="$PROJECT_DIR$/tags/web-development.html" />
+        <option value="$PROJECT_DIR$/tags/theme.html" />
+        <option value="$PROJECT_DIR$/tags/jekyll.html" />
+        <option value="$PROJECT_DIR$/tags/cms.html" />
+        <option value="$PROJECT_DIR$/tags/css.html" />
+        <option value="$PROJECT_DIR$/tags/something.html" />
+        <option value="$PROJECT_DIR$/tags/dummy.html" />
+        <option value="$PROJECT_DIR$/categories/tutorial.html" />
+        <option value="$PROJECT_DIR$/_pages/articles.html" />
+        <option value="$PROJECT_DIR$/_pages/archive.html" />
+        <option value="$PROJECT_DIR$/_includes/disqus.html" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_site/_pages/page2/index.html" />
+        <option value="$PROJECT_DIR$/_data/nav.csv" />
+        <option value="$PROJECT_DIR$/_data/social.csv" />
+        <option value="$PROJECT_DIR$/_includes/social.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_includes/nav.html" />
       </list>
     </option>
   </component>
@@ -471,6 +450,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jekyllBlog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jekyllBlog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="_posts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -516,6 +524,10 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -546,34 +558,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="categories" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jekyllBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jekyllBlog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jekyllBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jekyllBlog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,33 +617,18 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jekyllBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jekyllBlog">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jekyllBlog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jekyllBlog">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="_posts">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -680,19 +649,19 @@
     <property name="SearchEverywhereHistoryKey" value="show lin&#9;ACTION&#9;EditorToggleShowLineNumbers" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\resources\images" />
-      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\categories\blog" />
-      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\_sass" />
-      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\_posts" />
-      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\_includes" />
       <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\tags" />
       <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\categories" />
       <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\_posts" />
       <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\resources\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\resources\images" />
+      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\categories\blog" />
+      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\_sass" />
+      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\_posts" />
+      <recent name="C:\Users\dg467\PhpstormProjects\jekyllBlog\resources" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.nav.html">
@@ -784,12 +753,14 @@
       <workItem from="1463643517807" duration="34058000" />
       <workItem from="1463725282777" duration="49659000" />
       <workItem from="1463821191199" duration="8498000" />
-      <workItem from="1463838730879" duration="22621000" />
+      <workItem from="1463838730879" duration="45993000" />
+      <workItem from="1463955757498" duration="910000" />
+      <workItem from="1464022339845" duration="5643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282379000" />
+    <option name="totallyTimeSpent" value="312304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,17 +773,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1380597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22426869" sideWeight="0.5298507" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16359697" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19805194" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2099567" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.081023455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22402598" sideWeight="0.47014925" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38636363" sideWeight="0.47014925" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -821,9 +792,30 @@
       <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50852877" order="11" side_tool="true" content_ui="tabs" x="-1828" y="92" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22426869" sideWeight="0.5298507" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16359697" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50852877" order="11" side_tool="true" content_ui="tabs" x="-1828" y="92" width="1736" height="856" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31709957" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44047618" sideWeight="0.47014925" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21162046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.081023455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -841,124 +833,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/blog/2005/10/12/Another-blog-post.html">
+    <entry file="file://$PROJECT_DIR$/_includes/profile.html" />
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post.md" />
+    <entry file="file://$PROJECT_DIR$/_sass/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="179" column="28" selection-start-line="179" selection-start-column="28" selection-end-line="179" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/_pages/page3/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock" />
-    <entry file="file://$PROJECT_DIR$/resources/images/facebook.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/twitter.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/github.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/rss.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/google_plus.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/blog/2016/05/11/My-First-blog-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="205" column="8" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html" />
-    <entry file="file://$PROJECT_DIR$/_sass/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/articles.html" />
-    <entry file="file://$PROJECT_DIR$/_includes/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tags/java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2010-10-12-First-project-post-2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2005-10-12-Another-blog-post-2.md">
+    <entry file="file://$PROJECT_DIR$/_posts/1999-02-28-css-tricks.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
-            <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+            <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/1999-02-28-Second-project-post-2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/1999-02-28-Second-project-post.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2002-10-15-how-to-compile-java.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
@@ -966,90 +875,128 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <first_editor relative-caret-position="85">
+            <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/categories/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+    <entry file="file://$PROJECT_DIR$/_posts/2005-10-12-dummy-tutorial-part-1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/categories/portfolio.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2005-10-13-dummy-totorial-part-2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="10" column="229" selection-start-line="10" selection-start-column="229" selection-end-line="10" selection-end-column="229" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2009-10-02-java-game.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2009-10-12-jekyll-theme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/theme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/cms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/dummy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/about.html">
+    <entry file="file://$PROJECT_DIR$/tags/web-development.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-11-my-jekyll-theme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/something.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/java.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/twitter.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2010-10-12-First-project-post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2005-10-12-Another-blog-post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/article.html" />
-    <entry file="file://$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post-2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/article_footer.html" />
-    <entry file="file://$PROJECT_DIR$/resources/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/tag.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+    <entry file="file://$PROJECT_DIR$/_sass/_media.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1057,62 +1004,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_helpers.scss">
+    <entry file="file://$PROJECT_DIR$/.sass-cache/9ee613a9af9e928a4466dd5898564809021fc07f/_helpers-variables.scssc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/paginator.html">
+    <entry file="file://$PROJECT_DIR$/_sass/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+    <entry file="file://$PROJECT_DIR$/tags/jekyll.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/_sass/_include.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/article_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/articles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-05-11-My-First-blog-post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/_includes/article_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/_pages/page2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/_pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/categories/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/posts/2002/10/how-to-compile-java.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/paginator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,98 +1131,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/_data/social.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/nav.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/social.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/tags.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="306">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_default.scss">
+    <entry file="file://$PROJECT_DIR$/_layouts/tag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+    <entry file="file://$PROJECT_DIR$/_pages/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_media.scss">
+    <entry file="file://$PROJECT_DIR$/_pages/archive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="586">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_include.scss">
+    <entry file="file://$PROJECT_DIR$/categories/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_nav.scss">
+    <entry file="file://$PROJECT_DIR$/categories/tutorial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>

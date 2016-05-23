@@ -5,7 +5,10 @@ layout: default
     {% include article_header.html %}
     {{ page.content }}
     <footer>
-        {% include social.html %}
+
         {% include tags.html %}
+        {% if page.comments %}
+             {% include disqus.html %}
+        {% endif %}
     </footer>
 </article>

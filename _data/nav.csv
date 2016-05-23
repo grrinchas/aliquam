@@ -1,5 +1,6 @@
 name,link
-Projects,/_pages/projects.html
-Blog,/_pages/blog.html
+Portfolio,/categories/portfolio.html
+Tutorial,/categories/tutorial.html
+Archive,/_pages/archive.html
 About,/_pages/about.html
 

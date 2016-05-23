@@ -2,6 +2,7 @@
     <time datetime="{{ page.date | date: '%d %m %Y' }}">
         {{ page.date | date: "%d %B %Y" }}
     </time>
+    <a class="comment_count" href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}"></a>
     <h1>{{ page.title }}</h1>
 </header>
 

@@ -19,19 +19,47 @@ nav > ul > li {
   display: inline-block;
 }
 
+.button:hover {
+  transform: scale(0.98);
+}
+
 /*************************************************************************
                             MAIN NAVIGATION
 /*************************************************************************/
 
 #main_nav {
-  padding: $m-p-XL $m-p-XL $m-p-XL 0;
+  padding: $m-p-XL,;
   ul {
     text-align: center;
     li {
       margin: 0 $m-p-M;
     }
+    li:first-child {
+      display: block;
+    }
   }
 }
+
+.logo {
+  font-weight: bold;
+  font-size: $f-s-XL;
+  letter-spacing: $l-s-M;
+  text-transform: uppercase;
+  color: $color-white;
+}
+
+.logo:visited {
+  color: $color-white;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.name {
+  color: $color-orange;
+}
+
 
 /*************************************************************************
                             FANCY NAVIGATION
@@ -68,10 +96,24 @@ nav > ul > li {
 }
 
 /*************************************************************************
+                        COMMENT COUNT
+/*************************************************************************/
+
+.comment_count {
+  @include init-con-font($color-blue);
+  float: right;
+}
+
+.comment_count:visited {
+  color: $color-blue;
+}
+
+/*************************************************************************
                         READ MORE BUTTON
 /*************************************************************************/
 
 .read_more {
+  display: inline-block;
   background-color: $color-blue;
   color: $color-white;
   padding: $m-p-XXS $m-p-S;
@@ -83,7 +125,6 @@ nav > ul > li {
 
 .read_more:hover {
   text-decoration: none;
-  background-color: darken($color-blue, 5);
 }
 
 /*************************************************************************
@@ -95,41 +136,39 @@ nav > ul > li {
   ul {
     li {
       margin-right: $m-p-XXS;
-      #facebook {
-        background-color: #3b5998;
-      }
-      #twitter {
-        background-color: #55ACEE;
-      }
-      #google_plus {
-        background-color: #C82328;
-      }
-      #rss {
-        background-color: #f26522;
-      }
     }
+    #facebook {
+      background-color: #3b5998;
+    }
+    #twitter {
+      background-color: #55ACEE;
+    }
+    #google_plus {
+      background-color: #C82328;
+    }
+    #rss {
+      background-color: #f26522;
+    }
+  }
+  li:last-child {
+    margin-right: 0;
   }
 }
 
 .social_nav {
   @include flex-center();
   @include box-size(increase-by-percentage($social-s, 90));
- // transition: $t-s-L;
-
+  margin-bottom: $m-p-XL;
   img {
     @include box-size($social-s);
   }
-}
-
-.social_nav:hover {
-  transform: scale(0.95);
 }
 
 /*************************************************************************
                           TAGS NAVIGATION
 /*************************************************************************/
 
-#tags {
+.tags {
   margin: $m-p-L 0 0 0;
   ul {
     li {
@@ -137,8 +176,8 @@ nav > ul > li {
         vertical-align: middle;
         @include box-size($social-s * 1.2);
       }
-      margin-left: $m-p-XXS;
       display: inline-block;
+      margin-left: $m-p-XXS;
       a:after {
         content: "\2C";
       }
@@ -155,22 +194,22 @@ nav > ul > li {
                         PAGINATOR
 /*************************************************************************/
 
-#paginator {
+.paginator {
   padding: $m-p-L 0;
-  background-color: darken($color-grey, 7);
+  background-color: $color-grey-darker;
 
   ul {
     text-align: center;
     li {
       .fancy_nav {
-        color: $color-grey-grey;
+        color: $color-grey-dark;
       }
       .fancy_nav:before, .fancy_nav:after {
-        background-color: $color-grey-grey;
+        background-color: $color-grey-dark;
       }
     }
     .sep {
-      border-left: 5px $color-grey-grey dotted;
+      border-left: $border-s $color-grey-dark dotted;
       margin: 0 $m-p-XL;
     }
   }

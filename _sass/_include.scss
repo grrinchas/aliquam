@@ -1,21 +1,7 @@
 
-#profile {
-  text-align: center;
-  img {
-    @include box-size($profile-s);
-  }
-
-  h2 {
-    margin: $m-p-XL 0 $m-p-XS;
-    letter-spacing: $l-s-S;
-    color: $color-white;
-  }
-  p {
-    letter-spacing: $l-s-XS;
-    color: $color-orange;
-    text-transform: uppercase;
-  }
-}
+/*************************************************************************
+                             ARTICLES
+/*************************************************************************/
 
 article {
   background-color: $color-white;
@@ -41,7 +27,7 @@ article {
     background-color: lighten($color-grey, 7);
     padding: $m-p-M;
     margin-bottom: $m-p-M;
-    color: darken($color-grey-grey, 4);
+    color: darken($color-grey-dark, 4);
     p {
       padding: 0;
       margin: 0;
@@ -61,7 +47,7 @@ article {
 
   .highlighter-rouge {
     background-color: lighten($color-grey, 7);
-    color: darken($color-grey-grey, 4);
+    color: darken($color-grey-dark, 4);
     border: 1px solid darken($color-grey, 3);
     padding: 0 $m-p-XXS;
   }
@@ -75,7 +61,6 @@ article {
     padding: $m-p-L 0 0 0;
   }
 }
-
 
 
 

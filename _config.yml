@@ -1,13 +1,31 @@
 
-title:    "Dennis Grinch Blog"
-owner:    "Dennis Grinch"
-include:  ["_pages"]
+##########################################
+#          Change these variables
+##########################################
+title:    "Your Site Title"
+owner:    "Name Surname"
 
-repository: grrinchas
+# Set your 'disqus' account name
+disqus: "..."
 
-gems: [jekyll-paginate]
+# Set your host if deployed not locally
+url: "https://localhost:4000"
+
+
+# Set maximum posts per page
 paginate: 3
-paginate_path: "/_pages/page:num"
+
+
+
+##########################################
+#          Do not change these variables
+##########################################
+
+include:  ["_pages"]
 sass:
   sass_dir: _sass
 
+permalink: "/posts/:year/:month/:title"
+
+gems: [jekyll-paginate]
+paginate_path: "/_pages/page:num"

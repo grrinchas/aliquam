@@ -8,17 +8,22 @@
   }
 }
 
+
 @media only screen and (min-width: $media-query-med-2) {
   #main_nav {
     ul {
       text-align: right;
+      li:first-child {
+        display: inline-block;
+        float: left;
+      }
     }
   }
 
   article > footer {
     text-align: left;
 
-    #tags {
+    .tags {
       float: right;
       margin: 0;
     }
