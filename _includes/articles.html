@@ -1,6 +1,6 @@
 <article>
     {% include article_header.html %}
-    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+    <p>{{ post.excerpt  }}</p>
     <footer>
         <a class="read_more button" href="{{ site.baseurl }}{{ page.url }}">read more</a>
         {% include tags.html %}
