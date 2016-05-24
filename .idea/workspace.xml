@@ -29,8 +29,8 @@
           <file leaf-file-name="article_header.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_includes/article_header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -271,13 +271,13 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_includes/tags.html" />
         <option value="$PROJECT_DIR$/_includes/articles.html" />
-        <option value="$PROJECT_DIR$/_includes/article_header.html" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_includes/social.html" />
         <option value="$PROJECT_DIR$/_includes/paginator.html" />
         <option value="$PROJECT_DIR$/_pages/archive.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_includes/article_header.html" />
       </list>
     </option>
   </component>
@@ -663,12 +663,12 @@
       <workItem from="1463955757498" duration="910000" />
       <workItem from="1464022339845" duration="6859000" />
       <workItem from="1464071048353" duration="1045000" />
-      <workItem from="1464078718913" duration="5703000" />
+      <workItem from="1464078718913" duration="5882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320268000" />
+    <option name="totallyTimeSpent" value="320447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1097,8 +1097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/article_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
