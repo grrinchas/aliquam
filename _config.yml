@@ -8,7 +8,7 @@ owner:    "Name Surname"
 # Set your 'disqus' account name
 disqus: "..."
 
-# Set your host if deployed not locally
+# Set your host if deployed not locally needed for disqus integration
 url: "https://localhost:4000"
 
 # Change this to your base URL if site is in gh-pages branch
