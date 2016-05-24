@@ -6,10 +6,13 @@ title:    "Your Site Title"
 owner:    "Name Surname"
 
 # Set your 'disqus' account name
-disqus: "..."
+disqus: "grrinchas"
+
+# Uncomment if deployed locally
+# url: "https://localhost:4000"
 
 # Set your host if deployed not locally needed for disqus integration
-url: "https://localhost:4000"
+url: "http://grrinchas.github.io/"
 
 # Change this to your base URL if site is in gh-pages branch
 baseurl: "/aliquam"
