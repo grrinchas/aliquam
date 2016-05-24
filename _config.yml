@@ -1,27 +1,41 @@
 
 ##########################################
-#          Change these variables
+#     Change these variables !important
 ##########################################
+
 title:    "Your Site Title"
 owner:    "Name Surname"
 
+# Following needed for disqus integration
+
 # Set your 'disqus' account name
-disqus: "grrinchas"
+disqus: "yourDisqusSrc"
 
 # Uncomment if deployed locally
 # url: "https://localhost:4000"
 
-# Set your host if deployed not locally needed for disqus integration
-url: "http://grrinchas.github.io/"
+# Set your host if deployed not locally
+# For example "https://yourGithub.github.io"
+url: ""
 
-# Change this to your base URL if site is in gh-pages branch
-baseurl: "/aliquam"
+# Change this to your base URL starting with forward slash if site is in gh-pages branch
+# For example /branchName
+baseurl: ""
+
+
+##########################################
+#          Optional variables
+##########################################
 
 
 # Set maximum posts per page
 paginate: 3
 
+# Set permalink
+permalink: "/posts/:year/:month/:title"
 
+# Set excerpt separator
+excerpt_separator: "<!--more-->"
 
 ##########################################
 #          Do not change these variables
@@ -32,9 +46,6 @@ sass:
   sass_dir: _sass
 
 
-excerpt_separator: "<!--more-->"
-
-permalink: "/posts/:year/:month/:title"
-
 gems: [jekyll-paginate]
 paginate_path: "/_pages/page:num"
+
