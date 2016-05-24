@@ -33,7 +33,7 @@ baseurl: ""
 
 
 # Set maximum posts per page
-paginate: 3
+paginate: 5
 
 # Set permalink
 permalink: "/posts/:year/:month/:title"
