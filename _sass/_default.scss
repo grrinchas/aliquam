@@ -29,7 +29,7 @@ small {
   font-size: $f-s-S;
 }
 
-p, blockquote, h3 {
+article > p, blockquote, h3 {
   margin: $m-p-XL 0;
 }
 

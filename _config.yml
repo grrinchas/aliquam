@@ -13,7 +13,11 @@ subtitle: "Theme"
 # Following needed for disqus integration
 
 # Set your 'disqus' account name
+<<<<<<< HEAD
 disqus: "grrinchas"
+=======
+disqus: "..."
+>>>>>>> master
 
 # Uncomment if deployed locally
 # url: "https://localhost:4000"
@@ -32,7 +36,7 @@ baseurl: "/aliquam"
 
 
 # Set maximum posts per page
-paginate: 3
+paginate: 5
 
 # Set permalink
 permalink: "/posts/:year/:month/:title"
