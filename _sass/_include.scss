@@ -1,19 +1,20 @@
-
 /*************************************************************************
                              ARTICLES
 /*************************************************************************/
 
 article {
   background-color: $color-white;
-  margin: 0 0 $m-p-XXL 0;
-  padding: $m-p-XL $m-p-M;
-  border-bottom: 3px solid $color-orange;
-  header {
-    margin-bottom: $f-s-XXXL;
-    time {
-      @include init-con-font($color-orange);
-    }
+  margin: 0 0 $m-p-XXXL 0;
+  padding: $m-p-M;
 
+  header {
+
+    time {
+      @include init-con-font($color-grey-dark);
+    }
+    span {
+      color: $color-grey-darker;
+    }
     h1 {
       margin: 0 0 $m-p-XS 0;
       font-weight: normal;
@@ -21,48 +22,72 @@ article {
     }
   }
 
-  blockquote {
-    margin-left: $m-p-XL;
-    border-left: 3px solid $color-orange;
-    background-color: lighten($color-grey, 7);
-    padding: $m-p-M;
-    margin-bottom: $m-p-M;
-    color: darken($color-grey-dark, 4);
-    p {
-      padding: 0;
-      margin: 0;
-    }
-  }
-  .highlight {
-    line-height: 100%;
-    margin-bottom: $m-p-XL;
-    overflow-x: auto;
-    .lineno {
-      background-color: lighten($color-black, 15);
-      padding: $m-p-XS;
-      margin-right: $m-p-XS;
-      @include disable-selection();
-    }
-  }
-
-  .highlighter-rouge {
-    background-color: lighten($color-grey, 7);
-    color: darken($color-grey-dark, 4);
-    border: 1px solid darken($color-grey, 3);
-    padding: 0 $m-p-XXS;
-  }
-
   p {
     font-family: $font-family-merriweather;
   }
 
-  > footer {
-    text-align: center;
-    padding: $m-p-L 0 0 0;
+
+
+
+
+  ul, ol {
+    list-style-position: inside;
+    ul, ol {
+      padding-left: $m-p-XL;
+    }
   }
+
+  ul {
+    list-style-type: none;
+    > li:before {
+      content: "\00BB \0020";
+      color: $color-orange;
+    }
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  blockquote {
+    padding: $m-p-M;
+    margin-left: $m-p-XL;
+    border-left: 3px solid $color-orange;
+    background-color: $color-white-grey;
+  }
+
+  .highlight {
+    line-height: 100%;
+    overflow-x: auto;
+    .lineno {
+      padding: $m-p-XS;
+      margin-right: $m-p-XS;
+      @include disable-selection();
+      background-color: lighten($color-black, 16);
+    }
+  }
+
+  .highlighter-header {
+    background-color: $color-orange;
+    color: $color-grey;
+    text-align: right;
+    margin: 0;
+    padding-right: $m-p-M;
+  }
+
+  .highlighter-rouge {
+    background-color: $color-white-grey;
+    border: 1px solid $color-grey;
+    padding: 0 $m-p-XXS;
+  }
+
+  > footer {
+    text-align: left;
+    margin-bottom: $m-p-XXXL;
+  }
+
 }
-
-
+nav ul li:before {
+  content: none;
+}
 
 
 

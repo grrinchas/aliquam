@@ -4,12 +4,19 @@
 
 @media only screen and (min-width: $media-query-med-1) {
   article {
-    padding: $m-p-XL;
+    padding: 0 $m-p-XL;
   }
 }
 
 
 @media only screen and (min-width: $media-query-med-2) {
+
+}
+
+@media only screen and (min-width: $media-query-max) {
+  body {
+    font-size: 120%;
+  }
   #main_nav {
     ul {
       text-align: right;
@@ -20,34 +27,4 @@
     }
   }
 
-  article > footer {
-    text-align: left;
-
-    .tags {
-      float: right;
-      margin: 0;
-    }
-  }
-
-  #footer_main {
-    text-align: left;
-    > section {
-      display: inline-block;
-    }
-    #follow {
-      float: right;
-    }
-    > small {
-      display: block;
-    }
-  }
-}
-
-@media only screen and (min-width: $media-query-max) {
-  body {
-    font-size: 120%;
-  }
-  article {
-    padding: $m-p-XXL;
-  }
 }

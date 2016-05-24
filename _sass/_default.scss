@@ -10,26 +10,38 @@ html {
   font-size: 100%;
 }
 
+h1, h2, h3 {
+  color: $color-orange-dark;
+  font-weight: normal;
+  text-transform: capitalize;
+}
 h1 {
   font-size: $f-s-XXXL;
   line-height: 100%;
 }
 
 h2 {
-  font-size: $f-s-XL;
+  font-size: $f-s-XXL;
+  margin-top: $m-p-XXXL;
 }
 
 small {
   font-size: $f-s-S;
 }
 
+p, blockquote, h3 {
+  margin: $m-p-XL 0;
+}
 
+hr {
+  width: 100%;
+}
 /*************************************************************************
                                 LAYOUT
 /*************************************************************************/
 
 body {
-  background-color: $color-grey;
+  background-color: $color-white;
   color: $color-black;
 
   #wrapper {
@@ -38,7 +50,7 @@ body {
     min-width: $media-query-min;
 
     > header {
-      background-color: $color-black;
+      background-color: $color-white-grey;
     }
 
     main {
@@ -49,7 +61,6 @@ body {
 
     > footer {
       background-color: $color-black;
-      padding-bottom: $m-p-M;
     }
   }
 }

@@ -4,45 +4,13 @@
 /*************************************************************************/
 
 #footer_main {
+  display: block;
+  padding: $m-p-XL 0;
   @include center-horizontally();
   max-width: $media-query-max;
-  padding: $m-p-XL 0;
-  line-height: 150%;
   text-align: center;
-  > section {
-    margin: 0;
-    color: $color-grey-dark;
-    padding: 0 $m-p-M $m-p-M;
-
-    h3 {
-      text-transform: lowercase;
-      font-variant: small-caps;
-      letter-spacing: $l-s-S;
-      margin-bottom: $m-p-XS;
-    }
-  }
-
-  form {
-    margin-bottom: $m-p-XL;
-    input {
-      padding: $m-p-XXS;
-      background-color: $color-grey;
-      outline: none;
-      border: none;
-    }
-
-    input[type="submit"] {
-      background-color: $color-orange;
-      color: $color-black;
-      cursor: pointer;
-      letter-spacing: $l-s-M;
-    }
-  }
-
   > small {
     @include init-con-font($color-grey-dark);
-    text-align: center;
-    margin-top: auto;
   }
 }
 

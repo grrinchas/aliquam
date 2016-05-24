@@ -1,8 +1,5 @@
 <article>
     {% include article_header.html %}
-    {{ page.excerpt }}
-    <footer>
-        <a class="read_more button" href="{{ site.baseurl }}{{ page.url }}">read more</a>
-        {% include tags.html %}
-    </footer>
+    <p>{{ page.content | strip_html | truncatewords: site.truncate_size }}<a class="h1_link" href="{{ site.baseurl }}{{ page.url }}">&raquo;</a></p>
+
 </article>

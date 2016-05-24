@@ -1,9 +1,9 @@
 // colors
 $color-black: #111111;
-$color-white: #f6f6f6;
+$color-white: #fcfcfc;
 $color-orange: #d16b19;
-$color-grey-dark: #6a6a6a;
-$color-blue: #3f8a87;
+$color-grey-dark: #5a5a5a;
+$color-white-grey: darken($color-white, 4);
 $color-grey: darken($color-white, 10);
 $color-grey-darker: darken($color-grey, 7);
 $color-orange-dark: darken($color-orange, 12);
@@ -55,5 +55,5 @@ $media-query-min: 22rem;
 $media-query-med-1: 30rem;
 $media-query-med-2: 40rem;
 $media-query-med-3: 50rem;
-$media-query-max: 60rem;
+$media-query-max: 55rem;
 

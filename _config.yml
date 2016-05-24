@@ -3,20 +3,24 @@
 #     Change these variables !important
 ##########################################
 
-title:    "Your Site Title"
 owner:    "Name Surname"
+
+title:    "Aliquam"
+
+# Set subtitle e.g "blog"
+subtitle: "Theme"
 
 # Following needed for disqus integration
 
 # Set your 'disqus' account name
-disqus: "yourDisqusSrc"
+ disqus: "..."
 
 # Uncomment if deployed locally
 # url: "https://localhost:4000"
 
 # Set your host if deployed not locally
 # For example "https://yourGithub.github.io"
-url: ""
+# url:
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
@@ -35,7 +39,7 @@ paginate: 3
 permalink: "/posts/:year/:month/:title"
 
 # Set excerpt separator
-excerpt_separator: "<!--more-->"
+truncate_size: 30
 
 ##########################################
 #          Do not change these variables

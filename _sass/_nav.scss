@@ -28,7 +28,8 @@ nav > ul > li {
 /*************************************************************************/
 
 #main_nav {
-  padding: $m-p-XL,;
+  padding: $m-p-L,;
+  border-bottom: 1px solid $color-grey;
   ul {
     text-align: center;
     li {
@@ -36,6 +37,7 @@ nav > ul > li {
     }
     li:first-child {
       display: block;
+      margin-bottom: $m-p-M;
     }
   }
 }
@@ -45,11 +47,15 @@ nav > ul > li {
   font-size: $f-s-XL;
   letter-spacing: $l-s-M;
   text-transform: uppercase;
-  color: $color-white;
+  color: $color-orange;
+
+  img {
+    @include box-size(3rem);
+  }
 }
 
 .logo:visited {
-  color: $color-white;
+  color: $color-orange;
 }
 
 .logo:hover {
@@ -57,7 +63,7 @@ nav > ul > li {
 }
 
 .name {
-  color: $color-orange;
+  color: $color-orange-dark;
 }
 
 
@@ -66,17 +72,18 @@ nav > ul > li {
 /*************************************************************************/
 
 .fancy_nav {
-  @include init-con-font();
+  @include init-con-font($color-black);
   transition: $t-s-M;
   position: relative;
 }
 
 .fancy_nav:visited {
-  color: $color-white;
+  color: $color-black;
 }
 
 .fancy_nav:before {
   @include init-nav-hover(bottom);
+  background-color: $color-black;
 }
 
 .fancy_nav:hover {
@@ -85,6 +92,7 @@ nav > ul > li {
 
 .fancy_nav:after {
   @include init-nav-hover(top);
+  background-color: $color-black;
 }
 
 .fancy_nav:hover:before {
@@ -100,76 +108,37 @@ nav > ul > li {
 /*************************************************************************/
 
 .comment_count {
-  @include init-con-font($color-blue);
-  float: right;
+  @include init-con-font($color-grey-dark);
 }
 
 .comment_count:visited {
-  color: $color-blue;
+  color: $color-grey-dark;
 }
 
 /*************************************************************************
-                        READ MORE BUTTON
+                        LINK TO ARTICLES
 /*************************************************************************/
 
-.read_more {
-  display: inline-block;
-  background-color: $color-blue;
-  color: $color-white;
-  padding: $m-p-XXS $m-p-S;
+.h1_link {
+  color: $color-orange-dark;
 }
 
-.read_more:visited {
-  color: $color-white;
+.h1_link:visited {
+  color: $color-orange-dark;
 }
 
-.read_more:hover {
+.h1_link:hover {
   text-decoration: none;
+  color: darken($color-orange-dark, 5);
 }
 
-/*************************************************************************
-                        SOCIAL NAVIGATION
-/*************************************************************************/
 
-#social {
-  display: inline-block;
-  ul {
-    li {
-      margin-right: $m-p-XXS;
-    }
-    #facebook {
-      background-color: #3b5998;
-    }
-    #twitter {
-      background-color: #55ACEE;
-    }
-    #google_plus {
-      background-color: #C82328;
-    }
-    #rss {
-      background-color: #f26522;
-    }
-  }
-  li:last-child {
-    margin-right: 0;
-  }
-}
-
-.social_nav {
-  @include flex-center();
-  @include box-size(increase-by-percentage($social-s, 90));
-  margin-bottom: $m-p-XL;
-  img {
-    @include box-size($social-s);
-  }
-}
 
 /*************************************************************************
                           TAGS NAVIGATION
 /*************************************************************************/
 
 .tags {
-  margin: $m-p-L 0 0 0;
   ul {
     li {
       img {

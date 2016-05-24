@@ -1,8 +1,9 @@
 <header>
+    <h1 ><a class="h1_link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
     <time datetime="{{ page.date | date: '%d %m %Y' }}">
-        {{ page.date | date: "%d %B %Y" }}
+        {{ page.date | date: "%d %B, %Y" }}
     </time>
+    <span> | </span>
     <a class="comment_count" href="{{ site.baseurl }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}"></a>
-    <h1>{{ page.title }}</h1>
 </header>
 

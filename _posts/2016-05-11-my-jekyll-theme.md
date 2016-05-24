@@ -9,91 +9,96 @@ tags:
     - theme
 ---
 
+Paragraph ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-"<!--more-->"
-{% highlight java linenos %}
-/**
- * Models a playing die with sides numbered 1 to N.
- * All sides have uniform probablity of being rolled.
- *
- * @author Summer CS 307 class
- */
-public class Die
-{   public static final int DEFAULT_SIDES = 6;
-
-    private static Random ourRandNumGen = new Random();
-
-    private final int iMyNumSides;
-    private int iMyResult;
+## Header h2 ##
 
 
-    /**
-     * Default constructor.<p>
-     * pre: none<br>
-     * post: getNumSides() = DEFAULT_SIDES, getResult() = 1
-     */
-    public Die()
-    {   this(DEFAULT_SIDES);
-    }
+Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+[Link to google](http://google.co.uk)
+Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
 
 
-}// end of Die class
-{% endhighlight %}
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-
-___
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+### Header h3 ###
 
 **This is strong text (strong)**
+
 _This is Italic text (em)_
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+[Link to google](http://google.co.uk)
+
+> This is block quote.
+
+`HTML code example`
+
+* This is list item 1
+* This is list item 2
+* This is list item 3
+    - This is inside list 1
+    - This is inside list 2
+* This is list item 4
+    1. Ordered list item
+    2. Ordered list item
+    3. Ordered list item
+* This is list item 5
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.E
+
+<p class="highlighter-header">HTML</p>
+{% highlight html linenos %}
+<article>
+    <header>
+        <h1 ><a class="h1_link" href="/posts/1999/02/css-tricks">CSS tricks</a></h1>
+        <time datetime="28 02 1999"> 28 February, 1999 </time>
+    </header>
+    <a class="comment_count" href="/posts/1999/02/css-tricks#disqus_thread" data-disqus-identifier="/posts/1999/02/css-tricks"></a>
+</article>
+{% endhighlight %}
+
+
+
+## Another header h2 ##
+
 Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
 
-> This is block quote it does look nise.
+<p class="highlighter-header">JAVA</p>
+{% highlight java linenos %}
+/*
+  Get Tail Map from Java TreeMap example
+  This Java Example shows how to get the portion of TreeMap whose keys
+  are grater than or equal to the specified key using tailMap method
+  of Java TreeMap class.
+*/
 
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class GetTailMapFromTreeMapExample {
+
+  public static void main(String[] args) {
+
+    //create TreeMap object
+    TreeMap treeMap = new TreeMap();
+
+    //add key value pairs to TreeMap
+    treeMap.put("1","One");
+    treeMap.put("3","Three");
+
+    /*
+      To get a Tail Map from Java TreeMap use,
+      SortedMap tailMap(Object fromKey) method of Java TreeMap class.
+
+      Please note that, the SortedMap returned by this method is backed by
+      the original TreeMap. So any changes made to SortedMap will be
+      reflected back to original TreeMap.
+    */
+
+    SortedMap sortedMap = treeMap.tailMap("2");
+
+    System.out.println("Tail Map Contains : " + sortedMap);
+  }
+}
+{% endhighlight %}
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-
-
-* This is list item 1
-* This is list item 1
-* This is list item 1
-    - This is inside list 1
-    - This is inside list 1
-    - This is inside list 1
-    - This is inside list 1
-* This is list item 1
-* This is list item 1
-
-
-To add new posts, simply add a file in the `_posts` directory that follows the
-convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter.
-Take a look at the source for this post to get an idea about how it works.
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build
-the site to see your changes. You can rebuild the site in many different ways, but
-the most common way is to run `jekyll serve`, which launches a web server and
-auto-regenerates your site when a file is updated.
-
-1. This is list item ordered
-2. This is list item ordered
-3. This is list item ordered
-4. his is list item ordered
-5. This is list item ordered
-
-[This is link name](http://google.co.uk)
-
-To add new posts, simply add a file in the `_posts` directory that follows the
-convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter.
-Take a look at the source for this post to get an idea about how it works.
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build
-the site to see your changes. You can rebuild the site in many different ways, but
-the most common way is to run `jekyll serve`, which launches a web server and
-auto-regenerates your site when a file is updated.
 
