@@ -33,6 +33,7 @@ sass:
 
 
 excerpt_separator: "<!--more-->"
+
 permalink: "/posts/:year/:month/:title"
 
 gems: [jekyll-paginate]
