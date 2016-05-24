@@ -13,7 +13,7 @@ subtitle: "Theme"
 # Following needed for disqus integration
 
 # Set your 'disqus' account name
- disqus: "grrinchas"
+disqus: "grrinchas"
 
 # Uncomment if deployed locally
 # url: "https://localhost:4000"
