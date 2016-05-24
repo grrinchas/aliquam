@@ -28,7 +28,7 @@ title: articles
         {% for tag in site.tags %}
         {% assign t = tag | first %}
         {% assign posts = tag | last %}
-        <li><a href="/tags/{{ t }}.html">{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</a></li>
+        <li><a href="{{ site.baseurl }}/tags/{{ t }}.html">{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</a></li>
         {% endfor %}
     </ul>
 

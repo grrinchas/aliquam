@@ -2,7 +2,7 @@
     {% include article_header.html %}
     {{ page.excerpt }}
     <footer>
-        <a class="read_more button" href="{{ page.url }}">read more</a>
+        <a class="read_more button" href="{{ page.url | prepend:site.baseurl }}">read more</a>
         {% include tags.html %}
     </footer>
 </article>
