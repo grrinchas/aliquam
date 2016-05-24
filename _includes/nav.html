@@ -2,7 +2,7 @@
     <ul>
         <li><a class="logo" href="{{ site.baseurl }}/index.html"><span class="name">{{ site.owner }}</span>blog</a></li>
         {% for link in site.data.nav %}
-        <li><a class="fancy_nav" href="{{ link.link | prepend:site.baseurl }}">{{ link.name }}</a></li>
+        <li><a class="fancy_nav" href="{{ site.baseurl }}{{ link.link }}">{{ link.name }}</a></li>
         {% endfor %}
     </ul>
 </nav>
