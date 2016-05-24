@@ -1,6 +1,6 @@
 <article>
     {% include article_header.html %}
-    <p>{{ post.excerpt  }}</p>
+    {{ post.excerpt }}
     <footer>
         <a class="read_more button" href="{{ site.baseurl }}{{ page.url }}">read more</a>
         {% include tags.html %}
