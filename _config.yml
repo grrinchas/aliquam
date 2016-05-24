@@ -3,9 +3,9 @@
 #     Change these variables !important
 ##########################################
 
-owner:    "Name Surname"
+owner: "Name Surname"
 
-title:    "Aliquam"
+title: "Aliquam"
 
 # Set subtitle e.g "blog"
 subtitle: "Theme"
