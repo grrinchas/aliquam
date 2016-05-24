@@ -13,11 +13,7 @@ subtitle: "Theme"
 # Following needed for disqus integration
 
 # Set your 'disqus' account name
-<<<<<<< HEAD
 disqus: "grrinchas"
-=======
-disqus: "..."
->>>>>>> master
 
 # Uncomment if deployed locally
 # url: "https://localhost:4000"
