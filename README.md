@@ -42,9 +42,8 @@ __userName__ is your github user name.
 
 #### Method 3: run it locally
 
-1. Download [zip](https://github.com/grrinchas/aliquam/blob/master/aliquam-theme.zip).
-2. Extract where you want it.
-3. Go inside of folder and run `jekyll serve`. This will create server which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
+1. Download [zip](https://github.com/grrinchas/aliquam/blob/master/aliquam-theme.zip) or clone it `git clone https://github.com/grrinchas/aliquam`.
+2. Go inside of folder and run `jekyll serve`. This will builds a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
 
 ## <a name="configuration"></a>Configuration
 
