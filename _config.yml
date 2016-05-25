@@ -3,24 +3,24 @@
 #     Change these variables !important
 ##########################################
 
-owner: "Name Surname"
+owner: "Dennis Grinch"
 
-title: "Aliquam"
+title: "DG"
 
 # Set subtitle e.g "blog"
-subtitle: "Theme"
+subtitle: "Blog"
 
 # Following needed for disqus integration
 
 # Set your 'disqus' account name
-disqus: "...."
+disqus: "grrinchas"
 
 # Uncomment if deployed locally
 # url: "https://localhost:4000"
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-url: ""
+url: "https://grrinchas.github.io"
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
