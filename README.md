@@ -18,7 +18,8 @@ Want example? [check this out](https://grrinchas.github.io/aliquam/)
 
 ## <a name="features"></a>Features
 
-- [Disqus](https://disqus.com/) comment system integration
+- [Disqus](https://disqus.com/) comment system
+- Google analytics
 - Pagination support
 - Custom tags and categories
 
@@ -60,7 +61,7 @@ All configuration is done via `_config.yml` file which you will find in your mai
 - Add archive support
 - Add contact form and newsletter
 - Add social media buttons
-- Add google analytics
+- Add SEO
 
 ## <a name="license"></a>License
 
