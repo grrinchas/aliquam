@@ -26,6 +26,8 @@ url: ""
 # For example /branchName
 baseurl: ""
 
+# Change this to your google analytics ID
+google_analytics: "ID"
 
 ##########################################
 #          Optional variables
