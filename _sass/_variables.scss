@@ -3,6 +3,8 @@ $color-black: #111111;
 $color-white: #fcfcfc;
 $color-orange: #d16b19;
 $color-grey-dark: #5a5a5a;
+$color-blue: #197fd1;
+$color-blue-darker: darken($color-blue, 8);
 $color-white-grey: darken($color-white, 4);
 $color-grey: darken($color-white, 10);
 $color-grey-darker: darken($color-grey, 7);
