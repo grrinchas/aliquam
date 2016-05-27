@@ -25,11 +25,14 @@ h2 {
   margin-top: $m-p-XXXL;
 }
 
+h3 {
+  font-size: $f-s-XL;
+}
 small {
   font-size: $f-s-S;
 }
 
-article > p, blockquote, h3 {
+article > p, blockquote {
   margin: $m-p-XL 0;
 }
 

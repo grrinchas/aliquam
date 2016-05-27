@@ -15,6 +15,7 @@ Every programmer should know about VCS(Version Control System) especially GIT. T
 - [Importing](#importing)
 - [Get Information](#info)
 - [Staging](#staging)
+- [Commiting](#commiting)
 
 ## <a name="general"></a>General
 
@@ -41,7 +42,7 @@ git config user.name
 
 If you need any help, these commands will open `man` page. `verb` is command's name.
 
-{% highlight shell linenos %}
+{% highlight d linenos %}
 git help <verb>
 git <verb> --help
 man git-<verb>
@@ -63,6 +64,8 @@ git clone <url>
 {% endhighlight %}
 
 ## <a name="info"></a>Get Information
+
+GIT Commands used for getting any kind of information about repository.
 
 ### Status
 To check status of files
@@ -87,16 +90,60 @@ git status --ignored
 
 ### Comparing
 
-To compare files in working directory with staging area. Which tells you what you changed but not staged yet.
+To compare files in working directory with staging area. Tells you what you changed but not yet staged.
 
 {% highlight shell linenos %}
 git diff
 {% endhighlight %}
 
-To see what you staged which goes into your next commit.
+To see what you staged which goes into your next commit. `--staged` and `--cached` are synonyms.
 
 {% highlight shell linenos %}
 git diff --staged
+git diff --cached
+{% endhighlight %}
+
+### History
+
+Outputs commit history.
+
+{% highlight shell linenos %}
+git log
+{% endhighlight %}
+
+Show difference in each commit.
+
+{% highlight shell linenos %}
+git log -p
+{% endhighlight %}
+
+Limit output to last entries.
+
+{% highlight shell linenos %}
+git log -2
+{% endhighlight %}
+
+Shows abbreviated stats.
+
+{% highlight shell linenos %}
+git log --stat
+{% endhighlight %}
+
+Formats output. `oneline` - single line,  `short` - adds extra info, `full` - more info, `fulller` - even more.
+
+{% highlight shell linenos %}
+git log --pretty=oneline
+{% endhighlight %}
+
+You can even format output.
+
+{% highlight shell linenos %}
+git log --pretty=format:"%h - %an, %ar : %s
+{% endhighlight %}
+
+Show output since 2 weeks.
+{% highlight shell linenos %}
+git log --since=2.weeks
 {% endhighlight %}
 
 ## <a name="staging"></a>Staging
@@ -108,8 +155,38 @@ git add <file>
 git add .
 {% endhighlight %}
 
+To remove staged files, but keep it in the working directory.
+
+{% highlight shell linenos %}
+git rm --cached <file>
+{% endhighlight %}
+
+To unstage file. Undoes any changes since last commit.
+
+{% highlight shell linenos %}
+git reset head <file>
+{% endhighlight %}
+
+## <a name="commiting"></a>Commiting
+
+To commit staged files.
+
+{% highlight shell linenos %}
+git commit -m "Commit message"
+{% endhighlight %}
 
 
+To stage and commit shorthand.
+
+{% highlight shell linenos %}
+git commit -a -m "Commit message"
+{% endhighlight %}
+
+Ammend last commit. For example change commit message or add extra files. It will overrides your last commit.
+
+{% highlight shell linenos %}
+git commit --amend
+{% endhighlight %}
 
 
 
