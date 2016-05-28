@@ -17,7 +17,7 @@ Every programmer should know about VCS(Version Control System) especially GIT. T
 - [Staging](#staging)
 - [Commiting](#commiting)
 - [Branching](#branching)
-- [Megrging](#merging)
+- [Merging](#merging)
 
 ## <a name="general"></a>General
 
