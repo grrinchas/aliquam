@@ -16,6 +16,8 @@ Every programmer should know about VCS(Version Control System) especially GIT. T
 - [Get Information](#info)
 - [Staging](#staging)
 - [Commiting](#commiting)
+- [Branching](#branching)
+- [Megrging](#merging)
 
 ## <a name="general"></a>General
 
@@ -146,6 +148,25 @@ Show output since 2 weeks.
 git log --since=2.weeks
 {% endhighlight %}
 
+
+### Inspecting
+
+Show all blobs and trees where tree points to.
+{% highlight shell linenos %}
+git ls-tree master^{tree}
+{% endhighlight %}
+
+Show all blobs and trees recursively. `t` makes show the SHA-1s of the subtrees themselves, rather than just
+all the blobs.
+{% highlight shell linenos %}
+git ls-tree -r -t master^{tree}
+{% endhighlight %}
+
+Show what type object is. `SHA-1` is an object hash.
+{% highlight shell linenos %}
+git cat-file -t <SHA-1>
+{% endhighlight %}
+
 ## <a name="staging"></a>Staging
 
 Stage a file/files for commit.
@@ -165,6 +186,12 @@ To unstage file. Undoes any changes since last commit.
 
 {% highlight shell linenos %}
 git reset head <file>
+{% endhighlight %}
+
+Interactive staging
+
+{% highlight shell linenos %}
+git add -i
 {% endhighlight %}
 
 ## <a name="commiting"></a>Commiting
@@ -189,9 +216,37 @@ git commit --amend
 {% endhighlight %}
 
 
+## <a name="branching"></a>Branching
 
+Create new branch. And switch to it.
 
+{% highlight shell linenos %}
+git branch <branchName>
+git checkout <branchName>
+{% endhighlight %}
 
+Create new branch. And switch to it.
 
+{% highlight shell linenos %}
+git checkout -b <branchName>
+{% endhighlight %}
 
+List all branches.
+
+{% highlight shell linenos %}
+git branch
+{% endhighlight %}
+
+Delete a branch.
+{% highlight shell linenos %}
+git branch -d <branchName>
+{% endhighlight %}
+
+## <a name="merging"></a>Merging
+
+Merge a branch into current one.
+
+{% highlight shell linenos %}
+git merge <branchName>
+{% endhighlight %}
 
