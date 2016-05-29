@@ -3,28 +3,28 @@
 #     Change these variables !important
 ##########################################
 
-owner: "Dennis Grinch"
+owner: Dennis Grinch
 
-title: "Dennis Grinch Blog - Programming tutorials for beginners"
+title: Dennis Grinch Blog - Programming tutorials for beginners
 
 # Following needed for disqus integration
 
 # Set your 'disqus' account name
-disqus: "grrinchas"
+disqus: grrinchas
 
 # Uncomment if deployed locally
-# url: "https://localhost:4000"
+# url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-url: "https://grrinchas.github.io"
+url: https://grrinchas.github.io
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
-baseurl: ""
+baseurl:
 
 # Change this to your google analytics ID
-google_analytics: "UA-78379987-1"
+google_analytics: UA-78379987-1
 
 ##########################################
 #          Optional variables
@@ -35,7 +35,7 @@ google_analytics: "UA-78379987-1"
 paginate: 5
 
 # Set permalink
-permalink: "/:categories/:title"
+permalink: /:categories/:title
 
 # Set excerpt separator
 truncate_size: 30
@@ -50,5 +50,5 @@ sass:
 
 
 gems: [jekyll-paginate]
-paginate_path: "/_pages/page:num"
+paginate_path: /_pages/page:num
 
