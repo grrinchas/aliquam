@@ -3,31 +3,31 @@
 #     Change these variables !important
 ##########################################
 
-owner: "Name Surname"
+owner: Name Surname
 
-title: "Aliquam"
+title: Aliquam
 
 # Set subtitle e.g "blog"
-subtitle: "Theme"
+subtitle: Theme
 
 # Following needed for disqus integration
 
 # Set your 'disqus' account name
-disqus: "...."
+disqus:
 
 # Uncomment if deployed locally
-# url: "https://localhost:4000"
+# url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-url: ""
+url:
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
-baseurl: ""
+baseurl:
 
 # Change this to your google analytics ID
-google_analytics: "ID"
+google_analytics:
 
 ##########################################
 #          Optional variables
@@ -38,7 +38,7 @@ google_analytics: "ID"
 paginate: 5
 
 # Set permalink
-permalink: "/posts/:year/:month/:title"
+permalink: /:categories/:title
 
 # Set excerpt separator
 truncate_size: 30
@@ -53,5 +53,5 @@ sass:
 
 
 gems: [jekyll-paginate]
-paginate_path: "/_pages/page:num"
+paginate_path: /_pages/page:num
 
