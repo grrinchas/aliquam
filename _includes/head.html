@@ -6,8 +6,11 @@
         {{ site.title }}
         {% endif%}
     </title>
-    <meta name="viewport" content="device=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ site.baseurl }}/resources/css/main.css">
+    {% if page.seo["description"] %}
+    <meta name="description" content="{{ page.seo['description'] }}"/>
+    {% endif %}
+    <meta name="viewport" content="device=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/resources/css/main.css"/>
     {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}

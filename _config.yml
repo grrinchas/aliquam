@@ -5,7 +5,7 @@
 
 owner: "Dennis Grinch"
 
-title: "DG"
+title: "Dennis Grinch Blog"
 
 # Set subtitle e.g "blog"
 subtitle: "Blog"
@@ -38,7 +38,7 @@ google_analytics: "UA-78379987-1"
 paginate: 5
 
 # Set permalink
-permalink: "/posts/:year/:month/:title"
+permalink: "/:categories/:title"
 
 # Set excerpt separator
 truncate_size: 30

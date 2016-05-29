@@ -5,6 +5,8 @@ comments: true
 category: reference
 tags:
     - git
+seo:
+    description: Did you forget Git command,
 ---
 
 Every programmer should know about VCS(Version Control System) especially GIT. This post serves as reference for GIT commands. They are grouped by functionality and has short explanation above them. To learn more about GIT check [this]({{ site.baseurl }}/tags/git.html) out.
