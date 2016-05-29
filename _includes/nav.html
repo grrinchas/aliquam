@@ -1,7 +1,6 @@
 <nav id="main_nav">
     <ul>
-        <li><a class="logo" href="{{ site.baseurl }}/index.html"><span class="name">{{ site.title}}
-        </span>{{ site.subtitle</a>
+        <li><a class="logo" href="{{ site.baseurl }}/index.html"><span class="name">{{ site.title}}</span></a>
         {% for link in site.data.nav %}
         <li><a class="fancy_nav" href="{{ site.baseurl }}{{ link.link }}">{{ link.name }}</a></li>
         {% endfor %}
