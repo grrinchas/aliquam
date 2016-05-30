@@ -14,10 +14,11 @@ h1, h2, h3 {
   color: $color-orange-dark;
   font-weight: normal;
   text-transform: capitalize;
+  line-height: 130%;
 }
+
 h1 {
   font-size: $f-s-XXXL;
-  line-height: 100%;
 }
 
 h2 {
@@ -27,6 +28,7 @@ h2 {
 
 h3 {
   font-size: $f-s-XL;
+  margin-top: $m-p-XXL;
 }
 small {
   font-size: $f-s-S;

@@ -19,7 +19,7 @@ Every programmer should know about VCS(Version Control System) especially GIT. T
 - [Branching](#branching)
 - [Combining](#combining)
 
-## <a name="first">First Steps</a>
+## <a name="first"></a>First Steps
 
 First thing which we have to do after installing GIT is to setup a name with an email and editor. `--global` option tells to set this variable in the `~/.gitconfig` rather locally in `.git/config`. Default is `--local` which sets options for specific repository.
 
@@ -192,7 +192,7 @@ Interactive staging
 git add -i
 {% endhighlight %}
 
-## <a name="commiting"></a>Committing
+## <a name="committing"></a>Committing
 
 To commit staged files.
 
