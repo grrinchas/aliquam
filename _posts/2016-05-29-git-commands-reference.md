@@ -8,19 +8,18 @@ tags:
 seo: Did you forget Git command or want to see some examples. Here is a list of the most popular Git commands.
 ---
 
-Every programmer should know about VCS(Version Control System) especially GIT. This post serves as reference for GIT commands. They are grouped by functionality and has short explanation above them. To learn more about GIT check [this]({{ site.baseurl }}/tags/git.html) out.
+Every programmer should know about VCS(Version Control System) especially GIT. This post serves as a short reference for most popular GIT commands. They are grouped by functionality and has a short explanation above them. To learn more about GIT check [this]({{ site.baseurl }}/tags/git.html) out.
 
 ## Table of Contents
 <p></p>
-- [General](#general)
-- [Importing](#importing)
-- [Get Information](#info)
+- [First Steps](#first)
+- [Information](#info)
 - [Staging](#staging)
-- [Commiting](#commiting)
+- [Committing](#committing)
 - [Branching](#branching)
-- [Merging](#merging)
+- [Combining](#combining)
 
-## <a name="general"></a>General
+## <a name="first">First Steps</a>
 
 First thing which we have to do after installing GIT is to setup a name with an email and editor. `--global` option tells to set this variable in the `~/.gitconfig` rather locally in `.git/config`. Default is `--local` which sets options for specific repository.
 
@@ -43,17 +42,6 @@ To get specific value.
 git config user.name
 {% endhighlight %}
 
-If you need any help, these commands will open `man` page. `verb` is command's name.
-
-{% highlight d linenos %}
-git help <verb>
-git <verb> --help
-man git-<verb>
-{% endhighlight %}
-
-
-## <a name="importing"></a>Importing
-
 To start track specific folder.
 
 {% highlight shell linenos %}
@@ -66,7 +54,16 @@ To clone remote repository.
 git clone <url>
 {% endhighlight %}
 
-## <a name="info"></a>Get Information
+If you need any help, these commands will open `man` page. `verb` is command's name.
+
+{% highlight d linenos %}
+git help <verb>
+git <verb> --help
+man git-<verb>
+{% endhighlight %}
+
+
+## <a name="info"></a>Information
 
 GIT Commands used for getting any kind of information about repository.
 
@@ -195,7 +192,7 @@ Interactive staging
 git add -i
 {% endhighlight %}
 
-## <a name="commiting"></a>Commiting
+## <a name="commiting"></a>Committing
 
 To commit staged files.
 
@@ -243,8 +240,16 @@ Delete a branch.
 git branch -d <branchName>
 {% endhighlight %}
 
-## <a name="merging"></a>Merging
+Delete remote branch.
+{% highlight shell linenos %}
+git push origin :<branchName>
+{% endhighlight %}
 
+## <a name="combining"></a>Combining
+
+Commands for merging and rebasing
+
+### Merge
 Merge a branch into current one.
 
 {% highlight shell linenos %}
