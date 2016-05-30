@@ -2,7 +2,7 @@
 
 Minimalistic Jekyll Theme for your blog
 
-Want example? [check this out](https://www.dennis-grinch.co.uk)
+Want example? [check this out](http://www.dennis-grinch.co.uk)
 
 
 
