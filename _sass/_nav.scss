@@ -10,10 +10,10 @@ a {
 a:visited {
   color: $color-blue-darker;
 }
-
 a:hover {
   text-decoration: underline;
 }
+
 
 nav > ul > li {
   display: inline-block;
@@ -28,62 +28,66 @@ nav > ul > li {
 /*************************************************************************/
 
 #main_nav {
-  padding: $m-p-L,;
-  border-bottom: 1px solid $color-grey;
-  ul {
-    text-align: center;
-    li {
-      margin: 0 $m-p-M;
-    }
-    li:first-child {
-      display: block;
-      margin-bottom: $m-p-M;
-    }
-  }
-}
-
-.logo {
-  font-weight: bold;
   font-size: $f-s-XL;
-  letter-spacing: $l-s-M;
-  text-transform: uppercase;
-  color: $color-orange;
+  ul {
+    li {
+      margin-top: $m-p-XL;
+      text-align: center;
+      display: block;
 
-  img {
-    @include box-size(3rem);
+    }
   }
 }
 
-.logo:visited {
-  color: $color-orange;
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  img {
+    width: 5.5rem;
+    height: 3.6rem;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    span {
+      padding-left: $m-p-XXS;
+      color: $color-white;
+      line-height: 120%;
+      white-space: nowrap;
+    }
+    span:first-child {
+      font-weight: bold;
+      font-size: $f-s-XL;
+    }
+    span:last-child {
+      text-transform: lowercase;
+      font-variant: small-caps;
+      font-size: $f-s-L;
+      letter-spacing: $l-s-M;
+    }
+  }
 }
-
-.logo:hover {
+#logo:hover {
   text-decoration: none;
 }
-
-.name {
-  color: $color-orange-dark;
-}
-
 
 /*************************************************************************
                             FANCY NAVIGATION
 /*************************************************************************/
 
 .fancy_nav {
-  @include init-con-font($color-black);
+  @include init-con-font($color-white);
   transition: $t-s-M;
   position: relative;
 }
 
 .fancy_nav:visited {
-  color: $color-black;
+  color: $color-white;
 }
 
 .fancy_nav:before {
   @include init-nav-hover(bottom);
-  background-color: $color-black;
 }
 
 .fancy_nav:hover {
@@ -92,7 +96,6 @@ nav > ul > li {
 
 .fancy_nav:after {
   @include init-nav-hover(top);
-  background-color: $color-black;
 }
 
 .fancy_nav:hover:before {

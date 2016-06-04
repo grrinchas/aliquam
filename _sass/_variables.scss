@@ -23,6 +23,9 @@ $m-p-L: increase-by-percentage($m-p-M, 50);
 $m-p-XL: increase-by-percentage($m-p-M, 100);
 $m-p-XXL: increase-by-percentage($m-p-M, 300);
 $m-p-XXXL: increase-by-percentage($m-p-M, 500);
+$m-p-Z: increase-by-percentage($m-p-M, 750);
+$m-p-XZ: increase-by-percentage($m-p-M, 1000);
+$m-p-XXZ: increase-by-percentage($m-p-M, 1250);
 
 // font families
 $font-family-merriweather: 'Merriweather', serif;
@@ -37,6 +40,9 @@ $f-s-L: increase-by-percentage($f-s-M, 25);
 $f-s-XL: increase-by-percentage($f-s-M, 50);
 $f-s-XXL: increase-by-percentage($f-s-M, 100);
 $f-s-XXXL: increase-by-percentage($f-s-M, 150);
+$f-s-Z: increase-by-percentage($f-s-M, 250);
+$f-s-XZ: increase-by-percentage($f-s-M, 350);
+
 
 // letter spacing (l-s)
 $l-s-M: 0.1rem;
@@ -58,4 +64,5 @@ $media-query-med-1: 30rem;
 $media-query-med-2: 40rem;
 $media-query-med-3: 50rem;
 $media-query-max: 55rem;
+$media-query-max-extra: 90rem;
 

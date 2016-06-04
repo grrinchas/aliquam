@@ -39,7 +39,7 @@ git config --list
 To get specific value.
 
 {% highlight shell linenos %}
-git config user.name
+git config <option>
 {% endhighlight %}
 
 To start track specific folder.
@@ -56,7 +56,7 @@ git clone <url>
 
 If you need any help, these commands will open `man` page. `verb` is command's name.
 
-{% highlight d linenos %}
+{% highlight shell linenos %}
 git help <verb>
 git <verb> --help
 man git-<verb>

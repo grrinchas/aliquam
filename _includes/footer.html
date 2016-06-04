@@ -1,3 +1,21 @@
+<blockquote>
+    <p>
+        {% if page.quote %}
+        {{ page.quote }}
+        {% else %}
+        {{ site.quote }}
+        {% endif %}
+    </p>
+    <footer>
+        &#45; <cite>
+        {% if page.quoteAuthor %}
+        {{ page.quoteAuthor }}
+        {% else %}
+        {{ site.quoteAuthor }}
+        {% endif %}
+    </cite>
+    </footer>
+</blockquote>
 <div id="footer_main">
     <small>
         &copy; 2016 {{ site.owner }}. ALL RIGHTS RESERVED.

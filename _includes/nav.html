@@ -1,12 +1,11 @@
 <nav id="main_nav">
     <ul>
-        <li><a class="logo" href="{{ site.baseurl }}/index.html"><span class="name">DG
-        </span>blog</a>
         <li><a class="fancy_nav" href="{{ site.baseurl }}/index.html">Home</a></li>
         {% for link in site.categories %}
         <li><a class="fancy_nav" href="{{ site.baseurl }}/categories/{{ link | first }}">{{ link | first }}</a></li>
         {% endfor %}
     </ul>
 </nav>
+
 
 

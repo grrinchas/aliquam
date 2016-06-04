@@ -19,11 +19,11 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
 }
-@mixin init-nav-hover($position, $color: $color-white) {
+@mixin init-nav-hover($position, $color: $color-orange) {
   content: "";
   position: absolute;
   width: 100%;
-  height: 1px;
+  height: 2px;
 
   @if ($position == "top") {
     top: 0;

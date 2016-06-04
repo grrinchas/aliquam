@@ -6,7 +6,8 @@ article {
   background-color: $color-white;
   margin: 0 0 $m-p-XXXL 0;
   padding: $m-p-M;
-
+  max-width: $media-query-max;
+  @include center-horizontally();
   header {
 
     time {
@@ -62,6 +63,9 @@ article {
       margin-right: $m-p-XS;
       @include disable-selection();
       background-color: lighten($color-black, 16);
+    }
+    .gp {
+      @include disable-selection();
     }
   }
 
