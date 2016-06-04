@@ -8,6 +8,8 @@ quote: A problem is nothing more than a wrong perspective.
 quoteAuthor: Dennis Grinch
 title: Dennis Grinch Blog - Programming tutorials for beginners
 
+include:
+  - pages
 # Following needed for disqus integration
 
 # Set your 'disqus' account name

@@ -17,6 +17,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: $f-s-XXXL;
+  text-transform: capitalize;
 }
 
 h2 {
@@ -34,7 +35,19 @@ hr {
   width: 100%;
 }
 
-
+.orange {
+  color: $color-orange;
+}
+.orange:visited {
+  color: $color-orange;
+}
+.orange:hover {
+  text-decoration: none;
+}
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
 /*************************************************************************
                                 LAYOUT
 /*************************************************************************/

@@ -5,7 +5,7 @@ comments: true
 category: reference
 tags:
     - git
-seo: Did you forget Git command or want to see some examples. Here is a list of the most popular Git commands.
+description: Did you forget Git command or want to see some examples. Here is a list of the most popular Git commands.
 ---
 
 Every programmer should know about VCS(Version Control System) especially GIT. This post serves as a short reference for most popular GIT commands. They are grouped by functionality and has a short explanation above them. To learn more about GIT check [this]({{ site.baseurl }}/tags/git.html) out.

@@ -4,30 +4,12 @@
 <body>
 <div id="wrapper">
     <header>
-        <div id="content">
-            <div>
-                {% include logo.html %}
-                {% include nav.html %}
-            </div>
-            <h1>
-                {% if page.category %}
-                {{ page.category }}
-                {% else if page.tag %}
-                {{ page.tag }}
-                {% endif %}
-                {% if page.category == nil and page.tag == nil %}
-                {{ page.title }}
-                {% endif %}
-            </h1>
-            {% if page.description %}
-            <p>{{ page.description }}</p>
-            {% endif %}
-        </div>
+        {% include header.html %}
     </header>
     <main id="start">
         {{ content }}
     </main>
-    {% include paginator.html %}
+        {% include paginator.html %}
     <footer>
         {% include footer.html %}
     </footer>

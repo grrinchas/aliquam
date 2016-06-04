@@ -1,9 +1,8 @@
 
 <nav class="tags">
     <ul>
-        <li ><img src="{{ site.baseurl }}/resources/images/tag.svg" alt="tag"></li>
         {% for tag in page.tags %}
-        <li><a href="{{ site.baseurl }}/tags/{{ tag }}.html">{{ tag }}</a></li>
+        <li><a  class="highlighter-rouge" href="{{ site.baseurl }}/tags/{{ tag }}.html">{{ tag }}</a></li>
         {% endfor %}
     </ul>
 </nav>

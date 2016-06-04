@@ -142,21 +142,21 @@ nav > ul > li {
 /*************************************************************************/
 
 .tags {
+  display: inline-block;
+  margin-top: $m-p-S;
   ul {
     li {
-      img {
-        vertical-align: middle;
-        @include box-size($social-s * 1.2);
-      }
       display: inline-block;
-      margin-left: $m-p-XXS;
-      a:after {
-        content: "\2C";
+      margin-right: $m-p-XXS;
+      a {
+        font-size: 1rem;
       }
-    }
-    li:last-child {
-      a:after {
-        content: '';
+      a:visited {
+        color: $color-grey-dark;
+      }
+      a:hover {
+        text-decoration: none;
+        background-color: $color-grey;
       }
     }
   }
