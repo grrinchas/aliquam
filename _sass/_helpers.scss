@@ -13,6 +13,14 @@
   margin: $margin-v auto;
 }
 
+@mixin center-absolute($margin-v: 0) {
+  display: block;
+  position: absolute;
+  margin: $margin-v auto;
+  left: 0;
+  right: 0;
+}
+
 @mixin disable-selection() {
   -webkit-user-select: none; /* Chrome/Safari/Opera */
   -moz-user-select: none; /* Firefox */

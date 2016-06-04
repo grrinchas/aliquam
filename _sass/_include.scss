@@ -3,11 +3,31 @@
 /*************************************************************************/
 
 article {
-  background-color: $color-white;
   margin: 0 0 $m-p-XXXL 0;
   padding: $m-p-M;
   max-width: $media-query-max;
   @include center-horizontally();
+
+  h1, h2, h3 {
+    color: $color-orange-dark;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  h1 {
+    margin: 0 0 $m-p-XS 0;
+    clear: both;
+  }
+  h2 {
+    margin-top: $m-p-XXXL;
+  }
+  h3 {
+    margin-top: $m-p-XXL;
+  }
+
+  > p, blockquote {
+    margin: $m-p-XL 0;
+  }
+
   header {
 
     time {
@@ -16,20 +36,10 @@ article {
     span {
       color: $color-grey-darker;
     }
-    h1 {
-      margin: 0 0 $m-p-XS 0;
-      font-weight: normal;
-      clear: both;
+    p {
+      font-family: $font-family-merriweather;
     }
   }
-
-  p {
-    font-family: $font-family-merriweather;
-  }
-
-
-
-
 
   ul, ol {
     list-style-position: inside;
@@ -51,7 +61,7 @@ article {
   blockquote {
     padding: $m-p-M;
     margin-left: $m-p-XL;
-    border-left: 3px solid $color-orange;
+    border-left: $border-s solid $color-orange;
     background-color: $color-white-grey;
   }
 
@@ -89,6 +99,7 @@ article {
   }
 
 }
+
 nav ul li:before {
   content: none;
 }

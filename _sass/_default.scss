@@ -11,10 +11,8 @@ html {
 }
 
 h1, h2, h3 {
-  color: $color-orange-dark;
-  font-weight: normal;
-  text-transform: capitalize;
   line-height: 130%;
+  color: $color-white;
 }
 
 h1 {
@@ -23,34 +21,27 @@ h1 {
 
 h2 {
   font-size: $f-s-XXL;
-  margin-top: $m-p-XXXL;
 }
 
 h3 {
   font-size: $f-s-XL;
-  margin-top: $m-p-XXL;
 }
 small {
   font-size: $f-s-S;
 }
 
-article > p, blockquote {
-  margin: $m-p-XL 0;
-}
-
 hr {
   width: 100%;
 }
+
+
 /*************************************************************************
                                 LAYOUT
 /*************************************************************************/
 
 body {
-  color: $color-black;
-  background-image: url("/resources/images/main_front.jpg");
-  background-repeat: no-repeat;
+  background: url("/resources/images/main_front.jpg") no-repeat fixed;
   background-size: cover;
-  background-attachment: fixed;
 
   #wrapper {
     font-family: $font-family-open-sans;
@@ -58,14 +49,10 @@ body {
     min-width: $media-query-min;
 
     > header {
-      padding-top: $m-p-XXXL;
-
       #content {
-        padding: 0 $m-p-M;
-        display: block;
-        padding-bottom: 6rem;
-        max-width: 90rem;
         @include center-horizontally();
+        padding: $m-p-XXXL $m-p-M;
+        max-width: $media-query-max-extra;
 
         div:first-child {
           display: flex;
@@ -73,65 +60,54 @@ body {
           justify-content: space-between;
         }
 
-        h1 {
+        h1, p {
           text-align: center;
-          color: $color-white;
-          font-size: 3rem;
-          margin-top: 12rem;
-          font-weight: 700;
-        }
-        p {
-          text-align: center;
-          margin-top: $m-p-M;
-          color: $color-white;
-          font-size: 1.5rem;
         }
 
+        h1 {
+          margin-top: $m-p-XZ;
+        }
+        p {
+          color: $color-white;
+          margin-top: $m-p-M;
+          font-size: $f-s-XL;
+        }
       }
     }
 
     main {
-      width: 100%;
       background-color: $color-white;
-      @include center-horizontally();
       padding-top: $m-p-XXXL;
       padding-bottom: $m-p-XL;
     }
 
     > footer {
-      background-color: $color-black;
-      margin-top: 20rem;
       position: relative;
+      background-color: $color-black;
+      margin-top: $m-p-XXZ * 1.7;
 
       blockquote {
-        display: block;
-        position: absolute;
-        line-height: 150%;
-        top: -12rem;
+        @include center-absolute();
         color: $color-white;
+        line-height: 150%;
+        top: -$m-p-XXZ;
         font-size: $f-s-XL;
         max-width: $media-query-max;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
 
         p {
           text-align: center;
         }
         p:before {
-          display: block;
+          @include center-absolute();
           content: "";
           background: url("/resources/images/quotes.svg");
           background-size: 3rem 2rem;
           width: 3rem;
           height: 2rem;
-          position: absolute;
-          left: 0;
-          right: 0;
-          margin: 0 auto;
-          top: -4rem;
-          font-size: 5rem;
+          top: -$m-p-XXL;
+          font-size: $f-s-Z;
         }
+
         footer {
           padding-right: $m-p-M;
           text-align: right;
