@@ -50,8 +50,14 @@ truncate_size: 30
 include:  ["_pages"]
 sass:
   sass_dir: _sass
+sass:
+    style: compressed
 
 
-gems: [jekyll-paginate]
-paginate_path: /_pages/page:num
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap # add /sitemap.xml file
+  - jekyll-seo-tag # seo meta tag & json-ld
+  - jekyll-feed # add /feed.xml file
 
+paginate_path: /pages/page:num
