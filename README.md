@@ -23,6 +23,8 @@ Want example? [check this out](http://grrinchas.github.io/aliquam/)
 - Google analytics
 - Pagination support
 - Custom tags and categories
+- Google Analytics
+- SEO support
 
 ## <a name="installation"></a>Installation
 
@@ -55,14 +57,13 @@ All configuration is done via `_config.yml` file which you will find in your mai
 - `disqus: "<disqusName>"` - Your disqus name. First you have to create account with [Disqus](https://disqus.com/).
 - `owner: "<name surname>"` - Change this to your own name, need for copyright in the footer.
 - `title: "<title>"` and `subtitle: "<subtitle>"` Change to your preferred title/subtitle.
-- `baseurl: "<branchName>"` - Change this to your branch name where _gh-pages_ resides. !NOTE apply only if you used __Method 2__ for installation.
+- `baseurl: "/<branchName>"` - Change this to your branch name where _gh-pages_ resides. !NOTE apply only if you used __Method 2__ for installation.
+- `google_analytics: <your_ID>` - Change this to your google analytics ID.
 
 ## <a name="todo"></a>TODO
 
-- Add archive support
 - Add contact form and newsletter
 - Add social media buttons
-- Add SEO
 
 ## <a name="license"></a>License
 
