@@ -1,0 +1,64 @@
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  div {
+    display: block;
+    position: relative;
+    height: $m-p-L;
+    width: 20rem;
+    margin-bottom: $m-p-XS;
+    p {
+      height: inherit;
+      display: block;
+      position: absolute;
+      z-index: 1;
+      line-height: 110%;
+      width: 100%;
+    }
+    p span {
+      height: inherit;
+      display: inline-block;
+      padding: 0 $m-p-XS;
+    }
+    p span:first-child {
+      background-color: rgba(0, 0, 0, 0.3);
+      color: $color-white;
+    }
+    p span:last-child {
+      float: right;
+      color: $color-black;
+    }
+  }
+
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  width: inherit;
+  height: inherit;
+  display: block;
+  position: relative;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: $color-grey;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
+  -webkit-linear-gradient($color-orange, $color-orange);
+  background-size: 35px 24px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
+  -moz-linear-gradient($color-orange, $color-orange);
+  background-size: 35px 24px, 100% 100%, 100% 100%;
+}

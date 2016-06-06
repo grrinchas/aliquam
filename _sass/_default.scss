@@ -27,6 +27,7 @@ h2 {
 h3 {
   font-size: $f-s-XL;
 }
+
 small {
   font-size: $f-s-S;
 }
@@ -38,16 +39,20 @@ hr {
 .orange {
   color: $color-orange;
 }
+
 .orange:visited {
   color: $color-orange;
 }
+
 .orange:hover {
   text-decoration: none;
 }
+
 sup {
   vertical-align: super;
   font-size: smaller;
 }
+
 /*************************************************************************
                                 LAYOUT
 /*************************************************************************/
@@ -130,3 +135,5 @@ body {
     }
   }
 }
+
+

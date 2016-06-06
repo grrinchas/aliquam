@@ -1,7 +1,5 @@
 <article>
-    {% if page.comments %}
     {% include article_header.html %}
-    {% endif %}
     <p>{{ page.content | strip_html | truncatewords: site.truncate_size }}<a class="h1_link" href="{{ site.baseurl }}{{ page.url }}">&raquo;</a></p>
 
 </article>

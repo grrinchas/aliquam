@@ -1,17 +1,17 @@
 <blockquote>
     <p>
         {% if page.quote %}
-        {{ page.quote }}
+        {{ page.quote["quote"] }}
         {% else %}
-        {{ site.quote }}
+        {{ site.quote["quote"] }}
         {% endif %}
     </p>
     <footer>
         &#45; <cite>
-        {% if page.quoteAuthor %}
-        {{ page.quoteAuthor }}
+        {% if page.quote %}
+        {{ page.quote["author"] }}
         {% else %}
-        {{ site.quoteAuthor }}
+        {{ site.quote["author"] }}
         {% endif %}
     </cite>
     </footer>

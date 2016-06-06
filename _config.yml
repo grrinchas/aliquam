@@ -4,8 +4,10 @@
 ##########################################
 
 owner: Dennis Grinch
-quote: A problem is nothing more than a wrong perspective.
-quoteAuthor: Dennis Grinch
+quote:
+  quote: A problem is nothing more than a wrong perspective.
+  author: Dennis Grinch
+
 title: Dennis Grinch Blog - Programming tutorials for beginners
 
 include:

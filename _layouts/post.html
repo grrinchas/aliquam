@@ -2,7 +2,9 @@
 layout: default
 ---
 <article>
+    {% if page.comments %}
     {% include article_header.html %}
+    {% endif %}
     {{ page.content }}
     <footer>
     </footer>
