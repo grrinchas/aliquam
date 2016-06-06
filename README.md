@@ -23,7 +23,6 @@ Want example? [check this out](http://grrinchas.github.io/aliquam/)
 - Google analytics
 - Pagination support
 - Custom tags and categories
-- Google Analytics
 - SEO support
 
 ## <a name="installation"></a>Installation
@@ -47,7 +46,7 @@ Want example? [check this out](http://grrinchas.github.io/aliquam/)
 #### Method 3: run it locally
 
 1. Download [zip](https://github.com/grrinchas/aliquam/archive/master.zip) or clone it `git clone https://github.com/grrinchas/aliquam`.
-2. Go inside of folder and run `jekyll serve` or `bundle exec jekyll s`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
+2. Go inside folder and run `jekyll serve` or `bundle exec jekyll s`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
 
 ## <a name="configuration"></a>Configuration
 
