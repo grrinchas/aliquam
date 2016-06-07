@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-<body>
+
+<body
+        {% if page.class %}
+        class="{{ page.class }}"
+        {% endif %}
+>
 <div id="wrapper">
     <header>
-        {% include header.html %}
+    {% include header.html %}
     </header>
     <main id="start">
         {{ content }}
     </main>
-        {% include paginator.html %}
+    {% include paginator.html %}
     <footer>
         {% include footer.html %}
     </footer>

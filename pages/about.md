@@ -4,15 +4,13 @@ title: About
 comments: false
 description: More information about me and this website.
 quote:
-    quote: The best things in life comes the hard way.
+    quote: The best things in life come the hard way.
     author: Dennis Grinch
 ---
 
-### Who am I?
+# About me
 
 My name is Dennis Grinch. I am 2<sup>nd</sup> year Computer Science student at [University of Brighton](https://www.brighton.ac.uk/index.aspx), UK.
-
-### Why this website?
 
 
 ### What skills do I have?
@@ -54,6 +52,11 @@ A [portfolio]({{ site.baseurl }}/categories/portfolio) can say thousandths of wo
 </div>
 
 <div>
+<p><span>UX priciples</span><span>50%</span></p>
+<progress value="50" max="100"></progress>
+</div>
+
+<div>
 <p><span>C/C++</span><span>20%</span></p>
 <progress value="20" max="100"></progress>
 </div>
@@ -64,8 +67,21 @@ A [portfolio]({{ site.baseurl }}/categories/portfolio) can say thousandths of wo
 </div>
 </div>
 
-### How to contact me?
+### How can I help you?
 
-You can send me an <a href="mailto:dg4675dg@gmail.com">email</a>.
+I can deliver simple, but well crafted website, mobile or desktop application for your business or charity organization.
+
+### Why this website?
+
+<p></P>
+- To organize my knowledge base.
+- To help others by writing tutorials.
+- To increase weight of my portfolio.
+
+### Contact form
+<p></p>
+
+{% include contact_form.html %}
+
 
 

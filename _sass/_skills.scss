@@ -51,14 +51,9 @@ progress[value]::-webkit-progress-bar {
 }
 
 progress[value]::-webkit-progress-value {
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
-  -webkit-linear-gradient($color-orange, $color-orange);
-  background-size: 35px 24px, 100% 100%, 100% 100%;
+ @include button-style-webkit(true);
 }
 
 progress[value]::-moz-progress-bar {
-
-  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
-  -moz-linear-gradient($color-orange, $color-orange);
-  background-size: 35px 24px, 100% 100%, 100% 100%;
+ @include button-style-moz(true);
 }

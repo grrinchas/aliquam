@@ -13,6 +13,22 @@
   margin: $margin-v auto;
 }
 
+
+@mixin button-style-webkit($progress:false, $color:$color-orange) {
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
+  -webkit-linear-gradient($color-orange, $color);
+  @if $progress == true {
+    background-size: 35px 24px, 100% 100%, 100% 100%;
+  }
+}
+
+@mixin button-style-moz($progress:false, $color:$color-orange) {
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
+  -moz-linear-gradient($color-orange, $color);
+  @if $progress == true {
+    background-size: 35px 24px, 100% 100%, 100% 100%;
+  }
+}
 @mixin center-absolute($margin-v: 0) {
   display: block;
   position: absolute;
