@@ -24,6 +24,7 @@ Want example? [check this out](http://grrinchas.github.io/aliquam/)
 - Pagination support
 - Custom tags and categories
 - SEO support
+- Contact form integration
 
 ## <a name="installation"></a>Installation
 
