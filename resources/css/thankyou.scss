@@ -1,0 +1,16 @@
+---
+---
+
+article {
+  h1, p {
+    text-align: center;
+  }
+  h1:before {
+    line-height: 100%;
+    display: block;
+    content:'\2713';
+    color: #1BA914;
+    font-weight: bold;
+    font-size: 10rem;
+  }
+}

@@ -29,6 +29,9 @@ baseurl:
 # Change this to your google analytics ID
 google_analytics:
 
+# Change this to your http://getsimpleform.com public key
+contact_PK:
+
 ##########################################
 #          Optional variables
 ##########################################
@@ -47,7 +50,8 @@ truncate_size: 30
 #          Do not change these variables
 ##########################################
 
-include:  ["_pages"]
+include:  ["pages"]
+
 sass:
   sass_dir: _sass
 sass:

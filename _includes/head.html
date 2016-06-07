@@ -11,6 +11,9 @@
 
     <meta name="viewport" content="device=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="{{ site.baseurl }}/resources/css/main.css"/>
+    {% if page.css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ page.css }}"/>
+    {% endif %}
     {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
