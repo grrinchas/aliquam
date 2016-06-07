@@ -70,7 +70,6 @@ To get your public key:
 
 ## <a name="todo"></a>TODO
 
-- Add contact form and newsletter
 - Add social media buttons
 
 ## <a name="license"></a>License
