@@ -59,7 +59,9 @@ All configuration is done via `_config.yml` file which you will find in your mai
 - `baseurl: "/<branchName>"` - Change this to your branch name where _gh-pages_ resides. !NOTE apply only if you used __Method 2__ for installation.
 - `google_analytics: <your_ID>` - Change this to your google analytics ID.
 - `contact_PK: <yourPublicKey>` - Change this to your [http://getsimpleform.com](http://getsimpleform.com) public key.
+
 To get your public key:
+
 1. Got to [http://getsimpleform.com](http://getsimpleform.com).
 2. Enter your email and press `Send me a token`.
 3. Go to your email and copy your token `Your form api token is <token>`. !NOTE do not copy your private key.
