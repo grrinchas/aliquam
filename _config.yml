@@ -30,7 +30,7 @@ baseurl:
 google_analytics: 69834901
 
 # Change this to your http://getsimpleform.com public key
-contact_PK:
+contact_PK: e78485c59d8e218d08bb4c4c87071243
 
 ##########################################
 #          Optional variables
