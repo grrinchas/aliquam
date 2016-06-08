@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Jekyll Theme
+title: Hello World
 comments: true
 category: portfolio
 tags:
@@ -9,23 +9,21 @@ tags:
     - theme
 ---
 
-Paragraph ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+This is the first line.
 
-## Header h2 ##
+## Title 1 ##
 
 
-Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+first link
 [Link to google](http://google.co.uk)
-Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+continue
 
 
-### Header h3 ###
+### title 2 ###
 
-**This is strong text (strong)**
+**Bold**
 
-_This is Italic text (em)_
-
-[Link to google](http://google.co.uk)
+_ Italic _
 
 > This is block quote.
 
@@ -42,8 +40,6 @@ _This is Italic text (em)_
     3. Ordered list item
 * This is list item 5
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.E
-
 <p class="highlighter-header">HTML</p>
 {% highlight html linenos %}
 <article>
@@ -59,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 ## Another header h2 ##
 
-Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+I love Vera!
 
 <p class="highlighter-header">JAVA</p>
 {% highlight java linenos %}
@@ -99,6 +95,5 @@ public class GetTailMapFromTreeMapExample {
   }
 }
 {% endhighlight %}
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
 
+last line.
