@@ -29,7 +29,11 @@ article {
   }
 
   header {
-
+    img {
+      @include center-horizontally();
+      margin-top: $m-p-M;
+      width: 100%;
+    }
     time {
       @include init-con-font($color-grey-dark);
     }
