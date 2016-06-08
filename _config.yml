@@ -13,21 +13,21 @@ subtitle: blog
 # Following needed for disqus integration
 
 # Set your 'disqus' account name
-disqus:rabbit5024
+disqus: rabbit5024
 
 # Uncomment if deployed locally
 # url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-url:https://github.com/Boyang--Li/boyang--li.github.io
+url: https://boyang--li.github.io
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
 baseurl:
 
 # Change this to your google analytics ID
-google_analytics:69834901
+google_analytics: 69834901
 
 # Change this to your http://getsimpleform.com public key
 contact_PK:
