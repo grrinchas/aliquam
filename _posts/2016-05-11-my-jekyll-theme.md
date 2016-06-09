@@ -13,22 +13,17 @@ This is the first line.
 
 ## Title 1 ##
 
-
 first link
 [Link to google](http://google.co.uk)
 continue
 
-
 ### title 2 ###
 
 **Bold**
-
 _ Italic _
-
 > This is block quote.
 
 `HTML code example`
-
 * This is list item 1
 * This is list item 2
 * This is list item 3
@@ -51,10 +46,7 @@ _ Italic _
 </article>
 {% endhighlight %}
 
-
-
 ## Another header h2 ##
-
 I love Vera!
 
 <p class="highlighter-header">JAVA</p>
@@ -95,5 +87,3 @@ public class GetTailMapFromTreeMapExample {
   }
 }
 {% endhighlight %}
-
-last line.
