@@ -1,17 +1,15 @@
-
 ##########################################
 #     Change these variables !important
 ##########################################
 
 owner: Boyang LI
-
 title: Boyang's Website
+timezone: Aisa/Hong_Kong
 
 # Set subtitle e.g "blog"
-subtitle: blog
+subtitle: 李博扬
 
 # Following needed for disqus integration
-
 # Set your 'disqus' account name
 disqus: rabbit5024
 
@@ -30,18 +28,17 @@ baseurl:
 google_analytics: 69834901
 
 # Change this to your http://getsimpleform.com public key
-contact_PK:
+contact_PK: e78485c59d8e218d08bb4c4c87071243
 
 ##########################################
 #          Optional variables
 ##########################################
 
-
 # Set maximum posts per page
 paginate: 5
 
 # Set permalink
-permalink: /:categories/:title
+permalink: /404.html
 
 # Set excerpt separator
 truncate_size: 30
@@ -56,7 +53,6 @@ sass:
   sass_dir: _sass
 sass:
     style: compressed
-
 
 gems:
   - jekyll-paginate

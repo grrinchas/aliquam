@@ -38,7 +38,7 @@ contact_PK: e78485c59d8e218d08bb4c4c87071243
 paginate: 5
 
 # Set permalink
-permalink: /404.html
+permalink:
 
 # Set excerpt separator
 truncate_size: 30
