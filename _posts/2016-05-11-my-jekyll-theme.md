@@ -6,7 +6,6 @@ category: portfolio
 tags:
     - web-development
     - jekyll
-    - theme
 ---
 
 This is the first line.

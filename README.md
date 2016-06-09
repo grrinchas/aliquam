@@ -29,3 +29,5 @@ Want real life example? [check this out](http://grrinchas.github.io/)
 
 This project is licensed under the MIT License - see [The MIT License (MIT)](https://opensource.org/licenses/MIT)
 for more details.
+
+Test in local computer: bundle exec jekyll serve
