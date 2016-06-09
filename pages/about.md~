@@ -4,8 +4,5 @@ title: About
 comments: false
 ---
 
-My name is Boyang Li.
-I am a PhD student in HK PolyU.
-
 <p></p>
 {% include contact_form.html %}
