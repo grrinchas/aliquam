@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: page
 title: About
-comments: false
 description: More information about me and this website.
 quote:
     quote: The best things in life come the hard way.
@@ -13,7 +12,7 @@ quote:
 My name is Dennis Grinch. I am 2<sup>nd</sup> year Computer Science student at [University of Brighton](https://www.brighton.ac.uk/index.aspx), UK.
 
 
-### What skills do I have?
+## What skills do I have?
 
 A [portfolio]({{ site.baseurl }}/categories/portfolio) can say thousandths of words.
 
@@ -67,19 +66,17 @@ A [portfolio]({{ site.baseurl }}/categories/portfolio) can say thousandths of wo
 </div>
 </div>
 
-### How can I help you?
+## How can I help you?
 
 I can deliver simple, but well crafted website, mobile or desktop application for your business or charity organization.
 
-### Why this website?
+## Why this website?
 
-<p></P>
 - To organize my knowledge base.
 - To help others by writing tutorials.
 - To increase weight of my portfolio.
 
-### Contact form
-<p></p>
+## Contact form
 
 {% include contact_form.html %}
 

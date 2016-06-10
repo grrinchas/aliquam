@@ -1,0 +1,119 @@
+/*************************************************************************
+                            BEFORE
+/*************************************************************************/
+
+#footer-quote p:before {
+  content: "";
+  display: block;
+  text-align: center;
+  background: url("/resources/images/quotes.svg");
+  background-size: 3rem 2.25rem;
+  width: 3rem;
+  height: 2.25rem;
+  margin: 0 auto $l-h-baseline;
+  padding-bottom: $l-h-baseline;
+  max-width: $media-query-max;
+}
+
+article > ul > li:before{
+  content: "\00BB \0020";
+  color: $color-orange;
+  margin-right: $l-h-baseline / 3;
+}
+
+article >  ol > li:before {
+  content: "";
+  width: 0.2rem;
+  display: inline-block;
+}
+
+.fancy-nav:before {
+  @include init-nav-hover(bottom);
+}
+/*************************************************************************
+                            AFTER
+/*************************************************************************/
+
+.paginator .fancy-nav:before,
+.paginator .fancy-nav:after {
+  background-color: $color-grey-dark;
+}
+
+.fancy-nav:after {
+  @include init-nav-hover(top);
+}
+
+/*************************************************************************
+                            HOVER
+/*************************************************************************/
+
+abbr {
+  cursor: default;
+}
+
+.contact-form input[type="submit"] {
+  cursor: pointer;
+}
+
+#logo:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.link-to-post:hover {
+  text-decoration: none;
+  color: darken($color-orange-dark, 5);
+}
+
+.contact-form input[type="submit"]:hover {
+  @include button-style-webkit(false, $color-orange-dark);
+  @include button-style-moz(false, $color-orange-dark);
+}
+
+.fancy-nav:hover {
+  text-decoration: none;
+}
+
+//---------------------------BEFORE
+.fancy-nav:hover:before {
+  transform: scaleX(1);
+}
+
+//---------------------------AFTER
+.fancy-nav:hover:after {
+  transform: scaleX(1);
+}
+
+/*************************************************************************
+                            VISITED
+/*************************************************************************/
+
+a:visited {
+  color: $color-blue-darker;
+}
+
+.paginator .fancy-nav:visited {
+  color: $color-grey-dark;
+}
+
+#main-nav .fancy-nav:visited {
+  color: $color-white;
+}
+
+.link-to-post:visited {
+  color: $color-orange-dark;
+}
+
+/*************************************************************************
+                            FOCUS
+/*************************************************************************/
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: rgba($color-orange-dark, 0.8);
+  box-shadow: 0 1px 1px rgba($color-orange, 0.075) inset, 0 0 4px rgba($color-orange-dark, 0.6);
+  outline: 0 none;
+}

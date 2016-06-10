@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: page
 title: Thank You!
 comments: false
-class: hideHeader
+css: /thankyou.css
 ---
 
 # __THANK YOU!__

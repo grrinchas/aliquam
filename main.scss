@@ -1,17 +1,16 @@
 ---
 ---
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:300);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 @import "reset";
 @import "helpers";
 @import "variables";
+@import "colour";
+@import "typography";
 @import "default";
-@import "include";
-@import "contact_form";
+@import "box_model";
 @import "skills";
-@import "nav";
-@import "custom_pages";
-@import "footer";
+@import "pseudo";
 @import "media";
 @import "darcula";

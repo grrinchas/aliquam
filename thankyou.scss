@@ -1,5 +1,8 @@
+---
+---
 
-.hideHeader {
+@import "variables";
+body {
   #wrapper {
     header h1 {
       display: none;
@@ -10,12 +13,11 @@
       text-align: center;
     }
     h1:before {
-      line-height: 100%;
       display: block;
       content:'\2713';
-      color: #1BA914;
       font-weight: bold;
-      font-size: 10rem;
+      font-size: 9.445rem;
+      color: $color-green;
     }
   }
 }

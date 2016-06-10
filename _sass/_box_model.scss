@@ -1,0 +1,205 @@
+/*************************************************************************
+                             MARGIN
+/*************************************************************************/
+
+//---------------------------CENTER
+.punch-line,
+article,
+#footer-quote {
+  margin: 0 auto;
+}
+
+//---------------------------MARGIN-BOTTOM=BASELINE
+article > blockquote {
+  margin-bottom: $l-h-baseline;
+}
+
+//---------------------------MARGIN-LEFT=BASELINE
+.sep,
+article ul ul,
+article ul ol,
+article ol ul,
+article ol ol,
+article > blockquote {
+  margin-left: $l-h-baseline;
+}
+
+//---------------------------MARGIN-RIGTH=BASELINE
+.sep {
+  margin-right: $l-h-baseline;
+}
+
+figure {
+  margin-bottom: $l-h-baseline !important;
+}
+
+//---------------------------MARGIN-RIGHT=0.5-BASELINE
+.lineno {
+  margin-right: $l-h-baseline-half;
+}
+
+.highlighter-header {
+  padding-right: $l-h-baseline-half;
+}
+
+//---------------------------MARGIN-BOTTOM=0.5-BASELINE
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: $l-h-baseline-half;
+}
+
+//---------------------------MISC
+.contact-form input[type="submit"] {
+  margin-bottom: $l-h-baseline * 0.1;
+}
+
+/*************************************************************************
+                             PADDING
+/*************************************************************************/
+
+//---------------------------PADDING=BASELINE
+#footer-quote {
+  padding: $l-h-baseline;
+}
+
+//---------------------------PADDING=0.5-BASELINE
+.paginator ul,
+main {
+  padding: $l-h-baseline-half;
+}
+
+//---------------------------PADDING-BOTTOM=BASELINE
+#main-nav ul,
+p,
+ul,
+ol,
+#footer-main {
+  padding-bottom: $l-h-baseline;
+}
+
+//---------------------------PADDING-TOP=BASELINE
+h2,
+#footer-main {
+  padding-top: $l-h-baseline;
+}
+
+//---------------------------PADDING-TOP=0.5-BASELINE
+article blockquote {
+  padding-top: $l-h-baseline-half;
+}
+
+//---------------------------PADDING-BOTTOM=0.5-BASELINE
+article blockquote {
+  padding-bottom: $l-h-baseline-half;
+}
+
+//---------------------------PADDING-TOP=2-BASELINE
+#content,
+.punch-line,
+#main-nav ul,
+#disqus_thread {
+  padding-top: $l-h-baseline * 2;
+}
+//---------------------------PADDING-BOTTOM=2-BASELINE
+.punch-line,
+article {
+  padding-bottom: $l-h-baseline * 2;
+}
+
+//---------------------------PADDING-RIGHT=0.5-BASELINE
+
+.highlighter-header {
+  padding-right: $l-h-baseline-half;
+}
+
+
+//---------------------------PADDING-RIGHT=BASELINE
+
+article blockquote {
+  padding-right: $l-h-baseline;
+}
+
+//---------------------------PADDING-LEFT=BASELINE
+article blockquote {
+  padding-left: $l-h-baseline;
+}
+
+//---------------------------PADDING-LEFT=0.5-BASELINE
+#wrapper > header {
+  padding-left: $l-h-baseline-half;
+}
+
+//---------------------------PADDING-RIGHT=0.5-BASELINE
+#wrapper > header {
+  padding-right: $l-h-baseline-half;
+}
+
+//---------------------------PADDING-LEFT=0.25-BASELINE
+.highlighter-rouge {
+  padding-left: $l-h-baseline-quarter;
+}
+
+//---------------------------PADDING-RIGHT=0.25-BASELINE
+.highlighter-rouge {
+  padding-right: $l-h-baseline-quarter;
+}
+
+//---------------------------MISC
+h1 {
+  padding-bottom: 0.35rem;
+}
+
+h2 {
+  padding-bottom: 1.133rem;
+}
+
+h3 {
+  padding: $l-h-baseline * 0.8 0;
+}
+
+.lineno {
+  padding: $l-h-baseline * 0.38;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.52rem;
+}
+
+article ul ul,
+article ul ol,
+article ol ul,
+article ol ol {
+  padding-bottom: 0;
+}
+.post-meta {
+  padding-bottom: 0.66rem;
+}
+/*************************************************************************
+                             BORDER
+/*************************************************************************/
+
+.highlighter-rouge {
+  border: 1px solid $color-grey;
+}
+
+article blockquote {
+  border-left: $border-s solid $color-orange;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid darken($color-grey, 25);
+}
+
+abbr {
+  border-bottom: 1px dashed;
+}
+
+.contact-form input[type="submit"] {
+  border: none;
+}
+
+.sep {
+  border-left: $border-s $color-grey-dark dotted;
+}

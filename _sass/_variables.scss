@@ -4,6 +4,7 @@ $color-white: #fcfcfc;
 $color-orange: #d16b19;
 $color-grey-dark: #5a5a5a;
 $color-blue: #197fd1;
+$color-green: #1BA914;
 $color-blue-darker: darken($color-blue, 8);
 $color-white-grey: darken($color-white, 4);
 $color-grey: darken($color-white, 10);
@@ -11,38 +12,29 @@ $color-grey-darker: darken($color-grey, 7);
 $color-orange-dark: darken($color-orange, 12);
 
 // sizes
-$social-s: 1rem;
 $border-s: 4px;
 
-// margin padding (m-p)
-$m-p-M: 1rem;
-$m-p-S: decrease-by-percentage($m-p-M, 15);
-$m-p-XS: decrease-by-percentage($m-p-M, 25);
-$m-p-XXS: decrease-by-percentage($m-p-M, 50);
-$m-p-L: increase-by-percentage($m-p-M, 50);
-$m-p-XL: increase-by-percentage($m-p-M, 100);
-$m-p-XXL: increase-by-percentage($m-p-M, 300);
-$m-p-XXXL: increase-by-percentage($m-p-M, 500);
-$m-p-Z: increase-by-percentage($m-p-M, 750);
-$m-p-XZ: increase-by-percentage($m-p-M, 1000);
-$m-p-XXZ: increase-by-percentage($m-p-M, 1250);
-
 // font families
-$font-family-merriweather: 'Merriweather', serif;
 $font-family-open-sans-condensed: 'Open Sans Condensed', sans-serif;
 $font-family-open-sans: 'Open Sans', sans-serif;
+$font-family-droid-serif: 'Droid Serif', serif;
 
 // font size (f-s)
 $f-s-M: 1rem;
-$f-s-S: decrease-by-percentage($f-s-M, 15);
-$f-s-XS: decrease-by-percentage($f-s-M, 25);
-$f-s-L: increase-by-percentage($f-s-M, 25);
-$f-s-XL: increase-by-percentage($f-s-M, 50);
-$f-s-XXL: increase-by-percentage($f-s-M, 100);
-$f-s-XXXL: increase-by-percentage($f-s-M, 150);
-$f-s-Z: increase-by-percentage($f-s-M, 250);
-$f-s-XZ: increase-by-percentage($f-s-M, 350);
+$f-s-S: decrease-by-percentage($f-s-M, 30);
+$f-s-1-25M: increase-by-percentage($f-s-M, 25);
+$f-s-1-5M: increase-by-percentage($f-s-M, 50);
+$f-s-2M: increase-by-percentage($f-s-M, 100);
 
+// line height (l-h)
+$l-h-2-1: 2.1;
+$l-h-1-5: 1.7;
+$l-h-1-25: 1.25;
+$l-h-1-15: 1.15;
+
+$l-h-baseline: $f-s-M * 1.5;
+$l-h-baseline-half: $l-h-baseline * 0.5;
+$l-h-baseline-quarter: $l-h-baseline * 0.25;
 
 // letter spacing (l-s)
 $l-s-M: 0.1rem;
@@ -62,7 +54,6 @@ $t-s-L: decrease-by-percentage($t-s-M, 33);
 $media-query-min: 22rem;
 $media-query-med-1: 30rem;
 $media-query-med-2: 40rem;
-$media-query-med-3: 50rem;
-$media-query-max: 55rem;
-$media-query-max-extra: 90rem;
+$media-query-max: $f-s-M * 1.5 * 26;
+$media-query-max-extra: 80rem;
 

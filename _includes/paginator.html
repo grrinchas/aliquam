@@ -2,24 +2,24 @@
     <ul>
         {% if paginator.page %}
         {% if paginator.previous_page %}
-        <li><a class="fancy_nav" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">&lt;&nbsp;&nbsp; Previous</a></li>
+        <li><a class="fancy-nav" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">&lt;&nbsp;&nbsp; Previous</a></li>
         {% endif %}
         <li class="sep">&nbsp;</li>
-        <li><a class="fancy_nav" href="#">Top</a></li>
+        <li><a class="fancy-nav" href="#">Top</a></li>
         <li class="sep">&nbsp;</li>
         {% if paginator.next_page %}
-        <li><a class="fancy_nav" href="{{ site.baseurl }}{{ paginator.next_page_path }}">Next&nbsp;&nbsp;&gt;</a></li>
+        <li><a class="fancy-nav" href="{{ site.baseurl }}{{ paginator.next_page_path }}">Next&nbsp;&nbsp;&gt;</a></li>
         {% endif %}
 
         {% else %}
         {% if page.previous.url %}
-        <li><a class="fancy_nav" href="{{ site.baseurl }}{{ page.previous.url }}">&lt;&nbsp;&nbsp; Previous</a></li>
+        <li><a class="fancy-nav" href="{{ site.baseurl }}{{ page.previous.url }}">&lt;&nbsp;&nbsp; Previous</a></li>
         {% endif %}
         <li class="sep">&nbsp;</li>
-        <li><a class="fancy_nav" href="#">Top</a></li>
+        <li><a class="fancy-nav" href="#">Top</a></li>
         <li class="sep">&nbsp;</li>
         {% if page.next.url %}
-        <li><a class="fancy_nav" href="{{ site.baseurl }}{{ page.next.url }}">Next&nbsp;&nbsp;&gt;</a></li>
+        <li><a class="fancy-nav" href="{{ site.baseurl }}{{ page.next.url }}">Next&nbsp;&nbsp;&gt;</a></li>
         {% endif %}
         {% endif %}
     </ul>

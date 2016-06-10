@@ -1,0 +1,14 @@
+<div class="post-meta">
+    <small>
+        <time datetime="{{ page.date | date: '%d %m %Y' }}">
+            {{ page.date | date: "%d %B, %Y" }}
+        </time>
+        <span class="tag-sep"> | </span>
+        {% if page.comments %}
+        <a class="comment_count" href="{{ site.baseurl }}{{ page.url }}#disqus_thread"
+           data-disqus-identifier="{{ page.id }}"></a>
+        <span class="tag-sep"> | </span>
+        {% endif %}
+        {% include tags.html %}
+    </small>
+</div>

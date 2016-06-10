@@ -7,18 +7,18 @@
   @return $number - ($number * $percentage/100);
 }
 
+
 // mixins
 @mixin center-horizontally($margin-v: 0) {
   display: block;
   margin: $margin-v auto;
 }
 
-
 @mixin button-style-webkit($progress:false, $color:$color-orange) {
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
   -webkit-linear-gradient($color-orange, $color);
   @if $progress == true {
-    background-size: 35px 24px, 100% 100%, 100% 100%;
+    background-size: 35px $l-h-1-5, 100% 100%, 100% 100%;
   }
 }
 
@@ -26,9 +26,10 @@
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
   -moz-linear-gradient($color-orange, $color);
   @if $progress == true {
-    background-size: 35px 24px, 100% 100%, 100% 100%;
+    background-size: 35px $l-h-1-5, 100% 100%, 100% 100%;
   }
 }
+
 @mixin center-absolute($margin-v: 0) {
   display: block;
   position: absolute;
@@ -43,6 +44,7 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
 }
+
 @mixin init-nav-hover($position, $color: $color-orange) {
   content: "";
   position: absolute;
@@ -61,12 +63,11 @@
   transition: $t-s-L;
 }
 
-
 @mixin init-con-font($color: $color-white) {
   font-family: $font-family-open-sans-condensed;
   letter-spacing: $l-s-L;
+  line-height: 1;
   text-transform: uppercase;
-  color: $color;
 }
 
 @mixin flex-center() {

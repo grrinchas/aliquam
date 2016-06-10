@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
+
 <article>
-    {% if page.comments %}
-    {% include article_header.html %}
-    {% endif %}
+    <header>
+        {% include title.html %}
+        {% include post_meta.html %}
+    </header>
     {{ page.content }}
     <footer>
+        {% if page.comments %}
+        {% include disqus.html %}
+        {% endif %}
     </footer>
-    {% if page.comments %}
-    {% include disqus.html %}
-    {% endif %}
 </article>

@@ -1,19 +1,21 @@
 <div id="content">
-    <div>
+    <div class="logo-nav">
         {% include logo.html %}
         {% include nav.html %}
     </div>
-    <h1>
-        {% if page.category %}
-        {{ page.category }}
-        {% else if page.tag %}
-        {{ page.tag }}
+    <div class="punch-line">
+        <h1>
+            {% if page.category %}
+            {{ page.category }}
+            {% else if page.tag %}
+            {{ page.tag }}
+            {% endif %}
+            {% if page.category == nil and page.tag == nil %}
+            {{ page.title }}
+            {% endif %}
+        </h1>
+        {% if page.description %}
+        <p>{{ page.description }}</p>
         {% endif %}
-        {% if page.category == nil and page.tag == nil %}
-        {{ page.title }}
-        {% endif %}
-    </h1>
-    {% if page.description %}
-    <p>{{ page.description }}</p>
-    {% endif %}
+    </div>
 </div>

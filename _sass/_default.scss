@@ -2,140 +2,110 @@
                             SOME DEFAULTS
 /*************************************************************************/
 
-*, *:before, *:after {
-  box-sizing: border-box;
+.lineno {
+  @include disable-selection();
 }
 
-html {
-  font-size: 100%;
+/*************************************************************************
+                             DISPLAY
+/*************************************************************************/
+
+//---------------------------INLINE
+.tags,
+.tags ul {
+  display: inline;
 }
 
-h1, h2, h3 {
-  line-height: 130%;
-  color: $color-white;
+//---------------------------INLINE-BLOCK
+.tags li,
+.paginator li {
+  display: inline-block;
 }
 
-h1 {
-  font-size: $f-s-XXXL;
-  text-transform: capitalize;
+//---------------------------BLOCK
+#main-nav li,
+#tag-line,
+.contact-form input,
+.contact-form textarea,
+#footer-main {
+  display: block;
 }
 
-h2 {
-  font-size: $f-s-XXL;
+//---------------------------NONE
+.tags li:last-child span {
+  display: none;
 }
 
-h3 {
-  font-size: $f-s-XL;
-}
+//---------------------------FLEX
 
-small {
-  font-size: $f-s-S;
+#logo,
+.logo-nav,
+#content{
+  display: flex;
 }
-
-hr {
-  width: 100%;
-}
-
-.orange {
-  color: $color-orange;
-}
-
-.orange:visited {
-  color: $color-orange;
-}
-
-.orange:hover {
-  text-decoration: none;
-}
-
-sup {
-  vertical-align: super;
-  font-size: smaller;
-}
-
 
 /*************************************************************************
                                 LAYOUT
 /*************************************************************************/
 
-body {
-  background: url("/resources/images/main_front.jpg") no-repeat fixed;
-  background-size: cover;
-
-  #wrapper {
-    font-family: $font-family-open-sans;
-    line-height: 170%;
-    min-width: $media-query-min;
-
-    > header {
-      #content {
-        @include center-horizontally();
-        padding: $m-p-XXXL $m-p-M;
-        max-width: $media-query-max-extra;
-
-        div:first-child {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        }
-
-        h1, p {
-          text-align: center;
-        }
-
-        h1 {
-          margin-top: $m-p-XZ;
-        }
-        p {
-          color: $color-white;
-          margin-top: $m-p-M;
-          font-size: $f-s-XL;
-        }
-      }
-    }
-
-
-    main {
-      background-color: $color-white;
-      padding-top: $m-p-XXXL;
-      padding-bottom: $m-p-XL;
-    }
-
-    > footer {
-      position: relative;
-      background-color: $color-black;
-      margin-top: $m-p-XXZ * 1.7;
-
-      blockquote {
-        @include center-absolute();
-        color: $color-white;
-        line-height: 150%;
-        top: -$m-p-XXZ;
-        font-size: $f-s-XL;
-        max-width: $media-query-max;
-
-        p {
-          text-align: center;
-        }
-        p:before {
-          @include center-absolute();
-          content: "";
-          background: url("/resources/images/quotes.svg");
-          background-size: 3rem 2rem;
-          width: 3rem;
-          height: 2rem;
-          top: -$m-p-XXL;
-          font-size: $f-s-Z;
-        }
-
-        footer {
-          padding-right: $m-p-M;
-          text-align: right;
-          margin-top: $m-p-M;
-        }
-      }
-    }
-  }
+//----------------------------POSITION=RELATIVE
+#main-nav li, .paginator li {
+  position: relative;
 }
+
+//----------------------------MAX-WIDTH
+.punch-line,
+article,
+#footer-quote {
+  max-width: $media-query-max;
+}
+
+//----------------------------WIDTH=100%
+.contact-form textarea,
+img {
+  width: 100%;
+}
+
+//----------------------------WIDTH=MISC
+.contact-form input:not([type="submit"]) {
+  width: $l-h-baseline * 12;
+}
+
+.contact-form input[type="submit"] {
+  width: $l-h-baseline * 4;
+}
+
+#logo img {
+  width: $l-h-baseline * 3;
+  height: $l-h-baseline * 2;
+}
+
+//----------------------------OVERFLOW
+.highlight {
+  overflow-x: auto;
+}
+
+article ul, ol {
+  list-style-position: inside;
+}
+
+article ol li {
+  list-style-type: decimal;
+}
+
+.logo-nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+#wrapper {
+  min-width: $media-query-min;
+}
+
+#content {
+  flex-direction: column;
+}
+
+
 
 

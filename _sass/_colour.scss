@@ -1,0 +1,107 @@
+/*************************************************************************
+                             FONT COLOR
+/*************************************************************************/
+
+//---------------------------BLUE
+a {
+  color: $color-blue;
+  text-decoration: none;
+}
+
+//---------------------------WHITE
+.punch-line,
+h1,
+h2,
+h3,
+#name,
+#tag-line,
+.contact-form input[type="submit"],
+#footer-quote,
+#main-nav .fancy-nav{
+  color: $color-white;
+}
+
+//---------------------------GREY-DARK
+.post-meta,
+.paginator .fancy-nav,
+#footer-main > small  {
+  color: $color-grey-dark;
+}
+
+//---------------------------GREY
+.tag-sep,
+.highlighter-header {
+  color: $color-grey;
+}
+
+//---------------------------ORANGE
+abbr {
+  color: $color-orange;
+}
+
+//---------------------------ORANGE-DARK
+.link-to-post,
+main h2,
+main h3 {
+  color: $color-orange-dark;
+}
+
+
+
+/*************************************************************************
+                           BACKGROUND COLOUR
+/*************************************************************************/
+
+//---------------------------WHITE
+main {
+  background-color: $color-white;
+}
+
+//---------------------------ORANGE
+.highlighter-header {
+  background-color: $color-orange;
+}
+
+//---------------------------WHITE-GREY
+.highlighter-rouge,
+blockquote {
+  background-color: $color-white-grey;
+}
+
+//---------------------------GREY-DARKER
+.paginator {
+  background-color: $color-grey-darker;
+}
+
+//---------------------------BLACK
+#footer-main {
+  background-color: $color-black;
+}
+
+//---------------------------TRANSPARENT
+#footer-quote {
+  background-color: transparent;
+}
+
+/*************************************************************************
+                              MISC
+/*************************************************************************/
+
+body {
+  background: url("/resources/images/main_front.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+.lineno {
+  background-color: lighten($color-black, 16) !important;
+}
+
+.contact-form input[type="submit"] {
+  @include button-style-webkit();
+  @include button-style-moz();
+}
+
+.fancy-nav {
+  @include init-con-font($color-white);
+  transition: $t-s-M;
+}

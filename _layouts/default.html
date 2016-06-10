@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-
-<body
-        {% if page.class %}
-        class="{{ page.class }}"
-        {% endif %}
->
+<body>
 <div id="wrapper">
     <header>
     {% include header.html %}
@@ -19,6 +14,8 @@
         {% include footer.html %}
     </footer>
 </div>
+{% if site.disqus %}
 <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+{% endif %}
 </body>
 </html>

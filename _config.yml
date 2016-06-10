@@ -46,7 +46,7 @@ paginate: 5
 permalink: /:categories/:title
 
 # Set excerpt separator
-truncate_size: 30
+truncate_size: 40
 
 ##########################################
 #          Do not change these variables
