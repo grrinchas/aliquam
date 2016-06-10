@@ -3,7 +3,7 @@
     <span>Tags:&nbsp;</span>
     <ul>
         {% for tag in page.tags %}
-        <li><a href="{{ site.baseurl }}/tags/{{ tag }}.html">{{ tag }}</a><span>,&nbsp;</span></li>
+        <li><a href="{{ site.baseurl }}/tags/{{ tag | downcase }}.html">{{ tag }}</a><span>,&nbsp;</span></li>
         {% endfor %}
     </ul>
 </nav>
