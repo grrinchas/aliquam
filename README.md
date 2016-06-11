@@ -1,12 +1,11 @@
 # aliquam
 
-Minimalistic Jekyll Theme for your blog
+![aliquam rwd](/demo.jpg)
 
 Want example? [check this out](http://grrinchas.github.io/aliquam/)
 
 Want real life example? [check this out](http://grrinchas.github.io/)
 
-![aliquam rwd](/demo.jpg)
 
 
 ## Table of Contents
