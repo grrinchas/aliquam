@@ -31,24 +31,24 @@ include:
 
 # Following needed for disqus integration
 # Set your 'disqus' account name
-disqus:
+disqus: grrinchas
 
 # Uncomment if deployed locally
 # url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-url:
+url: http://www.dennis-grinch.co.uk
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
-baseurl:
+baseurl: /aliquam
 
 # Change this to your google analytics ID
-google_analytics:
+google_analytics: UA-78379987-1
 
 # Contact form pupublic key
-contact_PK:
+contact_PK: ef1dcbc3b8a3c2deda24a2efe9a5f65f
 
 ##########################################
 #          Optional variables
