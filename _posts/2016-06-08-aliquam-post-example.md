@@ -57,17 +57,13 @@ public class DemoClass
     private int x;
 
     public DemoClass() {
-        // assign default value
         x = 0;
     }
 
     public DemoClass(int x) {
-        // use x to refer to a local variable x (more specifically,
-        // method parameter x)
         this.x = x;
     }
 
-    // instance method
     public void i1() {
         return;
     }
