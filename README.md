@@ -6,6 +6,9 @@ Want example? [check this out](http://grrinchas.github.io/aliquam/)
 
 Want real life example? [check this out](http://grrinchas.github.io/)
 
+![aliquam rwd](/demo.jpg)
+
+
 ## Table of Contents
 
 - [Features](#features)
