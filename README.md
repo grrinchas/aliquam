@@ -1,6 +1,7 @@
-# aliquam
 
 ![aliquam rwd](/demo.jpg)
+
+# aliquam
 
 Want example? [check this out](http://grrinchas.github.io/aliquam/)
 
