@@ -8,8 +8,6 @@ I am ...
 
 ## My skills
 
-A [portfolio]({{ site.baseurl }}/categories/portfolio) can say thousandths of words.
-
 <div id="skills">
 <div>
 <p><span>jekyll</span><span>95%</span></p>
