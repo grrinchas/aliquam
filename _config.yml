@@ -80,3 +80,8 @@ gems:
   - jekyll-sitemap # add /sitemap.xml file
 
 paginate_path: /_pages/page:num
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
