@@ -70,8 +70,15 @@ truncate_size: 40
 
 sass:
   sass_dir: _sass
+sass:
+    style: compressed
 
+include:
+  - pages
 
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap # add /sitemap.xml file
+
 paginate_path: /_pages/page:num
 
