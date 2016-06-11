@@ -3,36 +3,52 @@
 #     Change these variables !important
 ##########################################
 
-owner: Dennis Grinch
-quote:
-  quote: A problem is nothing more than a wrong perspective.
-  author: Dennis Grinch
+# Set this for Copyright in the footer
+owner: Name Surname
 
-title: Dennis Grinch Blog - Programming tutorials for beginners
+# Optional quote in the footer
+# To disable set enable to false
+quote:
+  enable: true
+  quote: Some fancy quote.
+  author: John Doe
+
+# Set this to your main site title
+# In the head - ff page doesnt have its own title,
+# Site title will be used instead
+title: Aliquam Theme - Author Dennis Grinch
+
+# Description and title below nav in the header
+punch-line: true
+
+# Your logo for the header
+logo:
+  title: Jhon Doe
+  subtitle: Designer & Developer
 
 include:
   - pages
 
 # Following needed for disqus integration
 # Set your 'disqus' account name
-disqus: grrinchas
+disqus:
 
 # Uncomment if deployed locally
 # url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-url: https://grrinchas.github.io
+url:
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
 baseurl:
 
 # Change this to your google analytics ID
-google_analytics: UA-78379987-1
+google_analytics:
 
 # Contact form pupublic key
-contact_PK: ef1dcbc3b8a3c2deda24a2efe9a5f65f
+contact_PK:
 
 ##########################################
 #          Optional variables

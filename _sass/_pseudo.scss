@@ -15,13 +15,13 @@
   max-width: $media-query-max;
 }
 
-article > ul > li:before{
+article > ul li:before{
   content: "\00BB \0020";
   color: $color-orange;
   margin-right: $l-h-baseline / 3;
 }
 
-article >  ol > li:before {
+article >  ol li:before {
   content: "";
   width: 0.2rem;
   display: inline-block;

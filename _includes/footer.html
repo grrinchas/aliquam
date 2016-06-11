@@ -1,3 +1,4 @@
+{% if site.quote["enable"] %}
 <blockquote id="footer-quote">
     <p>
         {% if page.quote %}
@@ -16,6 +17,7 @@
     </cite>
     </footer>
 </blockquote>
+{% endif %}
 <div id="footer-main">
     <small>
         &copy; 2016 {{ site.owner }}. ALL RIGHTS RESERVED.

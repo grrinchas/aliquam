@@ -40,7 +40,9 @@ abbr {
 }
 
 //---------------------------ORANGE-DARK
+
 .link-to-post,
+main h1,
 main h2,
 main h3 {
   color: $color-orange-dark;
@@ -96,7 +98,7 @@ body {
   background-color: lighten($color-black, 16) !important;
 }
 
-.contact-form input[type="submit"] {
+.contact-form input[type="submit"], .highlighter-header {
   @include button-style-webkit();
   @include button-style-moz();
 }

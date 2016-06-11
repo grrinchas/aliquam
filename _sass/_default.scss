@@ -17,8 +17,8 @@
 }
 
 //---------------------------INLINE-BLOCK
-.tags li,
-.paginator li {
+.tags li
+{
   display: inline-block;
 }
 
@@ -34,6 +34,11 @@
 //---------------------------NONE
 .tags li:last-child span {
   display: none;
+}
+//---------------------------HIDE
+.sep {
+  visibility: hidden;
+  height: 0.1rem;
 }
 
 //---------------------------FLEX
@@ -76,7 +81,7 @@ img {
 }
 
 #logo img {
-  width: $l-h-baseline * 3;
+  width: $l-h-baseline * 2.5;
   height: $l-h-baseline * 2;
 }
 
@@ -106,6 +111,8 @@ article ol li {
   flex-direction: column;
 }
 
-
+.highlighter-rouge {
+  word-wrap: break-word;
+}
 
 

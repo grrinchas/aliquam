@@ -3,6 +3,7 @@
         {% include logo.html %}
         {% include nav.html %}
     </div>
+    {% if site.punch-line == true %}
     <div class="punch-line">
         <h1>
             {% if page.category %}
@@ -18,4 +19,5 @@
         <p>{{ page.description }}</p>
         {% endif %}
     </div>
+    {% endif %}
 </div>

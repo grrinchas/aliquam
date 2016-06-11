@@ -28,7 +28,7 @@ $f-s-2M: increase-by-percentage($f-s-M, 100);
 
 // line height (l-h)
 $l-h-2-1: 2.1;
-$l-h-1-5: 1.7;
+$l-h-M: 1.7;
 $l-h-1-25: 1.25;
 $l-h-1-15: 1.15;
 
@@ -51,7 +51,7 @@ $t-s-S: increase-by-percentage($t-s-M, 33);
 $t-s-L: decrease-by-percentage($t-s-M, 33);
 
 // media queries
-$media-query-min: 22rem;
+$media-query-min: 19rem;
 $media-query-med-1: 30rem;
 $media-query-med-2: 40rem;
 $media-query-max: $f-s-M * 1.5 * 26;

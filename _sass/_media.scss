@@ -15,6 +15,14 @@
     padding: $l-h-baseline;
   }
 
+  .paginator li {
+    display: inline-block;
+  }
+
+  .sep {
+    visibility: visible;
+    height: inherit;
+  }
 }
 
 @media only screen and (min-width: $media-query-med-2) {
@@ -56,6 +64,7 @@
   .logo-nav {
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: $l-h-baseline * 2;
   }
 
   #main-nav {
@@ -66,7 +75,7 @@
   }
 
   .punch-line {
-    padding-top: $l-h-baseline * 8;
+    padding-top: $l-h-baseline * 5;
     padding-bottom: $l-h-baseline * 3;
   }
 }

@@ -43,6 +43,7 @@ sub {
 
 //----------------------------UPPERCASE
 .contact-form input[type="submit"],
+#logo-name,
 abbr {
   text-transform: uppercase;
 }
@@ -91,7 +92,7 @@ h3, #footer-quote{
 }
 
 #logo-name {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 //----------------------------SMALL
@@ -115,7 +116,7 @@ abbr {
 
 //----------------------------1.5
 body {
-  line-height: $l-h-1-5;
+  line-height: $l-h-M;
 }
 
 //----------------------------1.25
@@ -143,7 +144,7 @@ small, figcaption {
 }
 
 #tag-line {
-  line-height: 0.5rem;
+  line-height: 1rem;
 }
 
 
