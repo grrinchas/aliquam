@@ -37,8 +37,7 @@
 }
 //---------------------------HIDE
 .sep {
-  visibility: hidden;
-  height: 0.1rem;
+  //visibility: hidden;
 }
 
 //---------------------------FLEX
@@ -70,9 +69,7 @@ article,
 img {
   width: 100%;
 }
-.lineno {
-  width: 35px;
-}
+
 //----------------------------WIDTH=MISC
 .contact-form input:not([type="submit"]) {
   width: $l-h-baseline * 12;
