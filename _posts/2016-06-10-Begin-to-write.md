@@ -19,6 +19,3 @@ To dispose the week, I plan to finish the draft before Sunday.
 That's all. I will begin to edit my paper.
 
 Enjoy!
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HxN0oafNmzw" frameborder="0" allowfullscreen></iframe>
-

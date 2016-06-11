@@ -8,6 +8,10 @@ layout: default
         {% if page.tags %}
         {% include tags.html %}
         {% endif %}
+
+        {% if page.share %}
+        {% include social-share.html %}
+        {% endif %}
     </footer>
     {% if page.comments %}
     {% include disqus.html %}
