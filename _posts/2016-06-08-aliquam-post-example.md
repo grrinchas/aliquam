@@ -59,7 +59,7 @@ public class DemoClass
     public DemoClass() {
         x = 0;
     }
-
+    // Comment
     public DemoClass(int x) {
         this.x = x;
     }
