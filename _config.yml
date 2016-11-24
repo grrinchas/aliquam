@@ -73,9 +73,6 @@ sass:
 sass:
     style: compressed
 
-include:
-  - pages
-
 gems:
   - jekyll-paginate
   - jekyll-sitemap # add /sitemap.xml file
