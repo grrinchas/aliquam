@@ -34,7 +34,7 @@ include:
 disqus:
 
 # Uncomment if deployed locally
-# url: https://localhost:4000
+ url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"

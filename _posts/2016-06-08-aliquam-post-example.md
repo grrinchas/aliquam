@@ -98,6 +98,16 @@ public class DemoClass
 </div>
 </div>
 
+## Boxes
+
+<div class="info">This is info message</div>
+
+<div class="warning">This is warning message </div>
+
+<div class="note">This is note message</div>
+
+<div class="success">This is success message</div>
+
 ## Misc
 
 Bold text: __I am bold__
@@ -115,4 +125,3 @@ Abbreviation: <abbr title='Content Management System'>CMS</abbr>
 ![image example]({{ site.baseurl }}/resources/images/main_front.jpg)
 
 # For more post examples [click here](http://www.dennis-grinch.co.uk)
-

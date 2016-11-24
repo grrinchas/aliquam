@@ -1,0 +1,49 @@
+.info, .warning, .note, .success {
+  font-size: $f-s-S;
+  padding: $l-h-baseline-quarter;
+  margin-bottom: $l-h-baseline;
+}
+
+.info {
+  background-color: $color-info;
+  border: 1px solid darken($color-info, 10);
+  color: $color-blue-darker;
+}
+
+.warning {
+  background-color: $color-warning;
+  border: 1px solid darken($color-warning, 10);
+  color: $color-orange-dark;
+}
+
+.note {
+  background-color: $color-note;
+  border: 1px solid darken($color-note, 10);
+  color: $color-red;
+}
+
+.success {
+  background-color: $color-success;
+  border: 1px solid darken($color-success, 10);
+  color: darken($color-green, 10);
+}
+
+.info::before, .warning::before, .note::before, .success::before {
+    font-weight: bolder;
+}
+
+.info::before{
+  content: "INFO: ";
+}
+
+.warning::before{
+  content: "WARNING: ";
+}
+
+.note::before {
+  content: "NOTE: ";
+}
+
+.success::before {
+  content: "SUCCESS: ";
+}

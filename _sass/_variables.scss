@@ -5,11 +5,16 @@ $color-orange: #d16b19;
 $color-grey-dark: #5a5a5a;
 $color-blue: #197fd1;
 $color-green: #1BA914;
+$color-red: #CF181D;
 $color-blue-darker: darken($color-blue, 8);
 $color-white-grey: darken($color-white, 4);
 $color-grey: darken($color-white, 10);
 $color-grey-darker: darken($color-grey, 7);
 $color-orange-dark: darken($color-orange, 12);
+$color-info: lighten($color-blue, 40);
+$color-warning: lighten($color-orange, 40);
+$color-success: lighten($color-green, 40);
+$color-note: lighten($color-red, 40);
 
 // sizes
 $border-s: 4px;
@@ -56,4 +61,3 @@ $media-query-med-1: 27rem;
 $media-query-med-2: 37rem;
 $media-query-max: $f-s-M * 1.5 * 26;
 $media-query-max-extra: 80rem;
-
