@@ -44,11 +44,34 @@ abbr {
 .link-to-post,
 main h1,
 main h2,
-main h3 {
+main h3,
+.warning {
   color: $color-orange-dark;
 }
 
+.info {
+  background-color: $color-info;
+  border: 1px solid darken($color-info, 10);
+  color: $color-blue-darker;
+}
 
+.warning {
+  background-color: $color-warning;
+  border: 1px solid darken($color-warning, 10);
+  color: $color-orange-dark;
+}
+
+.note {
+  background-color: $color-note;
+  border: 1px solid darken($color-note, 10);
+  color: $color-red;
+}
+
+.success {
+  background-color: $color-success;
+  border: 1px solid darken($color-success, 10);
+  color: darken($color-green, 10);
+}
 
 /*************************************************************************
                            BACKGROUND COLOUR
@@ -90,7 +113,6 @@ blockquote {
 /*************************************************************************/
 
 body {
-
   background-size: cover;
 }
 

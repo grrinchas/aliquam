@@ -34,6 +34,27 @@ article > ol li:before {
 .fancy-nav:before {
   @include init-nav-hover(bottom);
 }
+
+.info::before, .warning::before, .note::before, .success::before {
+    font-weight: bolder;
+}
+
+.info::before{
+  content: "INFO: ";
+}
+
+.warning::before{
+  content: "WARNING: ";
+}
+
+.note::before {
+  content: "NOTE: ";
+}
+
+.success::before {
+  content: "SUCCESS: ";
+}
+
 /*************************************************************************
                             AFTER
 /*************************************************************************/
