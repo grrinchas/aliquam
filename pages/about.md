@@ -36,6 +36,3 @@ I am ...
 ## Contact form
 
 {% include contact_form.html %}
-
-
-
