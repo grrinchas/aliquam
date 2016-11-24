@@ -29,7 +29,7 @@ article > blockquote {
   margin-right: $l-h-baseline;
 }
 
-figure {
+figure, .info, .warning, .note, .success {
   margin-bottom: $l-h-baseline !important;
 }
 
@@ -143,7 +143,9 @@ article blockquote {
 .highlighter-rouge {
   padding-right: $l-h-baseline-quarter;
 }
-
+.info, .warning, .note, .success {
+  padding: $l-h-baseline-quarter;
+}
 //---------------------------MISC
 h1 {
   padding-bottom: 0.35rem;

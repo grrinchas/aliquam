@@ -96,7 +96,14 @@ h3, #footer-quote{
 }
 
 //----------------------------SMALL
-small, figcaption, sub, sup {
+small,
+figcaption,
+sub,
+sup,
+.info,
+.warning,
+.note,
+.success{
   font-size: $f-s-S;
 }
 
