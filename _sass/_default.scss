@@ -27,6 +27,7 @@
 #tag-line,
 .contact-form input,
 .contact-form textarea,
+article > ol li,
 #footer-main {
   display: block;
 }
@@ -97,6 +98,10 @@ article ol li {
   list-style-type: decimal;
 }
 
+article > ol {
+  counter-reset: item;
+}
+
 .logo-nav {
   flex-direction: column;
   align-items: center;
@@ -113,5 +118,3 @@ article ol li {
 .highlighter-rouge {
   word-wrap: break-word;
 }
-
-
