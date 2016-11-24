@@ -98,7 +98,7 @@ public class DemoClass
 </div>
 </div>
 
-## Boxes
+## Message boxes
 
 <div class="info">This is info message</div>
 
