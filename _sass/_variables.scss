@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // colors
 $color-black: #111111;
 $color-white: #fcfcfc;
@@ -15,31 +16,74 @@ $color-info: lighten($color-blue, 40);
 $color-warning: lighten($color-orange, 40);
 $color-success: lighten($color-green, 40);
 $color-note: lighten($color-red, 40);
+=======
+>>>>>>> master
 
+$golden-ratio: 1.618;
 // sizes
 $border-s: 4px;
 
 // font families
 $font-family-open-sans-condensed: 'Open Sans Condensed', sans-serif;
 $font-family-open-sans: 'Open Sans', sans-serif;
-$font-family-droid-serif: 'Droid Serif', serif;
+$font-family-lato-serif: 'Lato', sans-serif;
 
-// font size (f-s)
-$f-s-M: 1rem;
-$f-s-S: decrease-by-percentage($f-s-M, 30);
-$f-s-1-25M: increase-by-percentage($f-s-M, 25);
-$f-s-1-5M: increase-by-percentage($f-s-M, 50);
-$f-s-2M: increase-by-percentage($f-s-M, 100);
+
+/*************************************************************************
+                      FONT-SIZE and  LINE-HEIGHT
+/*************************************************************************/
+
+// device font size
+$f-s-mobile: 16px;
+$f-s-tablet: 18px;
+$f-s-desktop: 19px;
+
+// set default font size to 100% of browser's font size
+$f-s-default: 1rem;
+// set default line height to golden ratio between default font size
+$l-h-default: $f-s-default * $golden-ratio;
+
+// small font size and line height
+$f-s-small: $f-s-default * 0.7;
+$l-h-small: $f-s-default * 1.1;
+
+// code font-size and line height
+$l-h-code: $l-h-default * 0.75;
+
+// h1 font size and line height
+$f-s-h1: $f-s-default * 2.25;
+$l-h-h1: $l-h-default * 1.75;
+
+// h2 font size and line height
+$f-s-h2: $f-s-default * $golden-ratio;
+$l-h-h2: $l-h-default * 1.45;
+
+// h3 font size and line height
+$f-s-h3: $f-s-default * 1.25;
+$l-h-h3: $l-h-default * 1.125;
+
+$f-s-1-25M: increase-by-percentage($f-s-default, 25);
+$f-s-1-5M: increase-by-percentage($f-s-default, 50);
 
 // line height (l-h)
 $l-h-2-1: 2.1;
-$l-h-M: 1.7;
+
 $l-h-1-25: 1.25;
 $l-h-1-15: 1.15;
 
-$l-h-baseline: $f-s-M * 1.5;
-$l-h-baseline-half: $l-h-baseline * 0.5;
-$l-h-baseline-quarter: $l-h-baseline * 0.25;
+/*************************************************************************
+                          VERTHICAL-RHYTM
+/*************************************************************************/
+
+/* Use only multiples of these values for setting paddings and margins. This
+ * will keep vertical rhytm between elements. */
+
+$l-h-baseline: $l-h-default * 0.5;
+$l-h-baseline-double: $l-h-default;
+$l-h-baseline-half: $l-h-default * 0.25;
+
+
+
 
 // letter spacing (l-s)
 $l-s-M: 0.1rem;
@@ -58,6 +102,11 @@ $t-s-L: decrease-by-percentage($t-s-M, 33);
 // media queries
 $media-query-min: 19rem;
 $media-query-med-1: 27rem;
+<<<<<<< HEAD
 $media-query-med-2: 37rem;
 $media-query-max: $f-s-M * 1.5 * 26;
+=======
+$media-query-med-2: 35rem;
+$media-query-max: 50rem;
+>>>>>>> master
 $media-query-max-extra: 80rem;

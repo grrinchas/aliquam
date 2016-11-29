@@ -6,6 +6,7 @@ description: More information about me and this website.
 
 I am ...
 
+<<<<<<< HEAD
 ## My skills
 
 <div id="skills">
@@ -33,9 +34,8 @@ I am ...
 </div>
 </div>
 
+=======
+>>>>>>> master
 ## Contact form
 
 {% include contact_form.html %}
-
-
-
