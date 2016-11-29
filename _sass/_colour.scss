@@ -1,34 +1,3 @@
-// colors
-$color-black: #111111;
-$color-white: #fcfcfc;
-$color-white-grey: darken($color-white, 4);
-$color-grey: darken($color-white, 10);
-$color-grey-darker: darken($color-grey, 7);
-$color-grey-darer-dark: darken($color-grey, 20);
-$color-grey-dark: #5a5a5a;
-
-$color-blue: lighten(#1D408C, 10);
-$color-orange: #d16b19;
-$color-green: #1BA914;
-$color-red: #CF191D;
-
-$color-orange-dark: darken($color-orange, 15);
-$color-blue-dark: darken($color-blue, 15);
-$color-green-dark: darken($color-green, 15);
-$color-red-dark: darken($color-red, 15);
-
-
-$color-info: lighten($color-blue, 45);
-$color-warning: lighten($color-orange, 45);
-$color-success: lighten($color-green, 45);
-$color-note: lighten($color-red, 45);
-
-$color-info-dark: darken($color-info, 10);
-$color-warning-dark: darken($color-warning, 10);
-$color-success-dark: darken($color-success, 10);
-$color-note-dark: darken($color-note, 10);
-
-
 /*************************************************************************
                              FONT COLOR
 /*************************************************************************/
@@ -61,33 +30,26 @@ h3,
 
 //---------------------------GREY
 .tag-sep,
-.highlighter-header,
-article > table th {
+.highlighter-header {
   color: $color-grey;
+}
+
+//---------------------------ORANGE
+abbr {
+  color: $color-orange;
 }
 
 //---------------------------ORANGE-DARK
 
-<<<<<<< HEAD
 .link-to-post,
 main h1,
 main h2,
 main h3,
-=======
-article > header > h1,
-article > h2,
-article > h3,
-article > h4,
-article > h5,
-article > h6,
-.highlighter-rouge,
->>>>>>> master
 .warning {
   color: $color-orange-dark;
 }
 
 .info {
-<<<<<<< HEAD
   background-color: $color-info;
   border: 1px solid darken($color-info, 10);
   color: $color-blue-darker;
@@ -97,35 +59,6 @@ article > h6,
   background-color: $color-warning;
   border: 1px solid darken($color-warning, 10);
   color: $color-orange-dark;
-=======
-  color: $color-blue-dark;
-  background-color: $color-info;
-  border: 1px solid $color-info-dark;
-}
-
-.highlighter-rouge,
-.warning,
-article > table tbody tr:nth-child(2n) {
-    background-color: $color-warning;
-}
-
-article > table td,
-article > table th,
-.warning {
-  border: 1px solid darken($color-warning, 10);
-}
-
-.note {
-  color: $color-red-dark;
-  background-color: $color-note;
-  border: 1px solid $color-note-dark;
-}
-
-.success {
-  color: $color-green-dark;
-  background-color: $color-success;
-  border: 1px solid $color-success-dark;
->>>>>>> master
 }
 
 .note {
@@ -154,6 +87,12 @@ main {
   background-color: $color-orange;
 }
 
+//---------------------------WHITE-GREY
+.highlighter-rouge,
+blockquote {
+  background-color: $color-white-grey;
+}
+
 //---------------------------GREY-DARKER
 .paginator {
   background-color: $color-grey-darker;
@@ -180,7 +119,6 @@ body {
 .lineno {
   background-color: lighten($color-black, 16) !important;
 }
-<<<<<<< HEAD
 
 .contact-form input[type="submit"], .highlighter-header {
   @include button-style-webkit();
@@ -191,5 +129,3 @@ body {
   @include init-con-font($color-white);
   transition: $t-s-M;
 }
-=======
->>>>>>> master
