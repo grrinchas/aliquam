@@ -5,54 +5,57 @@ category: Example
 comments: true
 description: All the features of post layout
 tags:
-    - jekyll
-    - java
-    - design-patterns
-    - haskell
+    - Jekyll
 ---
 
-Curabitur pharetra eget ante at vestibulum. **Mauris lacus** sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, _sollicitudin_ ut pharetra in, tincidunt vel elit. Aliquam laoreet consectetur mi **quis commodo**. Vestibulum dui neque, vestibulum a tincidunt at, lacinia sit amet lacus. Nunc non ligula sed odio ultricies _ultricies_ in in lorem.
+Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit. Aliquam laoreet consectetur mi quis commodo. Vestibulum dui neque, vestibulum a tincidunt at, lacinia sit amet lacus. Nunc non ligula sed odio ultricies ultricies in in lorem.
 
-| Header One     | Header Two | Header Three | Head |
-| ------------- | ------------- | ----------- | -------- |
-| Item One       | Item Two       | Item Three   | Long Item Four   |
-| Item One       | Item Two       | Item Three   | Long Item Four   |
-| Item One       | Item Two       | Item Three   | Long Item Four   |
-| Item One       | Item Two       | Item Three   | Long Item Four   |
-| Item One       | Item Two       | Item Three   | Long Item Four   |
-| Item One       | Item Two       | Item Three   | Long Item Four   |
-| Item One       | Item Two       | Item Three   | Long Item Four   |
+## Table of Contents
 
-Curabitur pharetra eget `ante at vestibulum`. Mauris lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit. Aliquam laoreet consectetur mi quis commodo. Vestibulum dui neque, vestibulum a tincidunt at.
+- [Headers](#headers)
+- [List](#list)
+- [Code](#code)
+- [Progress](#progress)
+- [Misc](#misc)
+- [Image](#image)
 
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-<p>The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency</p>
-<footer><cite> - Bill Gates</cite></footer>
-</blockquote>
+## <a name="headers"></a>Headers
 
-consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
+# This is H1 header
 
 ## This is h2 header
 
-Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
-
-<div class="info alert"><strong>INFO: </strong> This is info message</div>
-
-<div class="warning alert"><strong>WARNING: </strong>This is warning message with a <a href="#">some random link</a> to click.</div>
-
-<div class="note alert"><strong>NOTE: </strong>This is note message</div>
-
-<div class="success alert">
-<h4>This is h4 header!</h4>
-<p>Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere</p>
-<p>Mauris <i>ullamcorper lacus</i> sed augue molestie, git clone ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.</p>
-</div>
-
 ### This is h3 header
 
-Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
+## <a name="list"></a>Lists
 
-<<<<<<< HEAD
+- List item number 1
+    - Nested list item number 1
+    - Nested list item number 2
+    - Nested list item number 3
+- List item number 2
+- List item number 3
+- List item number 4
+
+1. List item number 1
+    1. Nested list item number 1
+    1. Nested list item number 2
+    1. Nested list item number 3
+1. List item number 2
+1. List item number 3
+1. List item number 4
+
+
+
+## <a name="code"></a>Code
+
+
+<div class="highlighter-header">JAVA</div>
+{% highlight java linenos %}
+public class DemoClass
+{
+    private int x;
+
     public DemoClass() {
         x = 0;
     }
@@ -66,19 +69,6 @@ Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue m
     }
 }
 {% endhighlight%}
-=======
-- List item number 1
-    - Nested list item 1
-    - Nested list item 2
-        - Deep nested list item 1
-        - Deep nested list item 2
-    - Nested list item number 3
-- List item number 3
-
-#### This is h4 header
-
-Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie.
->>>>>>> master
 
 <div class="highlighter-header">HTML/CSS</div>
 {% highlight html linenos %}
@@ -98,21 +88,16 @@ Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue m
 </html>
 {% endhighlight %}
 
-Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
 
+## <a name="progress"></a>Progress bar
 
-1. List item number 1
-    1. Nested list item number 1
-    2. Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere.
-2. List item number 2
-3. List item number 3
+<div id="skills">
+<div>
+<p><span>java</span><span>80%</span></p>
+<progress value="80" max="100"></progress>
+</div>
+</div>
 
-Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
-
-
-
-
-<<<<<<< HEAD
 ## Message boxes
 
 <div class="info">This is info message</div>
@@ -124,8 +109,6 @@ Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue m
 <div class="success">This is success message</div>
 
 ## Misc
-=======
->>>>>>> master
 
 Bold text: __I am bold__
 
@@ -137,10 +120,8 @@ Link text: [more examples](http://www.dennis-grinch.co.uk)
 
 Abbreviation: <abbr title='Content Management System'>CMS</abbr>
 
+## Image
+
 ![image example]({{ site.baseurl }}/resources/images/main_front.jpg)
 
-<<<<<<< HEAD
 # For more post examples [click here](http://www.dennis-grinch.co.uk)
-=======
-## For more post examples [click here](http://www.dennis-grinch.co.uk)
->>>>>>> master
