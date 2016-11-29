@@ -13,31 +13,26 @@ quote:
   quote: Some fancy quote.
   author: John Doe
 
-# Set this to your main site title. If page doesn't have its own title,
-# then this title will be used.
+# Set this to your main site title
+# In the head - ff page doesnt have its own title,
+# Site title will be used instead
 title: Aliquam Theme - Author Dennis Grinch
 
-# Description and title in the header
-# true - displays, false - hides
+# Description and title below nav in the header
 punch-line: false
 
-# If true then puts logo on the right and navigation on the left sides
-# in the header.
 headline: true
-
 # Your logo for the header
 logo:
-  title: John Doe
+  title: Jhon Doe
   subtitle: Designer & Developer
-
-
 
 # Following needed for disqus integration
 # Set your 'disqus' account name
 disqus: grrinchas
 
 # Uncomment if deployed locally
-#url: https://localhost:4000
+# url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
@@ -45,12 +40,7 @@ url: https://grrinchas.github.io
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
-<<<<<<< HEAD
 baseurl: /aliquam
-=======
-# NOTE! only change if site is NOT in master's branch
-baseurl:
->>>>>>> master
 
 # Change this to your google analytics ID
 google_analytics: UA-78379987-1
@@ -61,6 +51,7 @@ contact_PK: ef1dcbc3b8a3c2deda24a2efe9a5f65f
 ##########################################
 #          Optional variables
 ##########################################
+
 
 # Set maximum posts per page
 paginate: 5
@@ -79,12 +70,9 @@ sass:
   sass_dir: _sass
 sass:
     style: compressed
-<<<<<<< HEAD
 
 include:
   - pages
-=======
->>>>>>> master
 
 gems:
   - jekyll-paginate
@@ -95,8 +83,4 @@ paginate_path: /_pages/page:num
 highlighter: rouge
 markdown: kramdown
 kramdown:
-<<<<<<< HEAD
   input: GFM
-=======
-  input: GFM
->>>>>>> master
