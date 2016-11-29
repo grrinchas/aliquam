@@ -6,20 +6,22 @@
   content: "";
   display: block;
   text-align: center;
-  background: url("/resources/images/quotes.svg");
-  background-size: 3rem 2.25rem;
-  width: 3rem;
-  height: 2.25rem;
-  margin: 0 auto $l-h-baseline;
+  background: url("/resources/images/quotes.svg") no-repeat;
+  background-size: $l-h-baseline-half * 7 ;
+  width: $l-h-baseline-half * 7;
+  height: $l-h-baseline-half * 7;
+  margin: 0 auto;
   padding-bottom: $l-h-baseline;
   max-width: $media-query-max;
 }
 
+.archive li,
 article > ul li:before,
 article > ol li::before {
   color: $color-orange;
 }
 
+.archive li::before,
 article > ul li:before{
   content: "\00BB \0020";
   margin-right: $l-h-baseline / 3;
@@ -37,22 +39,6 @@ article > ol li:before {
 
 .info::before, .warning::before, .note::before, .success::before {
     font-weight: bolder;
-}
-
-.info::before{
-  content: "INFO: ";
-}
-
-.warning::before{
-  content: "WARNING: ";
-}
-
-.note::before {
-  content: "NOTE: ";
-}
-
-.success::before {
-  content: "SUCCESS: ";
 }
 
 /*************************************************************************
@@ -105,11 +91,13 @@ a:hover {
 //---------------------------BEFORE
 .fancy-nav:hover:before {
   transform: scaleX(1);
+  transition: $t-s-M;
 }
 
 //---------------------------AFTER
 .fancy-nav:hover:after {
   transform: scaleX(1);
+  transition: $t-s-M;
 }
 
 /*************************************************************************
@@ -117,7 +105,7 @@ a:hover {
 /*************************************************************************/
 
 a:visited {
-  color: $color-blue-darker;
+  color: $color-blue-dark;
 }
 
 .paginator .fancy-nav:visited {

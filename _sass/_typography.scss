@@ -3,8 +3,10 @@
 /*************************************************************************/
 
 //---------------------------ALIGN CENTER
+
+article > table th,
+#main-nav ul,
 .punch-line,
-#main-nav li,
 .paginator ul,
 #footer-quote,
 #footer-main {
@@ -12,20 +14,20 @@
 }
 
 //----------------------------ALIGN RIGHT
-.highlighter-header,
-blockquote footer {
+blockquote footer,
+.highlighter-header {
   text-align: right;
 }
 
 //----------------------------STYLE ITALIC
-.punch-line,
-.post-meta,
+/*
 figcaption {
   font-style: italic;
 }
-
-#footer-main {
-  @include init-con-font();
+*/
+.punch-line,
+.post-meta {
+  font-style: italic;
 }
 
 //----------------------------MISC
@@ -35,6 +37,23 @@ sup {
 
 sub {
   vertical-align: sub;
+}
+
+#footer-main {
+  @include init-con-font();
+}
+
+#tag-line,
+.contact-form input[type="submit"],
+ {
+   letter-spacing: $l-s-M;
+}
+#logo-name {
+  font-weight: bold;
+}
+
+article > table th {
+  font-weight: normal;
 }
 
 /*************************************************************************
@@ -49,50 +68,43 @@ abbr {
 }
 
 //----------------------------LOWERCASE
-#tag-line,
-h3 {
+#tag-line
+{
   text-transform: lowercase;
 }
 
 //----------------------------SMALL-CAPS
-#tag-line,
-h3 {
+#tag-line
+{
   font-variant: small-caps;
 }
-
-
 
 /*************************************************************************
                               FONT SIZE
 /*************************************************************************/
 
 html {
-  font-size: 16px;
+  font-size: $f-s-mobile;
 }
 
-//----------------------------1-REM
 .contact-form input,
-.contact-form textarea {
-  font-size: $f-s-M !important;
+.contact-form textarea,
+h4 {
+  font-size: $f-s-default;
 }
-//----------------------------2-REM
+
+#logo-name,
 h1 {
-  font-size: $f-s-2M;
+  font-size: $f-s-h1;
 }
 
-//----------------------------1.5-REM
 #main-nav,
-h2 {
-  font-size: $f-s-1-5M;
+article > h2 {
+  font-size: $f-s-h2;
 }
 
-//----------------------------1.25-REM
-h3, #footer-quote{
-  font-size: $f-s-1-25M;
-}
-
-#logo-name {
-  font-size: 1.5rem;
+article > h3, #footer-quote{
+  font-size: $f-s-h3;
 }
 
 //----------------------------SMALL
@@ -100,11 +112,8 @@ small,
 figcaption,
 sub,
 sup,
-.info,
-.warning,
-.note,
-.success{
-  font-size: $f-s-S;
+.alert{
+  font-size: $f-s-small;
 }
 
 //----------------------------SMALLER
@@ -112,57 +121,42 @@ abbr {
   font-size: smaller;
 }
 
-.punch-line h1 {
-  font-size: 2.55rem;
-}
-
-
 /*************************************************************************
                               LINE-HEIGHT
 /*************************************************************************/
 
-//----------------------------1.5
 body {
-  line-height: $l-h-M;
+  line-height: $l-h-default;
 }
 
-//----------------------------1.25
-h1, h2, h3 {
-  line-height: $l-h-1-25;
+h1 {
+  line-height: $l-h-h1;
 }
 
-//----------------------------MISC
-small, figcaption {
-  line-height: 2.1;
+h2 {
+  line-height: $l-h-h2;
 }
 
-.highlight,
-#footer-quote {
-  line-height: 1.4;
+h3 {
+  line-height: $l-h-h3;
 }
 
-.contact-form input,
-.contact-form textarea{
-  line-height: 1.153;
+#tag-line,
+small, .alert {
+  line-height: $l-h-small;
 }
 
-#logo {
-  line-height: 1.1;
+.highlight {
+  line-height: $l-h-code;
 }
-
-#tag-line {
-  line-height: 1rem;
-}
-
 
 /*************************************************************************
                               FONT-FAMILY
 /*************************************************************************/
 
 //----------------------------DROID-SERIF
-h1, h2, h3 {
-  font-family: $font-family-droid-serif;
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-lato-serif;
 }
 
 //----------------------------OPEN-SANS
@@ -170,26 +164,4 @@ h1, h2, h3 {
 .contact-form textarea,
 #wrapper {
   font-family: $font-family-open-sans;
-}
-
-/*************************************************************************
-                              LETTER SPACING
-/*************************************************************************/
-
-#tag-line,
-.contact-form input[type="submit"],
-h3 {
-  letter-spacing: $l-s-M;
-}
-
-/*************************************************************************
-                              FONT WEIGHT
-/*************************************************************************/
-
-h1, h2, h3 {
-  font-weight: normal;
-}
-
-#logo-name {
-  font-weight: bold;
 }

@@ -3,54 +3,46 @@
 /*************************************************************************/
 
 //---------------------------CENTER
+.contents,
+#content,
 .punch-line,
-article,
 #footer-quote {
   margin: 0 auto;
 }
 
-//---------------------------MARGIN-BOTTOM=BASELINE
-article > blockquote {
-  margin-bottom: $l-h-baseline;
+article > ul ul,
+article > ul ol,
+article > ol ul,
+article > ol ol,
+{
+  margin-left: $l-h-baseline + $l-h-baseline-half;
 }
 
-//---------------------------MARGIN-LEFT=BASELINE
-.sep,
-article ul ul,
-article ul ol,
-article ol ul,
-article ol ol,
-article > blockquote {
-  margin-left: $l-h-baseline;
-}
 
-//---------------------------MARGIN-RIGTH=BASELINE
-.sep {
-  margin-right: $l-h-baseline;
-}
-
-figure, .info, .warning, .note, .success {
-  margin-bottom: $l-h-baseline !important;
-}
-
-//---------------------------MARGIN-RIGHT=0.5-BASELINE
-.lineno {
+//---------------------------MARGIN-LEFT-RIGHT=BASELINE
+#main-nav li {
+  margin-left: $l-h-baseline-half;
   margin-right: $l-h-baseline-half;
 }
 
-.highlighter-header {
-  padding-right: $l-h-baseline-half;
+//---------------------------MARGIN-LEFT=BASELINE
+.sep {
+  margin-left: $l-h-baseline;
 }
 
+#logo-name {
+  padding-right: $l-h-baseline-double;
+}
 //---------------------------MARGIN-BOTTOM=0.5-BASELINE
 .contact-form input,
 .contact-form textarea {
-  margin-bottom: $l-h-baseline-half;
+  margin-bottom: $l-h-baseline;
 }
 
-//---------------------------MISC
-.contact-form input[type="submit"] {
-  margin-bottom: $l-h-baseline * 0.1;
+//---------------------------MARGIN-BOTTOM=BASELINE-DOUBLE
+article > table,
+figure, .alert {
+  margin-bottom: $l-h-baseline-double;
 }
 
 /*************************************************************************
@@ -58,140 +50,125 @@ figure, .info, .warning, .note, .success {
 /*************************************************************************/
 
 //---------------------------PADDING=BASELINE
-#footer-quote {
+#footer-quote,
+.contents
+ {
   padding: $l-h-baseline;
 }
 
+
+#footer-quote {
+  padding-top: $l-h-baseline * 3;
+}
+
 //---------------------------PADDING=0.5-BASELINE
-.paginator ul,
-main {
-  padding: $l-h-baseline-half;
+.paginator ul, {
+  padding: $l-h-baseline;
 }
 
 //---------------------------PADDING-BOTTOM=BASELINE
-#main-nav ul,
 p,
 ul,
 ol,
-#footer-main {
+blockquote {
+  padding-bottom: $l-h-baseline-double;
+}
+
+.post-meta,
+.alert p {
   padding-bottom: $l-h-baseline;
 }
 
-//---------------------------PADDING-TOP=BASELINE
-h2,
-#footer-main {
-  padding-top: $l-h-baseline;
-}
-
-//---------------------------PADDING-TOP=0.5-BASELINE
-article blockquote {
-  padding-top: $l-h-baseline-half;
-}
-
-//---------------------------PADDING-BOTTOM=0.5-BASELINE
-article blockquote {
+//---------------------------PADDING-BOTTOM=BASELINE-HALF
+h1 {
   padding-bottom: $l-h-baseline-half;
+}
+
+//---------------------------PADDING-TOP-BOTTOM=BASELINE
+h2, h3, h4,
+{
+  padding-top: $l-h-baseline;
+  padding-bottom: $l-h-baseline;
+}
+
+//---------------------------PADDING-TOP-BOTTOM=DOUBLE
+#footer-main
+{
+  padding-top: $l-h-baseline-double;
+  padding-bottom: $l-h-baseline-double;
 }
 
 //---------------------------PADDING-TOP=2-BASELINE
 #content,
-.punch-line,
 #main-nav ul,
 #disqus_thread {
-  padding-top: $l-h-baseline * 2;
-}
-//---------------------------PADDING-BOTTOM=2-BASELINE
-.punch-line,
-article {
-  padding-bottom: $l-h-baseline * 2;
-}
-
-//---------------------------PADDING-RIGHT=0.5-BASELINE
-
-.highlighter-header {
-  padding-right: $l-h-baseline-half;
+  padding-top: $l-h-baseline-double;
+  padding-bottom: $l-h-baseline-double;
 }
 
 
-//---------------------------PADDING-RIGHT=BASELINE
 
-article blockquote {
-  padding-right: $l-h-baseline;
-}
-
-//---------------------------PADDING-LEFT=BASELINE
-article blockquote {
-  padding-left: $l-h-baseline;
-}
 
 //---------------------------PADDING-LEFT=0.5-BASELINE
 #wrapper > header {
-  padding-left: $l-h-baseline-half;
+  padding-left: $l-h-baseline;
 }
 
 //---------------------------PADDING-RIGHT=0.5-BASELINE
 #wrapper > header {
+  padding-right: $l-h-baseline;
+}
+
+//---------------------------PADDING-RIGHT-LEFT=BASELINE
+.alert,
+.highlighter-header {
+    padding-left: $l-h-baseline;
+    padding-right: $l-h-baseline;
+}
+
+//---------------------------PADDING-RIGHT-LEFT=BASELINE-HALF
+article > table td,
+article > table th,
+.highlighter-rouge,
+.lineno, .code {
+  padding-left: $l-h-baseline-half;
   padding-right: $l-h-baseline-half;
-}
-
-//---------------------------PADDING-LEFT=0.25-BASELINE
-.highlighter-rouge {
-  padding-left: $l-h-baseline-quarter;
-}
-
-//---------------------------PADDING-RIGHT=0.25-BASELINE
-.highlighter-rouge {
-  padding-right: $l-h-baseline-quarter;
-}
-.info, .warning, .note, .success {
-  padding: $l-h-baseline-quarter;
-}
-//---------------------------MISC
-h1 {
-  padding-bottom: 0.35rem;
-}
-
-h2 {
-  padding-bottom: 1.133rem;
-}
-
-h3 {
-  padding: $l-h-baseline * 0.8 0;
-}
-
-.lineno {
-  padding: $l-h-baseline * 0.38;
 }
 
 .contact-form input,
 .contact-form textarea {
-  padding: 0.52rem;
+  padding: $l-h-baseline-half;
 }
 
+//---------------------------PADDING-TOP-BOTTOM=BASELINE-HALF
+#main-nav li,
+.lineno, .alert {
+  padding-top: $l-h-baseline-half;
+  padding-bottom: $l-h-baseline-half;
+}
+
+//---------------------------PADDING-TOP-BOTTOM=BASELINE
+article {
+  padding-bottom: $l-h-baseline;
+  padding-top: $l-h-baseline;
+}
+
+//---------------------------MISC
 article ul ul,
 article ul ol,
 article ol ul,
 article ol ol {
   padding-bottom: 0;
 }
-.post-meta {
-  padding-bottom: 0.66rem;
-}
+
 /*************************************************************************
                              BORDER
 /*************************************************************************/
 
-.highlighter-rouge {
-  border: 1px solid $color-grey;
-}
-
-article blockquote {
-  border-left: $border-s solid $color-orange;
-}
 
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid darken($color-grey, 25);
+  border: 1px solid $color-grey-darer-dark;
 }
 
 abbr {
@@ -204,4 +181,13 @@ abbr {
 
 .sep {
   border-left: $border-s $color-grey-dark dotted;
+}
+.contact-form input[type="submit"], .highlighter-header, article > table th {
+  @include button-style-webkit();
+  @include button-style-moz();
+}
+
+.fancy-nav {
+  @include init-con-font($color-white);
+  transition: $t-s-M;
 }

@@ -2,6 +2,8 @@
 ---
 
 @import "variables";
+@import "colour";
+
 body {
   #wrapper {
     header h1 {
@@ -9,14 +11,22 @@ body {
     }
   }
   article {
+
+    h1 {
+      color: $color-orange-dark;
+    }
     h1, p {
       text-align: center;
     }
+    p {
+    }
     h1:before {
+      padding-bottom: $l-h-baseline-double * 3;
+      margin-top: $l-h-baseline * 2;
       display: block;
       content:'\2713';
       font-weight: bold;
-      font-size: 9.445rem;
+      font-size: $l-h-baseline-double * 8;
       color: $color-green;
     }
   }

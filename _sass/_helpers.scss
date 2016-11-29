@@ -15,18 +15,18 @@
 }
 
 @mixin button-style-webkit($progress:false, $color:$color-orange) {
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, 0.10)),
   -webkit-linear-gradient($color-orange, $color);
   @if $progress == true {
-    background-size: 35px $l-h-M, 100% 100%, 100% 100%;
+    background-size: 35px $l-h-default, 100% 100%, 100% 100%;
   }
 }
 
 @mixin button-style-moz($progress:false, $color:$color-orange) {
-  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, 0.25)),
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, 0.10)),
   -moz-linear-gradient($color-orange, $color);
   @if $progress == true {
-    background-size: 35px $l-h-M, 100% 100%, 100% 100%;
+    background-size: 35px $l-h-default, 100% 100%, 100% 100%;
   }
 }
 

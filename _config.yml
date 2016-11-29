@@ -13,13 +13,17 @@ quote:
   quote: Some fancy quote.
   author: John Doe
 
-# Set this to your main site title
-# In the head - ff page doesnt have its own title,
-# Site title will be used instead
+# Set this to your main site title. If page doesn't have its own title,
+# then this title will be used.
 title: Aliquam Theme - Author Dennis Grinch
 
-# Description and title below nav in the header
-punch-line: true
+# Description and title in the header
+# true - displays, false - hides
+punch-line: false
+
+# If true then puts logo on the right and navigation on the left sides
+# in the header.
+headline: true
 
 # Your logo for the header
 logo:
@@ -34,7 +38,7 @@ include:
 disqus:
 
 # Uncomment if deployed locally
- url: https://localhost:4000
+#url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
@@ -42,6 +46,7 @@ url:
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
+# NOTE! only change if site is NOT in master's branch
 baseurl:
 
 # Change this to your google analytics ID
@@ -53,7 +58,6 @@ contact_PK:
 ##########################################
 #          Optional variables
 ##########################################
-
 
 # Set maximum posts per page
 paginate: 5

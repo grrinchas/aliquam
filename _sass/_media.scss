@@ -3,16 +3,9 @@
 /*************************************************************************/
 
 @media only screen and (min-width: $media-query-med-1) {
-  html {
-    font-size: 110%;
-  }
 
-  #wrapper > header {
-    padding: 0 $l-h-baseline;
-  }
-
-  main {
-    padding: $l-h-baseline;
+  .contents{
+    padding: $l-h-baseline-double;
   }
 
   .paginator li {
@@ -20,73 +13,54 @@
   }
 
   .sep {
-    visibility: visible;
-    height: inherit;
+    display: block;
   }
 }
 
 @media only screen and (min-width: $media-query-med-2) {
   html {
-    font-size: 120%;
+    font-size: $f-s-tablet;
   }
 
-  #wrapper > header {
-    padding: 0 $l-h-baseline * 1.5;
-  }
-
-  main {
-    padding: $l-h-baseline * 2 $l-h-baseline * 1.5;
+  #content {
+      $padding-top: $l-h-baseline-double * 2;
+      $padding-bottom: $l-h-baseline-double * 2;
   }
 
 }
 
 @media only screen and (min-width: $media-query-max) {
   html {
-    font-size: 130%;
+    font-size: $f-s-desktop;
   }
 
-  .punch-line {
-    padding-top: $l-h-baseline * 4;
+  #main-nav ul {
+    padding: $l-h-baseline-double * 3 0;
   }
 
-  #main-nav {
-    ul {
-      text-align: center;
-      li {
+  #main-nav li{
         display: inline-block;
-        margin-left: $l-h-baseline;
-      }
-    }
   }
 }
 
 @media only screen and (min-width: $media-query-max-extra) {
-  .logo-nav {
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: $l-h-baseline * 2;
+  #content {
+    padding: $l-h-baseline-double * 2;
   }
 
-  #main-nav {
-    align-self: center;
-    ul {
-      padding: 0;
+  .headline {
+    padding: $l-h-baseline-double * 2 !important;
+    max-width: none!important;
+
+    #main-nav ul {
+      padding: 0 !important;
+    }
+    .punch-line {
+      padding-top: $l-h-baseline-double * 5;
+    }
+    .logo-nav {
+      flex-direction: row;
+      justify-content: space-between;
     }
   }
-
-  .punch-line {
-    padding-top: $l-h-baseline * 5;
-    padding-bottom: $l-h-baseline * 3;
-  }
 }
-
-
-
-
-
-
-
-
-
-
-

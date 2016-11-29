@@ -1,4 +1,9 @@
+
+{% if site.headline %}
+<div id="content" class="headline">
+{% else %}
 <div id="content">
+{% endif %}
     <div class="logo-nav">
         {% include logo.html %}
         {% include nav.html %}
