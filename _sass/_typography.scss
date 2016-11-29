@@ -112,16 +112,8 @@ small,
 figcaption,
 sub,
 sup,
-<<<<<<< HEAD
-.info,
-.warning,
-.note,
-.success{
-  font-size: $f-s-S;
-=======
 .alert{
   font-size: $f-s-small;
->>>>>>> master
 }
 
 //----------------------------SMALLER
@@ -173,28 +165,3 @@ h1, h2, h3, h4, h5, h6 {
 #wrapper {
   font-family: $font-family-open-sans;
 }
-<<<<<<< HEAD
-
-/*************************************************************************
-                              LETTER SPACING
-/*************************************************************************/
-
-#tag-line,
-.contact-form input[type="submit"],
-h3 {
-  letter-spacing: $l-s-M;
-}
-
-/*************************************************************************
-                              FONT WEIGHT
-/*************************************************************************/
-
-h1, h2, h3 {
-  font-weight: normal;
-}
-
-#logo-name {
-  font-weight: bold;
-}
-=======
->>>>>>> master

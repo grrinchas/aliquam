@@ -18,12 +18,6 @@ article > ol ol,
   margin-left: $l-h-baseline + $l-h-baseline-half;
 }
 
-<<<<<<< HEAD
-figure, .info, .warning, .note, .success {
-  margin-bottom: $l-h-baseline !important;
-}
-=======
->>>>>>> master
 
 //---------------------------MARGIN-LEFT-RIGHT=BASELINE
 #main-nav li {
@@ -124,21 +118,12 @@ h2, h3, h4,
 #wrapper > header {
   padding-right: $l-h-baseline;
 }
-<<<<<<< HEAD
-.info, .warning, .note, .success {
-  padding: $l-h-baseline-quarter;
-}
-//---------------------------MISC
-h1 {
-  padding-bottom: 0.35rem;
-=======
 
 //---------------------------PADDING-RIGHT-LEFT=BASELINE
 .alert,
 .highlighter-header {
     padding-left: $l-h-baseline;
     padding-right: $l-h-baseline;
->>>>>>> master
 }
 
 //---------------------------PADDING-RIGHT-LEFT=BASELINE-HALF
@@ -197,8 +182,6 @@ abbr {
 .sep {
   border-left: $border-s $color-grey-dark dotted;
 }
-<<<<<<< HEAD
-=======
 .contact-form input[type="submit"], .highlighter-header, article > table th {
   @include button-style-webkit();
   @include button-style-moz();
@@ -208,4 +191,3 @@ abbr {
   @include init-con-font($color-white);
   transition: $t-s-M;
 }
->>>>>>> master

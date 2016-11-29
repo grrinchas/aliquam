@@ -36,13 +36,6 @@ article > ol li,
 .tags li:last-child span {
   display: none;
 }
-<<<<<<< HEAD
-//---------------------------HIDE
-.sep {
-  //visibility: hidden;
-}
-=======
->>>>>>> master
 
 //---------------------------FLEX
 
@@ -113,11 +106,7 @@ ol li {
   list-style-type: decimal;
 }
 
-<<<<<<< HEAD
-article > ol {
-=======
 article ol {
->>>>>>> master
   counter-reset: item;
 }
 
