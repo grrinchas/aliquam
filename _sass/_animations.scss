@@ -1,0 +1,30 @@
+/*************************************************************************
+                                TRANSFORMATIONS
+/*************************************************************************/
+
+//---------------------------SCALE-X=0
+.fancy-nav:before,
+.fancy-nav:after {
+  transform: scaleX(0);
+}
+
+//---------------------------SCALE-X=1
+.fancy-nav:hover:before {
+  transform: scaleX(1);
+}
+
+.fancy-nav:hover:after {
+  transform: scaleX(1);
+}
+
+
+/*************************************************************************
+                                TRANSITIONS
+/*************************************************************************/
+
+.contact-form input[type="submit"]:hover,
+.fancy-nav:hover:before,
+.fancy-nav:hover:after {
+  transition: $t-s-M;
+
+}

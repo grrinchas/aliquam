@@ -1,33 +1,72 @@
+
+$golden-ratio: 1.618;
+
+// font families
+$font-family-open-sans-condensed: 'Open Sans Condensed', sans-serif;
+$font-family-open-sans: 'Open Sans', sans-serif;
+$font-family-lato-serif: 'Lato', sans-serif;
+
+
+/*************************************************************************
+                      FONT-SIZE and  LINE-HEIGHT
+/*************************************************************************/
+
+// device font size
+$f-s-mobile: 16px;
+$f-s-tablet: 18px;
+$f-s-desktop: 19px;
+
+// set default font size to 100% of browser's font size
+$f-s-default: 1rem;
+// set default line height to golden ratio between default font size
+$l-h-default: $f-s-default * $golden-ratio;
+
+// small font size and line height
+$f-s-small: $f-s-default * 0.7;
+$l-h-small: $f-s-default * 1.1;
+
+// code font-size and line height
+$l-h-code: $l-h-default * 0.75;
+
+// h1 font size and line height
+$f-s-h1: $f-s-default * 3;
+$l-h-h1: $l-h-default * 2;
+
+// h2 font size and line height
+$f-s-h2: $f-s-default * $golden-ratio;
+$l-h-h2: $l-h-default * 1.45;
+
+// h3 font size and line height
+$f-s-h3: $f-s-default * 1.25;
+$l-h-h3: $l-h-default * 1.125;
+
+// letter spacing (l-s)
+$l-s-M: 0.1rem;
+
+// transition speed (t-s)
+$t-s-M: 0.5s;
+
+
 /*************************************************************************
                              TEXT ALIGNMENT
 /*************************************************************************/
 
-//---------------------------ALIGN CENTER
-
+//---------------------------ALIGN-CENTER
+#footer-main p:before,
 article > table th,
 #main-nav ul,
-.punch-line,
 .paginator ul,
 #footer-quote,
+#main-logo,
 #footer-main {
   text-align: center;
 }
 
-//----------------------------ALIGN RIGHT
-blockquote footer,
+//----------------------------ALIGN-RIGHT
+
+blockquote > footer,
 .highlighter-header {
   text-align: right;
-}
-
-//----------------------------STYLE ITALIC
-/*
-figcaption {
-  font-style: italic;
-}
-*/
-.punch-line,
-.post-meta {
-  font-style: italic;
 }
 
 //----------------------------MISC
@@ -39,84 +78,103 @@ sub {
   vertical-align: sub;
 }
 
-#footer-main {
-  @include init-con-font();
+/*************************************************************************
+                             LETTER SPACING
+/*************************************************************************/
+
+//----------------------------DEFAULT
+#footer-main,
+.paginator,
+#main-nav,
+.contact-form input[type="submit"] {
+  letter-spacing: $l-s-M;
 }
 
-#tag-line,
-.contact-form input[type="submit"],
- {
-   letter-spacing: $l-s-M;
-}
-#logo-name {
-  font-weight: bold;
-}
 
+/*************************************************************************
+                             FONT WEIGHT
+/*************************************************************************/
+
+//----------------------------NORMAL
 article > table th {
   font-weight: normal;
 }
+
+/*************************************************************************
+                             FONT STYLE
+/*************************************************************************/
+
+//----------------------------STYLE-ITALIC
+article > blockquote {
+   font-style: italic;
+}
+
+/*************************************************************************
+                             TEXT-DECORATION
+/*************************************************************************/
+
+//----------------------------NONE
+a {
+  text-decoration: none ;
+}
+
 
 /*************************************************************************
                              TEXT TRANSFORM
 /*************************************************************************/
 
 //----------------------------UPPERCASE
-.contact-form input[type="submit"],
-#logo-name,
-abbr {
+#footer-main,
+.paginator,
+#main-nav,
+abbr,
+.post-meta,
+.contact-form input[type="submit"] {
   text-transform: uppercase;
 }
 
-//----------------------------LOWERCASE
-#tag-line
-{
-  text-transform: lowercase;
-}
-
-//----------------------------SMALL-CAPS
-#tag-line
-{
-  font-variant: small-caps;
-}
 
 /*************************************************************************
                               FONT SIZE
 /*************************************************************************/
 
-html {
-  font-size: $f-s-mobile;
-}
-
+//----------------------------DEFAULT
 .contact-form input,
 .contact-form textarea,
 h4 {
   font-size: $f-s-default;
 }
 
-#logo-name,
+html {
+  font-size: $f-s-mobile;
+}
+
 h1 {
   font-size: $f-s-h1;
 }
 
 #main-nav,
-article > h2 {
+h2 {
   font-size: $f-s-h2;
 }
 
-article > h3, #footer-quote{
+h3,
+#footer-quote {
   font-size: $f-s-h3;
 }
+
 
 //----------------------------SMALL
 small,
 figcaption,
 sub,
 sup,
-.alert{
+.alert {
   font-size: $f-s-small;
 }
 
 //----------------------------SMALLER
+article > blockquote,
 abbr {
   font-size: smaller;
 }
@@ -125,6 +183,7 @@ abbr {
                               LINE-HEIGHT
 /*************************************************************************/
 
+//----------------------------DEFAULT
 body {
   line-height: $l-h-default;
 }
@@ -141,14 +200,17 @@ h3 {
   line-height: $l-h-h3;
 }
 
-#tag-line,
+
+//----------------------------SMALL
 small, .alert {
   line-height: $l-h-small;
 }
 
+//----------------------------CODE
 .highlight {
   line-height: $l-h-code;
 }
+
 
 /*************************************************************************
                               FONT-FAMILY
@@ -164,4 +226,10 @@ h1, h2, h3, h4, h5, h6 {
 .contact-form textarea,
 #wrapper {
   font-family: $font-family-open-sans;
+}
+
+#footer-main,
+.paginator,
+#main-nav {
+  font-family: $font-family-open-sans-condensed;
 }

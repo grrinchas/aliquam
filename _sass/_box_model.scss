@@ -1,132 +1,99 @@
 /*************************************************************************
-                             MARGIN
+                             MARGIN=0-AUTO
 /*************************************************************************/
-
-//---------------------------CENTER
-.contents,
-#content,
-.punch-line,
-#footer-quote {
+.paginator ul,
+#main-nav ul,
+#footer-quote p:before,
+#footer-quote,
+article {
   margin: 0 auto;
 }
 
-article > ul ul,
-article > ul ol,
-article > ol ul,
-article > ol ol,
-{
-  margin-left: $l-h-baseline + $l-h-baseline-half;
+/*************************************************************************
+                             MARGIN-TOP-BOTTOM
+/*************************************************************************/
+
+//---------------------------BASELINE-DOUBLE
+#footer-quote {
+  margin-top: $l-h-baseline-double;
+  margin-bottom: $l-h-baseline-double;
 }
 
+/*************************************************************************
+                             MARGIN-LEFT-RIGHT
+/*************************************************************************/
 
-//---------------------------MARGIN-LEFT-RIGHT=BASELINE
-#main-nav li {
-  margin-left: $l-h-baseline-half;
-  margin-right: $l-h-baseline-half;
-}
-
-//---------------------------MARGIN-LEFT=BASELINE
+//---------------------------BASELINE
 .sep {
   margin-left: $l-h-baseline;
+  margin-right: $l-h-baseline;
 }
 
-#logo-name {
-  padding-right: $l-h-baseline-double;
+//---------------------------BASELINE-DOUBLE
+article > blockquote {
+  margin-left: $l-h-baseline-double;
+  margin-right: $l-h-baseline-double;
+
 }
-//---------------------------MARGIN-BOTTOM=0.5-BASELINE
+
+/*************************************************************************
+                             MARGIN-BOTTOM
+/*************************************************************************/
+
+//---------------------------BASELINE
 .contact-form input,
 .contact-form textarea {
   margin-bottom: $l-h-baseline;
 }
 
-//---------------------------MARGIN-BOTTOM=BASELINE-DOUBLE
+//---------------------------BASELINE-DOUBLE
+article > blockquote,
 article > table,
 figure, .alert {
   margin-bottom: $l-h-baseline-double;
 }
 
 /*************************************************************************
+                             MARGIN-RIGHT
+/*************************************************************************/
+
+//---------------------------BASELINE-HALF
+article > ul li:before {
+  margin-right: $l-h-baseline-half;
+}
+
+//---------------------------MISC
+article > ol li:before {
+  margin-right: $l-h-baseline-half - $l-h-baseline-half/1.5;
+}
+
+/*************************************************************************
                              PADDING
 /*************************************************************************/
 
-//---------------------------PADDING=BASELINE
-#footer-quote,
-.contents
- {
-  padding: $l-h-baseline;
+//---------------------------BASELINE-HALF
+.contact-form input,
+.contact-form textarea {
+  padding: $l-h-baseline-half;
 }
 
-
+//---------------------------BASELINE
+.paginator ul,
 #footer-quote {
-  padding-top: $l-h-baseline * 3;
-}
-
-//---------------------------PADDING=0.5-BASELINE
-.paginator ul, {
   padding: $l-h-baseline;
 }
 
-//---------------------------PADDING-BOTTOM=BASELINE
-p,
-ul,
-ol,
-blockquote {
-  padding-bottom: $l-h-baseline-double;
-}
-
-.post-meta,
-.alert p {
-  padding-bottom: $l-h-baseline;
-}
-
-//---------------------------PADDING-BOTTOM=BASELINE-HALF
-h1 {
-  padding-bottom: $l-h-baseline-half;
-}
-
-//---------------------------PADDING-TOP-BOTTOM=BASELINE
-h2, h3, h4,
-{
-  padding-top: $l-h-baseline;
-  padding-bottom: $l-h-baseline;
-}
-
-//---------------------------PADDING-TOP-BOTTOM=DOUBLE
-#footer-main
-{
-  padding-top: $l-h-baseline-double;
-  padding-bottom: $l-h-baseline-double;
-}
-
-//---------------------------PADDING-TOP=2-BASELINE
-#content,
-#main-nav ul,
-#disqus_thread {
-  padding-top: $l-h-baseline-double;
-  padding-bottom: $l-h-baseline-double;
-}
-
-
-
-
-//---------------------------PADDING-LEFT=0.5-BASELINE
+//---------------------------BASELINE-DOUBLE * 2
 #wrapper > header {
-  padding-left: $l-h-baseline;
+  padding: $l-h-baseline-double * 2;
 }
 
-//---------------------------PADDING-RIGHT=0.5-BASELINE
-#wrapper > header {
-  padding-right: $l-h-baseline;
-}
+/*************************************************************************
+                             PADDING-LEFT-RIGHT
+/*************************************************************************/
 
-//---------------------------PADDING-RIGHT-LEFT=BASELINE
-.alert,
-.highlighter-header {
-    padding-left: $l-h-baseline;
-    padding-right: $l-h-baseline;
-}
-
-//---------------------------PADDING-RIGHT-LEFT=BASELINE-HALF
+//---------------------------BASELINE-HALF
+#main-nav li,
 article > table td,
 article > table th,
 .highlighter-rouge,
@@ -135,59 +102,122 @@ article > table th,
   padding-right: $l-h-baseline-half;
 }
 
-.contact-form input,
-.contact-form textarea {
-  padding: $l-h-baseline-half;
+//---------------------------BASELINE
+article > blockquote,
+.alert,
+.highlighter-header,
+#wrapper > header {
+  padding-left: $l-h-baseline;
+  padding-right: $l-h-baseline;
 }
 
-//---------------------------PADDING-TOP-BOTTOM=BASELINE-HALF
+//---------------------------BASELINE-DOUBLE
+main {
+  padding-left: $l-h-baseline-double;
+  padding-right: $l-h-baseline-double;
+}
+
+/*************************************************************************
+                             PADDING-TOP-BOTTOM
+/*************************************************************************/
+
+//---------------------------BASELINE-HALF
 #main-nav li,
 .lineno, .alert {
   padding-top: $l-h-baseline-half;
   padding-bottom: $l-h-baseline-half;
 }
 
-//---------------------------PADDING-TOP-BOTTOM=BASELINE
+//---------------------------BASELINE
 article {
   padding-bottom: $l-h-baseline;
   padding-top: $l-h-baseline;
 }
 
+//---------------------------BASELINE-DOUBLE
+#disqus_thread,
+#footer-main {
+  padding-top: $l-h-baseline-double;
+  padding-bottom: $l-h-baseline-double;
+}
+
 //---------------------------MISC
-article ul ul,
-article ul ol,
-article ol ul,
-article ol ol {
-  padding-bottom: 0;
+.preview {
+  padding-top: $l-h-baseline * 3;
+  padding-bottom: $l-h-baseline * 3;
 }
 
 /*************************************************************************
-                             BORDER
+                             PADDING-TOP
 /*************************************************************************/
 
-
-.contact-form input,
-.contact-form textarea {
-  border: 1px solid $color-grey-darer-dark;
+//---------------------------BASELINE
+.alert h4{
+  padding-top: $l-h-baseline;
 }
 
-abbr {
-  border-bottom: 1px dashed;
+//---------------------------BASELINE-DOUBLE
+article > h4,
+#footer-quote footer {
+  padding-top: $l-h-baseline-double;
 }
 
-.contact-form input[type="submit"] {
-  border: none;
+//---------------------------BASELINE-DOUBLE=*2
+article:not(.preview) h2 {
+  padding-top: $l-h-baseline-double * 2;
 }
 
-.sep {
-  border-left: $border-s $color-grey-dark dotted;
-}
-.contact-form input[type="submit"], .highlighter-header, article > table th {
-  @include button-style-webkit();
-  @include button-style-moz();
+//---------------------------MISC
+article h3 {
+  padding-top: $l-h-baseline-double * 1.5;
 }
 
-.fancy-nav {
-  @include init-con-font($color-white);
-  transition: $t-s-M;
+article {
+  padding-top: $l-h-baseline * 3;
 }
+
+/*************************************************************************
+                             PADDING-BOTTOM
+/*************************************************************************/
+
+//---------------------------BASELINE-HALF
+.alert p,
+h1, h4 {
+  padding-bottom: $l-h-baseline-half;
+}
+
+//---------------------------BASELINE
+#footer-quote p:before,
+article > h2,
+article > h3,
+.post-meta,
+.alert p {
+  padding-bottom: $l-h-baseline;
+}
+
+//---------------------------BASELINE-DOUBLE
+#main-logo,
+article:not(.preview) > p,
+article > blockquote p,
+article > ul,
+article > ol {
+  padding-bottom: $l-h-baseline-double;
+}
+
+//---------------------------BASELINE-DOUBLE=*2
+article header h1 {
+  padding-bottom: $l-h-baseline-double *2;
+}
+
+/*************************************************************************
+                             PADDING-LEFT
+/*************************************************************************/
+
+//---------------------------MISC
+article > ul ul,
+article > ul ol,
+article > ol ul,
+article > ol ol {
+  padding-left: $l-h-baseline-half * 3;
+}
+

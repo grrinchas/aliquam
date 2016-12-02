@@ -4,17 +4,13 @@
 <body style="background: url('{{ site.baseurl }}/resources/images/main_front.jpg') no-repeat fixed;
                             background-size: cover">
 <div id="wrapper">
-    <header>
     {% include header.html %}
-    </header>
     <main id="start">
-<div class="contents">
-<div class="articles">
-        {{ content }}
-</div>
-</div>
+        <div class="articles">
+            {{ content }}
+        </div>
     </main>
-    {% include paginator.html %}
+        {% include paginator.html %}
     <footer>
         {% include footer.html %}
     </footer>

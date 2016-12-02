@@ -1,0 +1,67 @@
+/*************************************************************************
+                             BORDER
+/*************************************************************************/
+
+//---------------------------NONE
+.preview:last-child,
+.contact-form input[type="submit"] {
+  border: none;
+}
+
+//---------------------------1PX-SOLID
+.contact-form input:focus,
+.contact-form textarea:focus,
+article > table td,
+article > table th,
+.contact-form input,
+.contact-form textarea,
+.alert {
+  border: 1px solid;
+}
+
+//---------------------------WIDTH=4PX
+.sep {
+  border-width: 4px;
+}
+
+/*************************************************************************
+                             BORDER-BOTTOM
+/*************************************************************************/
+
+//---------------------------WIDTH=1PX
+abbr, .preview {
+  border-bottom-width: 1px;
+}
+
+//---------------------------STYLE
+abbr {
+  border-bottom-style: dashed;
+}
+
+.preview {
+  border-bottom-style: solid;
+}
+
+/*************************************************************************
+                             BORDER-LEFT
+/*************************************************************************/
+
+//---------------------------WIDTH=4PX
+article > blockquote {
+  border-left: 4px;
+}
+
+//---------------------------STYLE
+article > blockquote {
+  border-left-style: solid;
+}
+
+/*************************************************************************
+                             BORDER-RIGHT
+/*************************************************************************/
+
+//---------------------------STYLE
+.sep {
+  border-right-style: dotted;
+}
+
