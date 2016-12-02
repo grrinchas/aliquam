@@ -30,8 +30,8 @@ $color-note-dark: darken($color-note, 10);
 /*************************************************************************/
 
 //---------------------------FONT
-a,
-a:visited {
+main a,
+main a:visited {
   color: $color-blue;
 }
 
@@ -41,7 +41,7 @@ a:visited {
 
 //---------------------------FONT
 
-a:hover,
+main a:hover,
 .info {
   color: $color-blue-dark;
 }
@@ -74,11 +74,10 @@ a:hover,
 /*************************************************************************/
 
 //---------------------------FONT
-#main-nav a,
 #footer-quote,
 .highlighter-header,
 article > table th,
-#wrapper > header,
+#wrapper > header a,
 #wrapper > header a:visited,
 .contact-form input[type="submit"] {
   color: $color-white;
