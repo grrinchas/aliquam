@@ -10,7 +10,7 @@ owner: Dennis Grinch
 # To disable set enable to false
 quote:
   enable: true
-  quote: Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
+  quote: "Two things are infinite - the universe and human stupidity; and I'm not sure about the universe."
   author: Albert Einstein
 
 # Set this to your main site title. If page doesn't have its own title,
