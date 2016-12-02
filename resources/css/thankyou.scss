@@ -1,0 +1,31 @@
+---
+---
+
+@import "reset";
+@import "darcula";
+@import "typography";
+@import "layout";
+@import "box_model";
+@import "border";
+@import "colour";
+@import "animations";
+@import "miscs";
+@import "media";
+@import "playground";
+
+body {
+  article {
+    h1, p {
+      text-align: center;
+    }
+    h1:before {
+      content:'\2713';
+      display: block;
+      font-weight: bold;
+      color: $color-green;
+      padding-bottom: $l-h-baseline-double * 3;
+      margin-top: $l-h-baseline * 2;
+      font-size: $l-h-baseline-double * 8;
+    }
+  }
+}

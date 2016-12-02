@@ -1,0 +1,107 @@
+/*************************************************************************
+                                LISTS
+/*************************************************************************/
+
+
+//---------------------------LIST-STYLE-TYPE=NONE
+article > ol li {
+  list-style-type: none;
+}
+
+//---------------------------LIST-COUNTER
+article ol {
+  counter-reset: item;
+}
+
+article > ol li:before {
+  counter-increment: item;
+}
+
+article > ul li,
+article > ol li {
+  text-indent: -$l-h-baseline-half * 3;
+}
+
+/*************************************************************************
+                                USER-SELECT
+/*************************************************************************/
+
+//---------------------------NONE
+.highlighter-header,
+.lineno {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*************************************************************************
+                                CURSORS
+/*************************************************************************/
+
+//---------------------------DEFAULT
+abbr {
+  cursor: default;
+}
+
+//---------------------------POINTER
+.contact-form input[type="submit"] {
+  cursor: pointer;
+}
+
+/*************************************************************************
+                                WRAP
+/*************************************************************************/
+
+.highlighter-rouge {
+  word-wrap: break-word;
+}
+
+/*************************************************************************
+                                CONTENT
+/*************************************************************************/
+.fancy-nav:before,
+.fancy-nav:after,
+#footer-quote p:before {
+  content: "";
+}
+
+article > ul li:before {
+  content: "\00BB \0020";
+}
+
+article > ol li:before {
+  content: counter(item) ".\0020";
+}
+
+/*************************************************************************
+                                OVERFLOW
+/*************************************************************************/
+
+//----------------------------OVERFLOW-X=AUTO
+
+.highlight {
+  overflow-x: auto;
+}
+
+//----------------------------OVERFLOW-Y=HIDDEN
+
+.highlight {
+  overflow-y: hidden;
+}
+
+/*************************************************************************
+                                BACKGROUND
+/*************************************************************************/
+
+body {
+  background-size: cover;
+}
+
+#footer-quote p:before {
+  background: url("/resources/images/quotes.svg") no-repeat;
+}
+
+#footer-quote p:before {
+  background-size: $l-h-baseline-half * 7;
+}

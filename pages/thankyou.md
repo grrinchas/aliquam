@@ -2,7 +2,7 @@
 layout: page
 title: Thank You!
 comments: false
-css: /thankyou.css
+css: /resources/css/thankyou.css
 ---
 
 # __THANK YOU!__

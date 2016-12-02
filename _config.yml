@@ -13,45 +13,39 @@ quote:
   quote: Some fancy quote.
   author: John Doe
 
-# Set this to your main site title
-# In the head - ff page doesnt have its own title,
-# Site title will be used instead
+# Set this to your main site title. If page doesn't have its own title,
+# then this title will be used.
 title: Aliquam Theme - Author Dennis Grinch
 
-# Description and title below nav in the header
-punch-line: false
+# Your logo text for the header
+logo: John Doe
 
-headline: true
-# Your logo for the header
-logo:
-  title: Jhon Doe
-  subtitle: Designer & Developer
 
 # Following needed for disqus integration
 # Set your 'disqus' account name
-disqus: grrinchas
+disqus:
 
 # Uncomment if deployed locally
-# url: https://localhost:4000
+#url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-url: https://grrinchas.github.io
+url:
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
-baseurl: /aliquam
+# NOTE! only change if site is NOT in master's branch
+baseurl:
 
 # Change this to your google analytics ID
-google_analytics: UA-78379987-1
+google_analytics:
 
 # Contact form pupublic key
-contact_PK: ef1dcbc3b8a3c2deda24a2efe9a5f65f
+contact_PK:
 
 ##########################################
 #          Optional variables
 ##########################################
-
 
 # Set maximum posts per page
 paginate: 5
@@ -59,20 +53,17 @@ paginate: 5
 # Set permalink
 permalink: /:categories/:title
 
-# Set excerpt separator
-truncate_size: 40
-
 ##########################################
 #          Do not change these variables
 ##########################################
+
+include:
+  - _pages
 
 sass:
   sass_dir: _sass
 sass:
     style: compressed
-
-include:
-  - pages
 
 gems:
   - jekyll-paginate

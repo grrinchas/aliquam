@@ -3,11 +3,9 @@
 /*************************************************************************/
 
 @media only screen and (min-width: $media-query-med-1) {
-
-  .contents{
-    padding: $l-h-baseline-double;
+  .preview {
+    text-align: left;
   }
-
   .paginator li {
     display: inline-block;
   }
@@ -15,16 +13,18 @@
   .sep {
     display: block;
   }
+  .paginator ul {
+    max-width: none;
+  }
+
 }
 
 @media only screen and (min-width: $media-query-med-2) {
   html {
     font-size: $f-s-tablet;
   }
-
-  #content {
-      $padding-top: $l-h-baseline-double * 2;
-      $padding-bottom: $l-h-baseline-double * 2;
+  main {
+    padding: $l-h-baseline-double * 3 0;
   }
 
 }
@@ -33,34 +33,35 @@
   html {
     font-size: $f-s-desktop;
   }
-
   #main-nav ul {
-    padding: $l-h-baseline-double * 3 0;
+    max-width: none;
+  }
+  #main-nav ul li {
+
+    display: inline-block;
   }
 
-  #main-nav li{
-        display: inline-block;
-  }
 }
 
 @media only screen and (min-width: $media-query-max-extra) {
-  #content {
-    padding: $l-h-baseline-double * 2;
+
+  #wrapper > header {
+    padding: $l-h-baseline-double $l-h-baseline-double * 2;
+  }
+  #main-logo {
+    display: inline-block;
+    padding: 0 !important;
+    h1 {
+      padding: 0;
+    }
   }
 
-  .headline {
-    padding: $l-h-baseline-double * 2 !important;
-    max-width: none!important;
-
-    #main-nav ul {
-      padding: 0 !important;
-    }
-    .punch-line {
-      padding-top: $l-h-baseline-double * 5;
-    }
-    .logo-nav {
-      flex-direction: row;
-      justify-content: space-between;
-    }
+  #main-nav {
+    padding: 0;
+    display: inline-block;
+    float: right;
   }
+
 }
+
+

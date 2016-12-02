@@ -1,28 +1,15 @@
+<header>
+    <div id="main-logo"><h2><a href="{{ site.baseurl }}/index.html">{{ site.logo }}</a></h2></div>
+    <nav id="main-nav">
+        <ul>
+            <li><a class="fancy-nav" href="{{ site.baseurl }}/index.html">home</a></li>
 
-{% if site.headline %}
-<div id="content" class="headline">
-{% else %}
-<div id="content">
-{% endif %}
-    <div class="logo-nav">
-        {% include logo.html %}
-        {% include nav.html %}
-    </div>
-    {% if site.punch-line == true %}
-    <div class="punch-line">
-        <h1>
-            {% if page.category %}
-            {{ page.category }}
-            {% else if page.tag %}
-            {{ page.tag }}
-            {% endif %}
-            {% if page.category == nil and page.tag == nil %}
-            {{ page.title }}
-            {% endif %}
-        </h1>
-        {% if page.description %}
-        <p>{{ page.description }}</p>
-        {% endif %}
-    </div>
-    {% endif %}
-</div>
+            {% for link in site.categories %}
+            <li><a class="fancy-nav" href="{{ site.baseurl }}/categories/{{ link | first | downcase }}">{{ link | first
+                }}</a></li>
+            {% endfor %}
+            <li><a class="fancy-nav" href="{{ site.baseurl }}/pages/about.html">about</a></li>
+            <li><a class="fancy-nav" href="{{ site.baseurl }}/pages/thankyou.html">thank you</a></li>
+        </ul>
+    </nav>
+</header>
