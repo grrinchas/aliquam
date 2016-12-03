@@ -1,8 +1,10 @@
+
+
 /*************************************************************************
                              MARGIN=0-AUTO
 /*************************************************************************/
 .paginator ul,
-#main-nav ul,
+#main-nav,
 #footer-quote p:before,
 #footer-quote,
 article {
@@ -23,17 +25,18 @@ article {
                              MARGIN-LEFT-RIGHT
 /*************************************************************************/
 
-//---------------------------BASELINE
-.sep {
-  margin-left: $l-h-baseline;
-  margin-right: $l-h-baseline;
-}
 
 //---------------------------BASELINE-DOUBLE
 article > blockquote {
   margin-left: $l-h-baseline-double;
   margin-right: $l-h-baseline-double;
 
+}
+
+//---------------------------MISC
+.sep {
+  margin-left: $l-h-baseline - $b-w-sep * 2;
+  margin-right: $l-h-baseline;
 }
 
 /*************************************************************************
@@ -78,14 +81,10 @@ article > ol li:before {
 }
 
 //---------------------------BASELINE
+#wrapper >header,
 .paginator ul,
 #footer-quote {
   padding: $l-h-baseline;
-}
-
-//---------------------------BASELINE-DOUBLE * 2
-#wrapper > header {
-  padding: $l-h-baseline-double * 2;
 }
 
 /*************************************************************************
@@ -93,6 +92,7 @@ article > ol li:before {
 /*************************************************************************/
 
 //---------------------------BASELINE-HALF
+.tag-sep,
 #main-nav li,
 article > table td,
 article > table th,
@@ -122,7 +122,6 @@ main {
 /*************************************************************************/
 
 //---------------------------BASELINE-HALF
-#main-nav li,
 .lineno, .alert {
   padding-top: $l-h-baseline-half;
   padding-bottom: $l-h-baseline-half;
@@ -145,6 +144,11 @@ article {
 .preview {
   padding-top: $l-h-baseline * 3;
   padding-bottom: $l-h-baseline * 3;
+}
+
+#main-nav li {
+  padding-top: $l-h-baseline-half * 0.5;
+  padding-bottom: $l-h-baseline-half * 0.5;
 }
 
 /*************************************************************************
@@ -196,7 +200,6 @@ article > h3,
 }
 
 //---------------------------BASELINE-DOUBLE
-#main-logo,
 article:not(.preview) > p,
 article > blockquote p,
 article > ul,
