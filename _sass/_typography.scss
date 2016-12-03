@@ -41,7 +41,8 @@ $f-s-h3: $f-s-default * 1.25;
 $l-h-h3: $l-h-default * 1.125;
 
 // letter spacing (l-s)
-$l-s-M: 0.1rem;
+$l-s-default: 0.1rem;
+$l-s-double: $l-s-default * 2;
 
 // transition speed (t-s)
 $t-s-M: 0.5s;
@@ -54,10 +55,9 @@ $t-s-M: 0.5s;
 //---------------------------ALIGN-CENTER
 #footer-main p:before,
 article > table th,
-#main-nav ul,
+#main-nav ,
 .paginator ul,
 #footer-quote,
-#main-logo,
 #footer-main {
   text-align: center;
 }
@@ -84,10 +84,14 @@ sub {
 
 //----------------------------DEFAULT
 #footer-main,
-.paginator,
-#main-nav,
 .contact-form input[type="submit"] {
-  letter-spacing: $l-s-M;
+  letter-spacing: $l-s-default;
+}
+
+//----------------------------DOUBLE
+.paginator,
+#main-nav {
+  letter-spacing: $l-s-double;
 }
 
 
@@ -153,11 +157,11 @@ h1 {
   font-size: $f-s-h1;
 }
 
-#main-nav,
 h2 {
   font-size: $f-s-h2;
 }
 
+#main-nav,
 h3,
 #footer-quote {
   font-size: $f-s-h3;

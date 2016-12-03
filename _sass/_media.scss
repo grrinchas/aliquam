@@ -13,10 +13,17 @@
   .sep {
     display: block;
   }
+
   .paginator ul {
     max-width: none;
   }
-
+  #main-nav {
+    max-width: none;
+    text-align: right;
+  }
+  #main-nav ul li {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: $media-query-med-2) {
@@ -27,40 +34,20 @@
     padding: $l-h-baseline-double * 3 0;
   }
 
+
 }
 
 @media only screen and (min-width: $media-query-max) {
   html {
     font-size: $f-s-desktop;
   }
-  #main-nav ul {
-    max-width: none;
-  }
-  #main-nav ul li {
-
-    display: inline-block;
-  }
 
 }
 
 @media only screen and (min-width: $media-query-max-extra) {
 
-  #wrapper > header {
-    padding: $l-h-baseline-double $l-h-baseline-double * 2;
-  }
-  #main-logo {
-    display: inline-block;
-    padding: 0 !important;
-    h1 {
-      padding: 0;
-    }
-  }
 
-  #main-nav {
-    padding: 0;
-    display: inline-block;
-    float: right;
-  }
+
 
 }
 
