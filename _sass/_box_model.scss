@@ -15,11 +15,6 @@ article {
                              MARGIN-TOP-BOTTOM
 /*************************************************************************/
 
-//---------------------------BASELINE-DOUBLE
-#footer-quote {
-  margin-top: $l-h-baseline-double;
-  margin-bottom: $l-h-baseline-double;
-}
 
 /*************************************************************************
                              MARGIN-LEFT-RIGHT
@@ -82,9 +77,14 @@ article > ol li:before {
 
 //---------------------------BASELINE
 #wrapper >header,
-.paginator ul,
-#footer-quote {
+.paginator ul
+{
   padding: $l-h-baseline;
+}
+
+//---------------------------BASELINE-DOUBLE
+#footer-quote {
+  padding: $l-h-baseline-double;
 }
 
 /*************************************************************************
@@ -128,14 +128,15 @@ main {
 }
 
 //---------------------------BASELINE
+#footer-main,
 article {
   padding-bottom: $l-h-baseline;
   padding-top: $l-h-baseline;
 }
 
 //---------------------------BASELINE-DOUBLE
-#disqus_thread,
-#footer-main {
+#disqus_thread
+ {
   padding-top: $l-h-baseline-double;
   padding-bottom: $l-h-baseline-double;
 }
@@ -156,13 +157,14 @@ article {
 /*************************************************************************/
 
 //---------------------------BASELINE
+#wrapper > footer,
 .alert h4{
   padding-top: $l-h-baseline;
 }
 
 //---------------------------BASELINE-DOUBLE
-article > h4,
-#footer-quote footer {
+article > h4
+{
   padding-top: $l-h-baseline-double;
 }
 
