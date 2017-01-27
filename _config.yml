@@ -4,44 +4,41 @@
 ##########################################
 
 # Set this for Copyright in the footer
-owner: Dennis Grinch
+owner: Name Surname
 
 # Optional quote in the footer
 # To disable set enable to false
 quote:
   enable: true
-  quote: "Two things are infinite - the universe and human stupidity; and I'm not sure about the universe."
-  author: Albert Einstein
+  quote: Some fancy quote
+  author: John Doe
 
 # Set this to your main site title. If page doesn't have its own title,
 # then this title will be used.
 title: Aliquam Theme
 
-# Your logo text for the header
-logo: Dennis Grinch
-
 
 # Following needed for disqus integration
 # Set your 'disqus' account name
-disqus: grrinchas
+disqus:
 
 # Uncomment if deployed locally
 #url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
-url: https://grrinchas.github.io
+url:
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
 # For example /branchName
 # NOTE! only change if site is NOT in master's branch
-baseurl: /aliquam
+baseurl:
 
 # Change this to your google analytics ID
-google_analytics: UA-78379987-1
+google_analytics:
 
 # Contact form pupublic key
-contact_PK: ef1dcbc3b8a3c2deda24a2efe9a5f65f
+contact_PK:
 
 ##########################################
 #          Optional variables

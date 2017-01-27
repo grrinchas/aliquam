@@ -30,17 +30,17 @@ Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus
 
 <div class="info alert"><strong>INFO: </strong> This is info message</div>
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+Class aptent taciti sociosquad litora torquent per conubia nostra, per inceptos himenaeos. 
 
 <div class="warning alert"><strong>WARNING: </strong>This is warning message with a <a href="#">some random link</a> to click.</div>
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 
-<div class="note alert"><strong>NOTE: </strong>This is note message</div>
+<div class="note alert"><strong>NOTE: </strong>This is note message <code>this is code</code></div>
 
 <div class="success alert">
 <h4>This is h4 header!</h4>
-<p>Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere</p>
+<p>Mauris ullamcorper lacus sed augue molestie,  <code>this is code</code> ac consequat erat posuere</p>
 <p>Mauris <i>ullamcorper lacus</i> sed augue molestie, git clone ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.</p>
 </div>
 
@@ -86,7 +86,7 @@ Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus
 
 #### This is h4 header
 
-Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
+Curabitur pharet<sub>r</sub>a eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
 
 
 | Header One     | Header Two | Header Three | Head |
@@ -102,7 +102,12 @@ Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue m
 
 Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
 
-![image test](/resources/images/main_front.jpg) 
+<figure>
+<img alt="image test" src="/resources/images/main_front.jpg"/>
+<figcaption>
+<strong>Figure 1: </strong>Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. 
+</figcaption>
+</figure>
 
 Bold text: __I am bold__
 
