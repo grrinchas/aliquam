@@ -4,7 +4,7 @@
 
 
 //---------------------------LIST-STYLE-TYPE=NONE
-article > ol li {
+article ol li {
   list-style-type: none;
 }
 
@@ -13,12 +13,12 @@ article ol {
   counter-reset: item;
 }
 
-article > ol li:before {
+article ol li:before {
   counter-increment: item;
 }
 
-article > ul li,
-article > ol li {
+article ul li,
+article ol li {
   text-indent: -$l-h-baseline-half * 3;
 }
 
@@ -27,7 +27,7 @@ article > ol li {
 /*************************************************************************/
 
 //---------------------------NONE
-.highlighter-header,
+.env-header,
 .lineno {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -66,13 +66,17 @@ abbr {
   content: "";
 }
 
-article > ul li:before {
+article ul li:before {
   content: "\00BB \0020";
 }
 
-article > ol li:before {
+article ol li:before {
   content: counter(item) ".\0020";
 }
+
+.tags ul li:before { content: none;
+}
+
 
 /*************************************************************************
                                 OVERFLOW

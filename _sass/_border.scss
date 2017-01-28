@@ -13,10 +13,11 @@ $b-w-sep: 0.3rem;
 }
 
 //---------------------------1PX-SOLID
+.definition,
 .contact-form input:focus,
 .contact-form textarea:focus,
-article > table td,
-article > table th,
+.table td,
+.table th,
 .contact-form input,
 .contact-form textarea,
 .alert {
@@ -26,6 +27,12 @@ article > table th,
 //---------------------------WIDTH=4PX
 .sep {
   border-width: $b-w-sep;
+}
+
+
+//---------------------------RADIUS=3PX
+.highlighter-rouge {
+  border-radius: 3px;
 }
 
 /*************************************************************************
@@ -51,12 +58,12 @@ abbr {
 /*************************************************************************/
 
 //---------------------------WIDTH=4PX
-article > blockquote {
+article > .blockquote {
   border-left: $b-w-sep;
 }
 
 //---------------------------STYLE
-article > blockquote {
+article > .blockquote {
   border-left-style: solid;
 }
 
@@ -68,4 +75,5 @@ article > blockquote {
 .sep {
   border-right-style: dotted;
 }
+
 
