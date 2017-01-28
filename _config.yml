@@ -50,6 +50,9 @@ paginate: 5
 # Set permalink
 permalink: /:categories/:title
 
+# MathJax support
+math: true
+
 ##########################################
 #          Do not change these variables
 ##########################################
