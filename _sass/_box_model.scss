@@ -1,8 +1,7 @@
-
-
-/*************************************************************************
+/********** ***************************************************************
                              MARGIN=0-AUTO
 /*************************************************************************/
+.table table,
 figcaption,
 .paginator ul,
 #main-nav,
@@ -16,14 +15,12 @@ article {
                              MARGIN-TOP-BOTTOM
 /*************************************************************************/
 
-
 /*************************************************************************
                              MARGIN-LEFT-RIGHT
 /*************************************************************************/
 
-
 //---------------------------BASELINE-DOUBLE
-article > blockquote {
+article > .blockquote {
   margin-left: $l-h-baseline-double;
   margin-right: $l-h-baseline-double;
 
@@ -33,6 +30,18 @@ article > blockquote {
 .sep {
   margin-left: $l-h-baseline - $b-w-sep * 2;
   margin-right: $l-h-baseline;
+}
+
+/**************************************************************************
+                             MARGIN=LEFT
+/*************************************************************************/
+
+//---------------------------MISC
+.tags ul li,
+.alert > li,
+.alert > ol,
+.alert > ul {
+  margin-left: $l-h-baseline * 1.5;
 }
 
 /*************************************************************************
@@ -46,9 +55,10 @@ article > blockquote {
 }
 
 //---------------------------BASELINE-DOUBLE
-article > blockquote,
-article > table,
-figure, .alert {
+article > .blockquote,
+.table,
+figure,
+.alert {
   margin-bottom: $l-h-baseline-double;
 }
 
@@ -57,12 +67,12 @@ figure, .alert {
 /*************************************************************************/
 
 //---------------------------BASELINE-HALF
-article > ul li:before {
+article ul li:before {
   margin-right: $l-h-baseline-half;
 }
 
 //---------------------------MISC
-article > ol li:before {
+article ol li:before {
   margin-right: $l-h-baseline-half - $l-h-baseline-half/1.5;
 }
 
@@ -77,9 +87,8 @@ article > ol li:before {
 }
 
 //---------------------------BASELINE
-#wrapper >header,
-.paginator ul
-{
+#wrapper > header,
+.paginator ul {
   padding: $l-h-baseline;
 }
 
@@ -100,8 +109,8 @@ article > ol li:before {
 //---------------------------BASELINE-HALF
 .tag-sep,
 #main-nav li,
-article > table td,
-article > table th,
+.table td,
+.table th,
 .highlighter-rouge,
 .lineno, .code {
   padding-left: $l-h-baseline-half;
@@ -109,9 +118,9 @@ article > table th,
 }
 
 //---------------------------BASELINE
-article > blockquote,
+article > .blockquote,
 .alert,
-.highlighter-header,
+.env-header,
 #wrapper > header {
   padding-left: $l-h-baseline;
   padding-right: $l-h-baseline;
@@ -141,8 +150,7 @@ article {
 }
 
 //---------------------------BASELINE-DOUBLE
-#disqus_thread
- {
+#disqus_thread {
   padding-top: $l-h-baseline-double;
   padding-bottom: $l-h-baseline-double;
 }
@@ -162,15 +170,19 @@ article {
                              PADDING-TOP
 /*************************************************************************/
 
+//---------------------------BASELINE-HALF
+figcaption {
+  padding-top: $l-h-baseline-half;
+}
+
 //---------------------------BASELINE
 #wrapper > footer,
-.alert h4{
+.alert h4 {
   padding-top: $l-h-baseline;
 }
 
 //---------------------------BASELINE-DOUBLE
-article > h4
-{
+article > h4 {
   padding-top: $l-h-baseline-double;
 }
 
@@ -191,9 +203,8 @@ article {
 /*************************************************************************
                              PADDING-BOTTOM
 /*************************************************************************/
-
 //---------------------------BASELINE-HALF
-.alert p,
+.alert > li, .alert > ol, .alert > ul,
 h1, h4 {
   padding-bottom: $l-h-baseline-half;
 }
@@ -209,7 +220,7 @@ article > h3,
 
 //---------------------------BASELINE-DOUBLE
 article:not(.preview) > p,
-article > blockquote p,
+article > .blockquote p,
 article > ul,
 article > ol {
   padding-bottom: $l-h-baseline-double;
@@ -220,15 +231,20 @@ article header h1 {
   padding-bottom: $l-h-baseline-double *2;
 }
 
+//---------------------------NONE
+.alert p:last-child {
+  padding-bottom: 0;
+}
+
 /*************************************************************************
                              PADDING-LEFT
 /*************************************************************************/
 
 //---------------------------MISC
-article > ul ul,
-article > ul ol,
-article > ol ul,
-article > ol ol {
+article ul ul,
+article ul ol,
+article ol ul,
+article ol ol {
   padding-left: $l-h-baseline-half * 3;
 }
 

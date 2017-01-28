@@ -14,7 +14,6 @@ Want real life example? [check this out](http://grrinchas.github.io/)
 - [Features](#features)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [TODO](#todo)
 - [License](#license)
 
 
@@ -27,6 +26,7 @@ Want real life example? [check this out](http://grrinchas.github.io/)
 - Custom tags and categories
 - SEO support
 - Contact form integration
+- MathJax support
 
 ## <a name="installation"></a>Installation
 
@@ -62,6 +62,7 @@ All configuration is done via `_config.yml` file which you will find in your mai
 - `baseurl: "/<branchName>"` - Change this to your branch name where _gh-pages_ resides. !NOTE apply only if you used __Method 2__ for installation.
 - `google_analytics: <your_ID>` - Change this to your google analytics ID.
 - `contact_PK: <yourPublicKey>` - Change this to your [http://getsimpleform.com](http://getsimpleform.com) public key.
+- `math: true` - set `false` to disable maths support. For more information check [MathJax](https://www.mathjax.org/).
 
 To get your public key:
 
@@ -70,10 +71,6 @@ To get your public key:
 3. Go to your email and copy your token `Your form api token is <token>`. !NOTE do not copy your private key.
 4. Paste this key to `contact_PK` in `_config.yml`.
 5. Every time when someone sends you a message you will receive a notification to your email.
-
-## <a name="todo"></a>TODO
-
-- Add social media buttons
 
 ## <a name="license"></a>License
 

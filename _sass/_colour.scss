@@ -6,6 +6,8 @@ $color-orange: #d16b19;
 $color-green: #1BA914;
 $color-red: #CF191D;
 
+$color-code: darken($color-white, 10);
+
 $color-paginator: darken($color-white, 30);
 $color-paginator-darker: darken($color-paginator, 10);
 $color-paginator-darkest: darken($color-paginator, 40);
@@ -81,8 +83,8 @@ main a:hover,
 
 //---------------------------FONT
 #footer-quote,
-.highlighter-header,
-article > table th,
+.env-header,
+.table th,
 #wrapper > header a,
 #wrapper > header a:visited,
 .contact-form input[type="submit"] {
@@ -92,6 +94,15 @@ article > table th,
 //---------------------------BACKGROUND
 main {
   background-color: $color-white;
+}
+
+/*************************************************************************
+                             CODE-COLOR
+/*************************************************************************/
+
+//---------------------------BACKGROUND
+.highlighter-rouge {
+  background-color: $color-code;
 }
 
 /*************************************************************************
@@ -167,19 +178,20 @@ article > ol li::before {
 .contact-form input[type="submit"],
 #main-nav .fancy-nav:before,
 #main-nav .fancy-nav:after,
-article > table th,
-.highlighter-header {
+.table th,
+.env-header {
   background-color: $color-orange;
 }
 
 //---------------------------BORDER
+.definition,
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: $color-orange;
 }
 
 //---------------------------BORDER-LEFT
-article > blockquote {
+article > .blockquote {
   border-left-color: $color-orange;
 }
 
@@ -196,7 +208,6 @@ article > h3,
 article > h4,
 article > h5,
 article > h6,
-.highlighter-rouge,
 .warning,
 .link-to-post,
 .link-to-post:visited {
@@ -209,9 +220,9 @@ article > h6,
 
 
 //---------------------------BACKGROUND
-.highlighter-rouge,
+.definition,
 .warning,
-article > table tbody tr:nth-child(2n) {
+.table tbody tr:nth-child(2n) {
   background-color: $color-warning;
 }
 
@@ -223,8 +234,8 @@ article > table tbody tr:nth-child(2n) {
 
 
 //---------------------------BORDER
-article > table td,
-article > table th,
+.table td,
+.table th,
 .warning{
   border-color: $color-warning-dark;
 }

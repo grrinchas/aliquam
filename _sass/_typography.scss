@@ -55,7 +55,7 @@ $t-s-M: 0.5s;
 //---------------------------ALIGN-CENTER
 figcaption,
 #footer-main p:before,
-article > table th,
+table th,
 #main-nav ,
 .paginator ul,
 #footer-quote,
@@ -65,8 +65,8 @@ article > table th,
 
 //----------------------------ALIGN-RIGHT
 
-blockquote > footer,
-.highlighter-header {
+.blockquote > footer,
+.env-header {
   text-align: right;
 }
 
@@ -101,7 +101,7 @@ sub {
 /*************************************************************************/
 
 //----------------------------NORMAL
-article > table th {
+ table th {
   font-weight: normal;
 }
 
@@ -110,7 +110,7 @@ article > table th {
 /*************************************************************************/
 
 //----------------------------STYLE-ITALIC
-article > blockquote {
+article > .blockquote {
    font-style: italic;
 }
 
@@ -178,7 +178,9 @@ sup,
 }
 
 //----------------------------SMALLER
-article > blockquote,
+.definition,
+.highlighter-rouge,
+article > .blockquote,
 abbr {
   font-size: smaller;
 }
@@ -216,6 +218,11 @@ small, .alert {
 figcaption,
 .highlight {
   line-height: $l-h-code;
+}
+
+.definition {
+
+  line-height: $l-h-default * 0.9;
 }
 
 //----------------------------0

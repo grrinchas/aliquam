@@ -30,6 +30,7 @@ $l-h-baseline-half: $l-h-default * 0.25;
 }
 
 //---------------------------BLOCK
+img,
 #footer-quote p:before,
 .contact-form input
 {
@@ -88,7 +89,6 @@ article,
 main img,
 .fancy-nav:before,
 .fancy-nav:after,
-article > table,
 .contact-form textarea {
   width: 100%;
 }
