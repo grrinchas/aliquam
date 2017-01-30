@@ -26,7 +26,7 @@ logo: Dennis Grinch
 disqus: grrinchas
 
 # Uncomment if deployed locally
-url: https://localhost:4000
+#url: https://localhost:4000
 
 # Set your host if deployed not locally
 # For example "https://yourGitHub.github.io"
@@ -55,6 +55,9 @@ permalink: /:categories/:title
 
 # MathJax support
 math: true
+
+collections:
+- definitions
 
 ##########################################
 #          Do not change these variables
