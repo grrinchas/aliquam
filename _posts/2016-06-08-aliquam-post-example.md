@@ -27,7 +27,22 @@ Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus eu eros at maximus. 
 
+
+<a name="definition-dfa"></a>
+{: .bottomless }
+
+{::options parse_block_html="true" /}
+
+<div class="env-header">
+Definition {{ site.definitions[0].number }} 
+</div>
+
+<div class="definition alert">
 {{ site.definitions[0].content }}
+</div>
+
+{::options parse_block_html="false" /}
+
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus eu eros at maximus. 
@@ -47,7 +62,7 @@ Class aptent taciti sociosquad litora torquent per conubia nostra, per inceptos 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 
 <div class="note alert">
-**NOTE:** This is note message. `This is code`. [Definition 1.0](#definition-1-0). _This is italic_.
+**NOTE:** This is note message. `This is code`. [Definition 1.0](#definition-dfa). _This is italic_.
 </div>
 
 <div class="success alert">
