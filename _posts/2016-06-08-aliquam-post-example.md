@@ -27,27 +27,12 @@ Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus eu eros at maximus. 
 
-
-<div class="env-header">Definition 1.0</div>
-{::options parse_block_html="true" /}
-
-<div class="definition alert">
-A **deterministic finite automata** $$M$$ is a 5-tuple $$(Q, Σ, δ, q_0, F )$$, where apoisdfj paosidf poaisjdfop iajsdpo fi
-asdfi apsodif japsodi jfpaosidj fpoasijd fpoaijsdp foiajsdpo fij
-asd fiaposdi jfaposid jfpaosidj pfaosidj fpoaijsd 
-
-1. $$Q$$ is a finite set called the **states**,
-2. $$Σ$$ is a finite set called the **alphabet**,
-3. $$δ : Q × Σ → Q$$ is the **transition function**,
-4. $$q_0 ∈ Q$$ is the **start state**, and
-5. $$F ⊆ Q$$ is the set of **accept states**.
-</div>
-
+{{ site.definitions[0].content }}
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus eu eros at maximus. 
 
-
+{::options parse_block_html="true" /}
 
 <div class="info alert">
 **INFO:** This is info message. `This is code`. [This is link](#). _This is italic_.
@@ -62,7 +47,7 @@ Class aptent taciti sociosquad litora torquent per conubia nostra, per inceptos 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 
 <div class="note alert">
-**NOTE:** This is note message. `This is code`. [This is link](#). _This is italic_.
+**NOTE:** This is note message. `This is code`. [Definition 1.0](#definition-1-0). _This is italic_.
 </div>
 
 <div class="success alert">
