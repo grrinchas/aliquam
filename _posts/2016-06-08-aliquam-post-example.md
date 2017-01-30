@@ -32,9 +32,7 @@ Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus
 {::options parse_block_html="true" /}
 
 <div class="definition alert">
-A **deterministic finite automata** $$M$$ is a 5-tuple $$(Q, Σ, δ, q_0, F )$$, where apoisdfj paosidf poaisjdfop iajsdpo fi
-asdfi apsodif japsodi jfpaosidj fpoasijd fpoaijsdp foiajsdpo fij
-asd fiaposdi jfaposid jfpaosidj pfaosidj fpoaijsd 
+A **deterministic finite automata** $$M$$ is a 5-tuple $$(Q, Σ, δ, q_0, F )$$, where
 
 1. $$Q$$ is a finite set called the **states**,
 2. $$Σ$$ is a finite set called the **alphabet**,
