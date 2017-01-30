@@ -27,24 +27,7 @@ Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus eu eros at maximus. 
 
-<<<<<<< HEAD
-
-<div class="env-header">Definition 1.0</div>
-{::options parse_block_html="true" /}
-
-<div class="definition alert">
-A **deterministic finite automata** $$M$$ is a 5-tuple $$(Q, Σ, δ, q_0, F )$$, where
-
-1. $$Q$$ is a finite set called the **states**,
-2. $$Σ$$ is a finite set called the **alphabet**,
-3. $$δ : Q × Σ → Q$$ is the **transition function**,
-4. $$q_0 ∈ Q$$ is the **start state**, and
-5. $$F ⊆ Q$$ is the set of **accept states**.
-</div>
-
-=======
 {{ site.definitions[0].content }}
->>>>>>> working
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
 Nunc orci purus, egestas a erat pulvinar, fringilla sodales turpis. Fusce luctus eu eros at maximus. 
