@@ -54,7 +54,7 @@ paginate: 5
 permalink: /:categories/:title
 
 # MathJax support
-math: true
+math: false
 
 collections:
 - definitions

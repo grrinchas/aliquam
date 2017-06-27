@@ -152,23 +152,6 @@ Curabitur pharet<sub>r</sub>a eget ante at vestibulum. Mauris ullamcorper lacus 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rhoncus luctus quam in gravida.
 Mauris rutrum ullamcorper pellentesque. Aliquam posuere euismod erat, ac consequat leo ullamcorper non. 
 
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
-
 ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
 
 <figure>
@@ -177,8 +160,6 @@ ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in f
 <strong>Figure 1: </strong>Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. 
 </figcaption>
 </figure>
-
-Math: Inline math $$\sum_{j=1}^n x_i y_j \phi(e_i, e_j) $$
 
 Bold text: __I am bold__
 
